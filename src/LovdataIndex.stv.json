@@ -1,0 +1,3138 @@
+{
+  "schemaVersion": 1,
+  "source": "stv",
+  "documentCount": 85,
+  "documents": [
+    {
+      "Title": "Forskrift om bruken av midlar frå Norsk kulturfond.",
+      "TitleShort": "Forskrift om Norsk kulturfonds midler",
+      "LegacyID": "FOR-1965-06-19-3582",
+      "LawID": "1965-06-19-3582",
+      "RefID": "forskrift/1965-06-19-3582",
+      "DokID": "STV/forskrift/1965-06-19-3582",
+      "Ministry": [
+        "Kultur- og likestillingsdepartementet"
+      ],
+      "LegalAreas": [],
+      "DateInForce": null,
+      "LastUpdated": null,
+      "LastChangedBy": [
+        {
+          "RefID": "forskrift/1989-12-22-1273",
+          "Text": "forskrift/1989-12-22-1273",
+          "Date": "1989-12-22"
+        }
+      ],
+      "LastChangeInForce": {
+        "Raw": "1989-12-22",
+        "Dates": [
+          "1989-12-22"
+        ],
+        "Note": ""
+      },
+      "MiscInformation": "Fastsette av Stortinget 19. juni 1965. (Ved res. av 22. desember 1989 nr. 1273 er ansvaret for denne forskrift lagt til Kirke- og kulturdepartementet).",
+      "DateOfPublication": null,
+      "ChangesToDocuments": [],
+      "EeaReferences": "",
+      "AppliesTo": "Norge",
+      "Source": "stv",
+      "SourceFile": "sf-19650619-3582.xml"
+    },
+    {
+      "Title": "Forskrift om Norsk kulturfond",
+      "TitleShort": "Forskrift om Norsk kulturfond",
+      "LegacyID": "FOR-1965-06-19-3583",
+      "LawID": "1965-06-19-3583",
+      "RefID": "forskrift/1965-06-19-3583",
+      "DokID": "STV/forskrift/1965-06-19-3583",
+      "Ministry": [
+        "Kultur- og likestillingsdepartementet"
+      ],
+      "LegalAreas": [],
+      "DateInForce": null,
+      "LastUpdated": null,
+      "LastChangedBy": [
+        {
+          "RefID": "forskrift/1989-12-22-1273",
+          "Text": "forskrift/1989-12-22-1273",
+          "Date": "1989-12-22"
+        }
+      ],
+      "LastChangeInForce": {
+        "Raw": "1989-12-22",
+        "Dates": [
+          "1989-12-22"
+        ],
+        "Note": ""
+      },
+      "MiscInformation": "Fastsette av Stortinget 19. juni 1965. (Omsette frå St.prp.nr.130 (1964-1965)). (Ved res. av 22. desember 1989 nr. 1273 er ansvaret for denne forskrift lagt til Kyrkje- og kulturdepartementet).",
+      "DateOfPublication": null,
+      "ChangesToDocuments": [],
+      "EeaReferences": "",
+      "AppliesTo": "Norge",
+      "Source": "stv",
+      "SourceFile": "sf-19650619-3583.xml"
+    },
+    {
+      "Title": "Fullmakt til Kongen til å ettergi skadebøter og inndragning til statskassen i straffesaker og saksomkostninger til staten i straffesaker, benefiserte saker og i søksmål der staten er part",
+      "TitleShort": "Fullmakt til Kongen til å ettergi skadebøter m.m.",
+      "LegacyID": "FOR-1988-02-10-4875",
+      "LawID": "1988-02-10-4875",
+      "RefID": "forskrift/1988-02-10-4875",
+      "DokID": "STV/forskrift/1988-02-10-4875",
+      "Ministry": [
+        "Stortinget"
+      ],
+      "LegalAreas": [],
+      "DateInForce": {
+        "Raw": "1988-01-01",
+        "Dates": [
+          "1988-01-01"
+        ],
+        "Note": ""
+      },
+      "LastUpdated": null,
+      "LastChangedBy": [],
+      "LastChangeInForce": null,
+      "MiscInformation": "Hjemmel: Vedtatt av Stortinget 10. februar 1988.",
+      "DateOfPublication": null,
+      "ChangesToDocuments": [],
+      "EeaReferences": "",
+      "AppliesTo": "Norge",
+      "Source": "stv",
+      "SourceFile": "sf-19880210-4875.xml"
+    },
+    {
+      "Title": "Vedtak om tollettelser i forbindelse med midlertidig anvendelse av frihandelsavtaler med de baltiske land og Færøyene.",
+      "TitleShort": "Vedtak om tollettelser iht frihandelsavtaler",
+      "LegacyID": "FOR-1992-06-19-465",
+      "LawID": "1992-06-19-465",
+      "RefID": "forskrift/1992-06-19-465",
+      "DokID": "STV/forskrift/1992-06-19-465",
+      "Ministry": [
+        "Finansdepartementet"
+      ],
+      "LegalAreas": [],
+      "DateInForce": {
+        "Raw": "1992-06-19",
+        "Dates": [
+          "1992-06-19"
+        ],
+        "Note": ""
+      },
+      "LastUpdated": null,
+      "LastChangedBy": [],
+      "LastChangeInForce": null,
+      "MiscInformation": "Kunngjøring fra Finans- og tolldepartementet av stortingsvedtak 19. juni 1992.",
+      "DateOfPublication": null,
+      "ChangesToDocuments": [],
+      "EeaReferences": "",
+      "AppliesTo": "Norge",
+      "Source": "stv",
+      "SourceFile": "sf-19920619-0465.xml"
+    },
+    {
+      "Title": "Vedtak om tollettelser i forbindelse med anvendelse av frihandelsavtale med Bulgaria.",
+      "TitleShort": "Vedtak om tollettelser, Bulgaria",
+      "LegacyID": "FOR-1993-06-17-558",
+      "LawID": "1993-06-17-558",
+      "RefID": "forskrift/1993-06-17-558",
+      "DokID": "STV/forskrift/1993-06-17-558",
+      "Ministry": [
+        "Finansdepartementet"
+      ],
+      "LegalAreas": [],
+      "DateInForce": {
+        "Raw": "1993-06-17",
+        "Dates": [
+          "1993-06-17"
+        ],
+        "Note": ""
+      },
+      "LastUpdated": null,
+      "LastChangedBy": [],
+      "LastChangeInForce": null,
+      "MiscInformation": "Kunngjøring fra Finans- og tolldepartementet av stortingsvedtak 17. juni 1993.",
+      "DateOfPublication": null,
+      "ChangesToDocuments": [],
+      "EeaReferences": "",
+      "AppliesTo": "Norge",
+      "Source": "stv",
+      "SourceFile": "sf-19930617-0558.xml"
+    },
+    {
+      "Title": "Ikrafttredelse av EØS-komiteens beslutning nr. 7/94 av 21. mars 1994 om endring av protokoll 47 og enkelte vedlegg til EØS-avtalen.",
+      "TitleShort": "Ikrafttr. av Tilleggsavtalen til EØS-avtalen",
+      "LegacyID": "FOR-1994-06-14-505",
+      "LawID": "1994-06-14-505",
+      "RefID": "forskrift/1994-06-14-505",
+      "DokID": "STV/forskrift/1994-06-14-505",
+      "Ministry": [
+        "Utenriksdepartementet"
+      ],
+      "LegalAreas": [],
+      "DateInForce": {
+        "Raw": "1994-07-01",
+        "Dates": [
+          "1994-07-01"
+        ],
+        "Note": ""
+      },
+      "LastUpdated": null,
+      "LastChangedBy": [],
+      "LastChangeInForce": null,
+      "MiscInformation": "Kunngjøring fra Utenriksdepartementet av stortingsvedtak 14. juni 1994.",
+      "DateOfPublication": null,
+      "ChangesToDocuments": [],
+      "EeaReferences": "",
+      "AppliesTo": "Norge",
+      "Source": "stv",
+      "SourceFile": "sf-19940614-0505.xml"
+    },
+    {
+      "Title": "Reglement for kontrollhøringer",
+      "TitleShort": "",
+      "LegacyID": "FOR-2001-06-11-4957",
+      "LawID": "2001-06-11-4957",
+      "RefID": "forskrift/2001-06-11-4957",
+      "DokID": "STV/forskrift/2001-06-11-4957",
+      "Ministry": [
+        "Stortinget"
+      ],
+      "LegalAreas": [],
+      "DateInForce": {
+        "Raw": "2002-01-01",
+        "Dates": [
+          "2002-01-01"
+        ],
+        "Note": ""
+      },
+      "LastUpdated": null,
+      "LastChangedBy": [
+        {
+          "RefID": "forskrift/2022-06-15-1082",
+          "Text": "forskrift/2022-06-15-1082",
+          "Date": "2022-06-15"
+        }
+      ],
+      "LastChangeInForce": {
+        "Raw": "2022-10-01",
+        "Dates": [
+          "2022-10-01"
+        ],
+        "Note": ""
+      },
+      "MiscInformation": "Vedtatt av Stortinget 11. juni 2001.\nJf. Innst.S.nr.230 (2005–2006), Innst.S.nr.256 (2008–2009), Innst.S.nr.288 (2008–2009), Innst.61 S (2009–2010), Innst.20 S (2013–2014).\n Reglementet var tidligere et vedlegg til Stortingets forretningsorden 21. april 1966 nr. 4296. Ved dennes opphevelse 1. oktober 2012 ble reglementet videreført som særskilt dokument.\n Endret ved vedtak 16 juni 2006 nr. 1734, 4 juni 2009 nr. 615, 10 juni 2009 nr. 624, 4 des 2009 nr. 1452, 12 nov 2013 nr. 1309, 17 juni 2021 nr. 2110 (i kraft 1 okt 2021, bl.a. tittel), 15 juni 2022 nr. 1082 (i kraft 1 okt 2022).",
+      "DateOfPublication": null,
+      "ChangesToDocuments": [],
+      "EeaReferences": "",
+      "AppliesTo": "Norge",
+      "Source": "stv",
+      "SourceFile": "sf-20010611-4957.xml"
+    },
+    {
+      "Title": "Vedtak om supplering av Verneplan for vassdrag.",
+      "TitleShort": "Vedtak om supplering av Verneplan for vassdrag",
+      "LegacyID": "FOR-2005-02-18-888",
+      "LawID": "2005-02-18-888",
+      "RefID": "forskrift/2005-02-18-888",
+      "DokID": "STV/forskrift/2005-02-18-888",
+      "Ministry": [
+        "Energidepartementet"
+      ],
+      "LegalAreas": [],
+      "DateInForce": {
+        "Raw": "2005-02-18",
+        "Dates": [
+          "2005-02-18"
+        ],
+        "Note": ""
+      },
+      "LastUpdated": null,
+      "LastChangedBy": [],
+      "LastChangeInForce": null,
+      "MiscInformation": "Kunngjøring fra Olje- og energidepartementet av stortingsvedtak 18. februar 2005 med hjemmel i lov 24. november 2000 nr. 82 om vassdrag og grunnvann (vannressursloven) kapittel 5, jf. St.prp.nr.75 (2003–2004) og Innst.S.nr.116 (2004–2005).",
+      "DateOfPublication": {
+        "Raw": "2005-08-19",
+        "Dates": [
+          "2005-08-19"
+        ],
+        "Note": ""
+      },
+      "ChangesToDocuments": [],
+      "EeaReferences": "",
+      "AppliesTo": "Norge",
+      "Source": "stv",
+      "SourceFile": "sf-20050218-0888.xml"
+    },
+    {
+      "Title": "Bevilgningsreglementet",
+      "TitleShort": "Bevilgningsreglementet",
+      "LegacyID": "FOR-2005-05-26-876",
+      "LawID": "2005-05-26-876",
+      "RefID": "forskrift/2005-05-26-876",
+      "DokID": "STV/forskrift/2005-05-26-876",
+      "Ministry": [
+        "Stortinget"
+      ],
+      "LegalAreas": [],
+      "DateInForce": {
+        "Raw": "2006-01-01",
+        "Dates": [
+          "2006-01-01"
+        ],
+        "Note": ""
+      },
+      "LastUpdated": null,
+      "LastChangedBy": [
+        {
+          "RefID": "forskrift/2023-06-16-989",
+          "Text": "forskrift/2023-06-16-989",
+          "Date": "2023-06-16"
+        }
+      ],
+      "LastChangeInForce": {
+        "Raw": "2023-06-16",
+        "Dates": [
+          "2023-06-16"
+        ],
+        "Note": ""
+      },
+      "MiscInformation": "Vedtatt av Stortinget 26. mai 2005, jf. Innst.S.nr.187 (2004–2005).\nEndret ved vedtak 16 juni 2023 nr. 989.",
+      "DateOfPublication": {
+        "Raw": "2005-08-12",
+        "Dates": [
+          "2005-08-12"
+        ],
+        "Note": ""
+      },
+      "ChangesToDocuments": [
+        {
+          "RefID": "forskrift/1959-11-19-2",
+          "Text": "forskrift/1959-11-19-2",
+          "Date": "1959-11-19"
+        }
+      ],
+      "EeaReferences": "",
+      "AppliesTo": "Norge",
+      "Source": "stv",
+      "SourceFile": "sf-20050526-0876.xml"
+    },
+    {
+      "Title": "Reglement om register for stortingsrepresentantenes verv og økonomiske interesser",
+      "TitleShort": "Register for stortingsrepresentantenes verv mv.",
+      "LegacyID": "FOR-2008-12-18-1617",
+      "LawID": "2008-12-18-1617",
+      "RefID": "forskrift/2008-12-18-1617",
+      "DokID": "STV/forskrift/2008-12-18-1617",
+      "Ministry": [
+        "Stortinget"
+      ],
+      "LegalAreas": [],
+      "DateInForce": {
+        "Raw": "2009-10-01",
+        "Dates": [
+          "2009-10-01"
+        ],
+        "Note": ""
+      },
+      "LastUpdated": {
+        "Raw": "2017-09-22 (tittel)",
+        "Dates": [
+          "2017-09-22"
+        ],
+        "Note": "tittel"
+      },
+      "LastChangedBy": [
+        {
+          "RefID": "forskrift/2024-01-09-82",
+          "Text": "forskrift/2024-01-09-82",
+          "Date": "2024-01-09"
+        }
+      ],
+      "LastChangeInForce": {
+        "Raw": "2024-03-01",
+        "Dates": [
+          "2024-03-01"
+        ],
+        "Note": ""
+      },
+      "MiscInformation": "Vedtatt av Stortinget 18. desember 2008, jf. Innst.S.nr.72 (2008–2009), Innst. 226 S (2010–2011).\nEndret ved vedtak 10 mars 2011 nr. 270, 21 juni 2017 nr. 1426, 16 okt 2012 nr. 1488 (kunngjort 20.06.2018, tilpasset innarbeiding), 14 juni 2018 nr. 909, vedtak 7 juni 2016 nr. 1980 (i kraft 1 okt 2016, kunngjort 14 nov 2023, tilpasset innarbeiding), 9 jan 2024 nr. 82 (i kraft 1 mars 2024).\nRettelser: 01.03.2009 (§ 8 første ledd annet punktum), 22.09.2017 (tittel).",
+      "DateOfPublication": {
+        "Raw": "2009-01-23 15:00",
+        "Dates": [
+          "2009-01-23"
+        ],
+        "Note": "15:00"
+      },
+      "ChangesToDocuments": [],
+      "EeaReferences": "",
+      "AppliesTo": "Norge",
+      "Source": "stv",
+      "SourceFile": "sf-20081218-1617.xml"
+    },
+    {
+      "Title": "Stortingets forretningsorden",
+      "TitleShort": "",
+      "LegacyID": "FOR-2012-06-07-518",
+      "LawID": "2012-06-07-518",
+      "RefID": "forskrift/2012-06-07-518",
+      "DokID": "STV/forskrift/2012-06-07-518",
+      "Ministry": [
+        "Stortinget"
+      ],
+      "LegalAreas": [],
+      "DateInForce": {
+        "Raw": "2012-10-01",
+        "Dates": [
+          "2012-10-01"
+        ],
+        "Note": ""
+      },
+      "LastUpdated": {
+        "Raw": "2021-10-01 (faglige fotnoter fjernet, tegnsetting i lister tilpasset universell utforming).",
+        "Dates": [
+          "2021-10-01"
+        ],
+        "Note": "faglige fotnoter fjernet, tegnsetting i lister tilpasset universell utforming"
+      },
+      "LastChangedBy": [
+        {
+          "RefID": "forskrift/2025-06-19-2009",
+          "Text": "forskrift/2025-06-19-2009",
+          "Date": "2025-06-19"
+        }
+      ],
+      "LastChangeInForce": {
+        "Raw": "2025-10-01",
+        "Dates": [
+          "2025-10-01"
+        ],
+        "Note": ""
+      },
+      "MiscInformation": "Hjemmel: Vedtatt av Stortinget 7. juni 2012, jf. Innst.350 S (2011–2012), Innst.259 S (2012–2013), Innst.20 S (2013–2014), Innst.487 S (2016–2017), Innst.28 S (2017–2018), Innst.134 S (2017-2018), Innst.254 S (2017-2018), Innst.162 S (2018–2019), Innst.426 S (2017–2018), Innst.392 S (2018–2019), Innst.205 S (2019–2020), Innst. 473 S (2024–2025), jf. Dokument 18 (2024–2025).\nEndret ved vedtak 16 mai 2013 nr. 1075, 12 nov 2013 nr. 1309, 21 juni 2017 nr. 1425, 7 nov 2017 nr. 2456, 6 mars 2018 nr. 644, 3 mai 2018 nr. 687, 14 juni 2018 nr. 908, 5 mars 2019 nr. 316, 20 juni 2019 nr. 1298 (i kraft 1 okt 2019), 20 juni 2019 nr. 1299 (i kraft 1 okt 2019), 24 mars 2020 nr. 409, 1 okt 2020 nr. 2028, 17 juni 2021 nr. 2109 (i kraft 1 okt 2021), 15 juni 2022 nr. 1081 (i kraft 1 okt 2022), 19 juni 2025 nr. 2009, 19 juni 2025 nr. 2009 (i kraft 1 okt 2025).\nRettelser: 13.11.2018 (§ 52 første ledd første punktum), 01.10.2021 (tegnsetting i lister tilpasset universell utforming).",
+      "DateOfPublication": {
+        "Raw": "2012-06-15 15:15",
+        "Dates": [
+          "2012-06-15"
+        ],
+        "Note": "15:15"
+      },
+      "ChangesToDocuments": [
+        {
+          "RefID": "forskrift/1966-04-21-4296",
+          "Text": "forskrift/1966-04-21-4296",
+          "Date": "1966-04-21"
+        }
+      ],
+      "EeaReferences": "",
+      "AppliesTo": "Norge",
+      "Source": "stv",
+      "SourceFile": "sf-20120607-0518.xml"
+    },
+    {
+      "Title": "Stortingsvedtak om skatt av inntekt og formue mv. for inntektsåret 2017 (Stortingets skattevedtak)",
+      "TitleShort": "Stortingets skattevedtak 2017",
+      "LegacyID": "FOR-2016-12-17-1666",
+      "LawID": "2016-12-17-1666",
+      "RefID": "forskrift/2016-12-17-1666",
+      "DokID": "STV/forskrift/2016-12-17-1666",
+      "Ministry": [
+        "Finansdepartementet"
+      ],
+      "LegalAreas": [],
+      "DateInForce": {
+        "Raw": "Inntektsåret 2017",
+        "Dates": [],
+        "Note": "Inntektsåret 2017"
+      },
+      "LastUpdated": null,
+      "LastChangedBy": [
+        {
+          "RefID": "forskrift/2017-06-21-911",
+          "Text": "forskrift/2017-06-21-911",
+          "Date": "2017-06-21"
+        }
+      ],
+      "LastChangeInForce": {
+        "Raw": "2017-06-21",
+        "Dates": [
+          "2017-06-21"
+        ],
+        "Note": ""
+      },
+      "MiscInformation": "Hjemmel: Kunngjøring fra Finansdepartementet av stortingsvedtak 17. desember 2016 med hjemmel i Kongeriket Norges Grunnlov 17. mai 1814 § 75 bokstav a.\nEndret ved vedtak 21 juni 2017 nr. 911.",
+      "DateOfPublication": {
+        "Raw": "2016-12-21 16:50",
+        "Dates": [
+          "2016-12-21"
+        ],
+        "Note": "16:50"
+      },
+      "ChangesToDocuments": [],
+      "EeaReferences": "",
+      "AppliesTo": "Norge",
+      "Source": "stv",
+      "SourceFile": "sf-20161217-1666.xml"
+    },
+    {
+      "Title": "Stortingsvedtak om fastsetting av finansskatt på lønn for 2017",
+      "TitleShort": "Vedtak om finansskatt på lønn, 2017",
+      "LegacyID": "FOR-2016-12-17-1670",
+      "LawID": "2016-12-17-1670",
+      "RefID": "forskrift/2016-12-17-1670",
+      "DokID": "STV/forskrift/2016-12-17-1670",
+      "Ministry": [
+        "Finansdepartementet"
+      ],
+      "LegalAreas": [],
+      "DateInForce": {
+        "Raw": "Inntektsåret 2017",
+        "Dates": [],
+        "Note": "Inntektsåret 2017"
+      },
+      "LastUpdated": null,
+      "LastChangedBy": [
+        {
+          "RefID": "forskrift/2017-06-21-910",
+          "Text": "forskrift/2017-06-21-910",
+          "Date": "2017-06-21"
+        }
+      ],
+      "LastChangeInForce": {
+        "Raw": "2017-06-21",
+        "Dates": [
+          "2017-06-21"
+        ],
+        "Note": ""
+      },
+      "MiscInformation": "Hjemmel: Kunngjøring fra Finansdepartementet av stortingsvedtak 17. desember 2016 med hjemmel i Kongeriket Norges Grunnlov 17. mai 1814 § 75 bokstav a og lov 28. februar 1997 nr. 19 om folketrygd (folketrygdloven) § 23-2a.\nEndringer: Endret ved vedtak 21 juni 2017 nr. 910.",
+      "DateOfPublication": {
+        "Raw": "2016-12-21 16:50",
+        "Dates": [
+          "2016-12-21"
+        ],
+        "Note": "16:50"
+      },
+      "ChangesToDocuments": [],
+      "EeaReferences": "",
+      "AppliesTo": "Norge",
+      "Source": "stv",
+      "SourceFile": "sf-20161217-1670.xml"
+    },
+    {
+      "Title": "Vedtak om formues- og inntektsskatt til Svalbard for inntektsåret 2017",
+      "TitleShort": "Vedtak om formues- og inntektsskatt til Svalbard, 2017",
+      "LegacyID": "FOR-2016-12-19-1741",
+      "LawID": "2016-12-19-1741",
+      "RefID": "forskrift/2016-12-19-1741",
+      "DokID": "STV/forskrift/2016-12-19-1741",
+      "Ministry": [
+        "Justis- og beredskapsdepartementet"
+      ],
+      "LegalAreas": [],
+      "DateInForce": {
+        "Raw": "Inntektsåret 2017",
+        "Dates": [],
+        "Note": "Inntektsåret 2017"
+      },
+      "LastUpdated": null,
+      "LastChangedBy": [],
+      "LastChangeInForce": null,
+      "MiscInformation": "Heimel: Kunngjering frå Justis- og beredskapsdepartementet av stortingsvedtak 19. desember 2016 med heimel i Kongeriket Noregs Grunnlov 17. mai 1814 § 75 bokstav a.",
+      "DateOfPublication": {
+        "Raw": "2016-12-23 14:45",
+        "Dates": [
+          "2016-12-23"
+        ],
+        "Note": "14:45"
+      },
+      "ChangesToDocuments": [],
+      "EeaReferences": "",
+      "AppliesTo": "Norge",
+      "Source": "stv",
+      "SourceFile": "sf-20161219-1741.xml"
+    },
+    {
+      "Title": "Stortingsvedtak om skatt av inntekt og formue mv. for inntektsåret 2018 (Stortingets skattevedtak)",
+      "TitleShort": "Stortingets skattevedtak 2018",
+      "LegacyID": "FOR-2017-12-12-2183",
+      "LawID": "2017-12-12-2183",
+      "RefID": "forskrift/2017-12-12-2183",
+      "DokID": "STV/forskrift/2017-12-12-2183",
+      "Ministry": [
+        "Finansdepartementet"
+      ],
+      "LegalAreas": [],
+      "DateInForce": {
+        "Raw": "Inntektsåret 2018",
+        "Dates": [],
+        "Note": "Inntektsåret 2018"
+      },
+      "LastUpdated": null,
+      "LastChangedBy": [
+        {
+          "RefID": "forskrift/2018-11-08-1895",
+          "Text": "forskrift/2018-11-08-1895",
+          "Date": "2018-11-08"
+        }
+      ],
+      "LastChangeInForce": {
+        "Raw": "2018-11-08",
+        "Dates": [
+          "2018-11-08"
+        ],
+        "Note": ""
+      },
+      "MiscInformation": "Hjemmel: Kunngjøring fra Finansdepartementet av stortingsvedtak 12. desember 2017 med hjemmel i Kongeriket Norges Grunnlov 17. mai 1814 § 75 bokstav a.\nEndret ved vedtak 8 nov 2018 nr. 1895.",
+      "DateOfPublication": {
+        "Raw": "2017-12-20 15:35",
+        "Dates": [
+          "2017-12-20"
+        ],
+        "Note": "15:35"
+      },
+      "ChangesToDocuments": [],
+      "EeaReferences": "",
+      "AppliesTo": "Norge",
+      "Source": "stv",
+      "SourceFile": "sf-20171212-2183.xml"
+    },
+    {
+      "Title": "Stortingsvedtak om fastsetting av finansskatt på lønn for 2018",
+      "TitleShort": "Vedtak om finansskatt på lønn, 2018",
+      "LegacyID": "FOR-2017-12-12-2186",
+      "LawID": "2017-12-12-2186",
+      "RefID": "forskrift/2017-12-12-2186",
+      "DokID": "STV/forskrift/2017-12-12-2186",
+      "Ministry": [
+        "Finansdepartementet"
+      ],
+      "LegalAreas": [],
+      "DateInForce": {
+        "Raw": "Inntektsåret 2018",
+        "Dates": [],
+        "Note": "Inntektsåret 2018"
+      },
+      "LastUpdated": null,
+      "LastChangedBy": [],
+      "LastChangeInForce": null,
+      "MiscInformation": "Hjemmel: Kunngjøring fra Finansdepartementet av stortingsvedtak 12. desember 2017 med hjemmel i Kongeriket Norges Grunnlov 17. mai 1814 § 75 bokstav a og lov 28. februar 1997 nr. 19 om folketrygd (folketrygdloven) § 23-2a.",
+      "DateOfPublication": {
+        "Raw": "2017-12-20 15:35",
+        "Dates": [
+          "2017-12-20"
+        ],
+        "Note": "15:35"
+      },
+      "ChangesToDocuments": [],
+      "EeaReferences": "",
+      "AppliesTo": "Norge",
+      "Source": "stv",
+      "SourceFile": "sf-20171212-2186.xml"
+    },
+    {
+      "Title": "Vedtak om formues- og inntektsskatt til Svalbard for inntektsåret 2018",
+      "TitleShort": "Vedtak om formues- og inntektsskatt til Svalbard for inntektsåret 2018",
+      "LegacyID": "FOR-2017-12-14-2282",
+      "LawID": "2017-12-14-2282",
+      "RefID": "forskrift/2017-12-14-2282",
+      "DokID": "STV/forskrift/2017-12-14-2282",
+      "Ministry": [
+        "Justis- og beredskapsdepartementet"
+      ],
+      "LegalAreas": [],
+      "DateInForce": {
+        "Raw": "Inntektsåret 2018",
+        "Dates": [],
+        "Note": "Inntektsåret 2018"
+      },
+      "LastUpdated": null,
+      "LastChangedBy": [],
+      "LastChangeInForce": null,
+      "MiscInformation": "Heimel: Kunngjering frå Justis- og beredskapsdepartementet av stortingsvedtak 14. desember 2017 med heimel i Kongeriket Noregs Grunnlov 17. mai 1814 § 75 bokstav a.",
+      "DateOfPublication": {
+        "Raw": "2017-12-22 15:20",
+        "Dates": [
+          "2017-12-22"
+        ],
+        "Note": "15:20"
+      },
+      "ChangesToDocuments": [],
+      "EeaReferences": "",
+      "AppliesTo": "Svalbard",
+      "Source": "stv",
+      "SourceFile": "sf-20171214-2282.xml"
+    },
+    {
+      "Title": "Stortingsvedtak om skatt av inntekt og formue mv. for inntektsåret 2019 (Stortingets skattevedtak)",
+      "TitleShort": "Stortingets skattevedtak 2019",
+      "LegacyID": "FOR-2018-12-12-1992",
+      "LawID": "2018-12-12-1992",
+      "RefID": "forskrift/2018-12-12-1992",
+      "DokID": "STV/forskrift/2018-12-12-1992",
+      "Ministry": [
+        "Finansdepartementet"
+      ],
+      "LegalAreas": [],
+      "DateInForce": {
+        "Raw": "Inntektsåret 2019",
+        "Dates": [],
+        "Note": "Inntektsåret 2019"
+      },
+      "LastUpdated": null,
+      "LastChangedBy": [],
+      "LastChangeInForce": null,
+      "MiscInformation": "Hjemmel: Kunngjøring fra Finansdepartementet av stortingsvedtak 12. desember 2018 med hjemmel i Kongeriket Norges Grunnlov 17. mai 1814 § 75 bokstav a.",
+      "DateOfPublication": {
+        "Raw": "2018-12-18 15:35",
+        "Dates": [
+          "2018-12-18"
+        ],
+        "Note": "15:35"
+      },
+      "ChangesToDocuments": [],
+      "EeaReferences": "",
+      "AppliesTo": "Norge",
+      "Source": "stv",
+      "SourceFile": "sf-20181212-1992.xml"
+    },
+    {
+      "Title": "Stortingsvedtak om fastsettelse av finansskatt på lønn for 2019",
+      "TitleShort": "Vedtak om finansskatt på lønn, 2019",
+      "LegacyID": "FOR-2018-12-12-1995",
+      "LawID": "2018-12-12-1995",
+      "RefID": "forskrift/2018-12-12-1995",
+      "DokID": "STV/forskrift/2018-12-12-1995",
+      "Ministry": [
+        "Finansdepartementet"
+      ],
+      "LegalAreas": [],
+      "DateInForce": {
+        "Raw": "Inntektsåret 2019",
+        "Dates": [],
+        "Note": "Inntektsåret 2019"
+      },
+      "LastUpdated": null,
+      "LastChangedBy": [],
+      "LastChangeInForce": null,
+      "MiscInformation": "Hjemmel: Kunngjøring fra Finansdepartementet av stortingsvedtak 12. desember 2018 med hjemmel i Kongeriket Norges Grunnlov 17. mai 1814 § 75 bokstav a og lov 28. februar 1997 nr. 19 om folketrygd (folketrygdloven) § 23-2a.",
+      "DateOfPublication": {
+        "Raw": "2018-12-18 15:35",
+        "Dates": [
+          "2018-12-18"
+        ],
+        "Note": "15:35"
+      },
+      "ChangesToDocuments": [],
+      "EeaReferences": "",
+      "AppliesTo": "Norge",
+      "Source": "stv",
+      "SourceFile": "sf-20181212-1995.xml"
+    },
+    {
+      "Title": "Vedtak om formues- og inntektsskatt til Svalbard for inntektsåret 2019",
+      "TitleShort": "Vedtak om formues- og inntektsskatt til Svalbard for inntektsåret 2019",
+      "LegacyID": "FOR-2018-12-13-2028",
+      "LawID": "2018-12-13-2028",
+      "RefID": "forskrift/2018-12-13-2028",
+      "DokID": "STV/forskrift/2018-12-13-2028",
+      "Ministry": [
+        "Justis- og beredskapsdepartementet"
+      ],
+      "LegalAreas": [],
+      "DateInForce": {
+        "Raw": "Inntektsåret 2019",
+        "Dates": [],
+        "Note": "Inntektsåret 2019"
+      },
+      "LastUpdated": null,
+      "LastChangedBy": [],
+      "LastChangeInForce": null,
+      "MiscInformation": "Heimel: Kunngjering frå Justis- og beredskapsdepartementet av stortingsvedtak 13. desember 2018 med heimel i Kongeriket Noregs Grunnlov 17. mai 1814 § 75 bokstav a.",
+      "DateOfPublication": {
+        "Raw": "2018-12-19 16:15",
+        "Dates": [
+          "2018-12-19"
+        ],
+        "Note": "16:15"
+      },
+      "ChangesToDocuments": [],
+      "EeaReferences": "",
+      "AppliesTo": "Norge",
+      "Source": "stv",
+      "SourceFile": "sf-20181213-2028.xml"
+    },
+    {
+      "Title": "Bestemmelser om sikkerhetslovens anvendelse for Stortingets administrasjon",
+      "TitleShort": "Bestemmelser om sikkerhetslovens anvendelse for Stortingets administrasjon",
+      "LegacyID": "FOR-2018-12-19-2151",
+      "LawID": "2018-12-19-2151",
+      "RefID": "forskrift/2018-12-19-2151",
+      "DokID": "STV/forskrift/2018-12-19-2151",
+      "Ministry": [
+        "Stortinget"
+      ],
+      "LegalAreas": [],
+      "DateInForce": {
+        "Raw": "2020-01-01",
+        "Dates": [
+          "2020-01-01"
+        ],
+        "Note": ""
+      },
+      "LastUpdated": null,
+      "LastChangedBy": [
+        {
+          "RefID": "forskrift/2020-02-27-195",
+          "Text": "forskrift/2020-02-27-195",
+          "Date": "2020-02-27"
+        }
+      ],
+      "LastChangeInForce": {
+        "Raw": "2020-02-27",
+        "Dates": [
+          "2020-02-27"
+        ],
+        "Note": ""
+      },
+      "MiscInformation": "Hjemmel: Vedtatt av Stortinget 19. desember 2018, jf. Innst.122 S (2018–2019), jf. lov 1. juni 2018 nr. 24 om nasjonal sikkerhet (sikkerhetsloven) § 1-4 første ledd.\nEndret ved vedtak 27 feb 2020 nr. 195.",
+      "DateOfPublication": {
+        "Raw": "2018-12-21 16:25",
+        "Dates": [
+          "2018-12-21"
+        ],
+        "Note": "16:25"
+      },
+      "ChangesToDocuments": [],
+      "EeaReferences": "",
+      "AppliesTo": "Norge",
+      "Source": "stv",
+      "SourceFile": "sf-20181219-2151.xml"
+    },
+    {
+      "Title": "Reglement for avgradering av dokumenter utstedt i Stortinget",
+      "TitleShort": "",
+      "LegacyID": "FOR-2019-06-20-2325",
+      "LawID": "2019-06-20-2325",
+      "RefID": "forskrift/2019-06-20-2325",
+      "DokID": "STV/forskrift/2019-06-20-2325",
+      "Ministry": [
+        "Stortinget"
+      ],
+      "LegalAreas": [],
+      "DateInForce": {
+        "Raw": "2019-10-01",
+        "Dates": [
+          "2019-10-01"
+        ],
+        "Note": ""
+      },
+      "LastUpdated": null,
+      "LastChangedBy": [],
+      "LastChangeInForce": null,
+      "MiscInformation": "Hjemmel: Vedtatt av Stortinget 20. juni 2019, jf. Innst.426 S (2018-2019).",
+      "DateOfPublication": {
+        "Raw": "2022-09-29 14:55",
+        "Dates": [
+          "2022-09-29"
+        ],
+        "Note": "14:55"
+      },
+      "ChangesToDocuments": [],
+      "EeaReferences": "",
+      "AppliesTo": "",
+      "Source": "stv",
+      "SourceFile": "sf-20190620-2325.xml"
+    },
+    {
+      "Title": "Stortingsvedtak om formues- og inntektsskatt til Svalbard for inntektsåret 2020",
+      "TitleShort": "Vedtak om formues- og inntektsskatt til Svalbard, 2020",
+      "LegacyID": "FOR-2019-12-12-1818",
+      "LawID": "2019-12-12-1818",
+      "RefID": "forskrift/2019-12-12-1818",
+      "DokID": "STV/forskrift/2019-12-12-1818",
+      "Ministry": [
+        "Justis- og beredskapsdepartementet"
+      ],
+      "LegalAreas": [],
+      "DateInForce": {
+        "Raw": "Inntektsåret 2020",
+        "Dates": [],
+        "Note": "Inntektsåret 2020"
+      },
+      "LastUpdated": null,
+      "LastChangedBy": [],
+      "LastChangeInForce": null,
+      "MiscInformation": "Heimel: Kunngjering frå Justis- og beredskapsdepartementet av stortingsvedtak 12. desember 2019 med heimel i Kongeriket Noregs Grunnlov 17. mai 1814 § 75 bokstav a.",
+      "DateOfPublication": {
+        "Raw": "2019-12-18 13:35",
+        "Dates": [
+          "2019-12-18"
+        ],
+        "Note": "13:35"
+      },
+      "ChangesToDocuments": [],
+      "EeaReferences": "",
+      "AppliesTo": "Norge",
+      "Source": "stv",
+      "SourceFile": "sf-20191212-1818.xml"
+    },
+    {
+      "Title": "Stortingsvedtak om skatt av inntekt og formue mv. for inntektsåret 2020 (Stortingets skattevedtak)",
+      "TitleShort": "Stortingets skattevedtak 2020",
+      "LegacyID": "FOR-2019-12-13-1820",
+      "LawID": "2019-12-13-1820",
+      "RefID": "forskrift/2019-12-13-1820",
+      "DokID": "STV/forskrift/2019-12-13-1820",
+      "Ministry": [
+        "Finansdepartementet"
+      ],
+      "LegalAreas": [],
+      "DateInForce": {
+        "Raw": "Inntektsåret 2020",
+        "Dates": [],
+        "Note": "Inntektsåret 2020"
+      },
+      "LastUpdated": null,
+      "LastChangedBy": [],
+      "LastChangeInForce": null,
+      "MiscInformation": "Hjemmel: Kunngjøring fra Finansdepartementet av stortingsvedtak 13. desember 2019 med hjemmel i Kongeriket Norges Grunnlov 17. mai 1814 § 75 bokstav a.",
+      "DateOfPublication": {
+        "Raw": "2019-12-18 13:35",
+        "Dates": [
+          "2019-12-18"
+        ],
+        "Note": "13:35"
+      },
+      "ChangesToDocuments": [],
+      "EeaReferences": "",
+      "AppliesTo": "Norge",
+      "Source": "stv",
+      "SourceFile": "sf-20191213-1820.xml"
+    },
+    {
+      "Title": "Stortingsvedtak om avgift til statskassen på arv for budsjettåret 2020",
+      "TitleShort": "Vedtak om arveavgift, 2020",
+      "LegacyID": "FOR-2019-12-13-1821",
+      "LawID": "2019-12-13-1821",
+      "RefID": "forskrift/2019-12-13-1821",
+      "DokID": "STV/forskrift/2019-12-13-1821",
+      "Ministry": [
+        "Finansdepartementet"
+      ],
+      "LegalAreas": [],
+      "DateInForce": {
+        "Raw": "Budsjettåret 2020",
+        "Dates": [],
+        "Note": "Budsjettåret 2020"
+      },
+      "LastUpdated": null,
+      "LastChangedBy": [],
+      "LastChangeInForce": null,
+      "MiscInformation": "Hjemmel: Kunngjøring fra Finansdepartementet av stortingsvedtak 13. desember 2019 med hjemmel i Kongeriket Norges Grunnlov 17. mai 1814 § 75 bokstav a.",
+      "DateOfPublication": {
+        "Raw": "2019-12-18 13:35",
+        "Dates": [
+          "2019-12-18"
+        ],
+        "Note": "13:35"
+      },
+      "ChangesToDocuments": [],
+      "EeaReferences": "",
+      "AppliesTo": "Norge",
+      "Source": "stv",
+      "SourceFile": "sf-20191213-1821.xml"
+    },
+    {
+      "Title": "Stortingsvedtak om fastsetting av finansskatt på lønn for 2020",
+      "TitleShort": "Vedtak om finansskatt på lønn, 2020",
+      "LegacyID": "FOR-2019-12-13-1823",
+      "LawID": "2019-12-13-1823",
+      "RefID": "forskrift/2019-12-13-1823",
+      "DokID": "STV/forskrift/2019-12-13-1823",
+      "Ministry": [
+        "Finansdepartementet"
+      ],
+      "LegalAreas": [],
+      "DateInForce": {
+        "Raw": "Inntektsåret 2020",
+        "Dates": [],
+        "Note": "Inntektsåret 2020"
+      },
+      "LastUpdated": null,
+      "LastChangedBy": [],
+      "LastChangeInForce": null,
+      "MiscInformation": "Hjemmel: Kunngjøring fra Finansdepartementet av stortingsvedtak 13. desember 2019 med hjemmel i Kongeriket Norges Grunnlov 17. mai 1814 § 75 bokstav a og lov 28. februar 1997 nr. 19 om folketrygd (folketrygdloven) § 23-2a.",
+      "DateOfPublication": {
+        "Raw": "2019-12-18 13:35",
+        "Dates": [
+          "2019-12-18"
+        ],
+        "Note": "13:35"
+      },
+      "ChangesToDocuments": [],
+      "EeaReferences": "",
+      "AppliesTo": "Norge",
+      "Source": "stv",
+      "SourceFile": "sf-20191213-1823.xml"
+    },
+    {
+      "Title": "Retningslinjer for bruk av tilskudd til stortingsgruppene og uavhengige representanter",
+      "TitleShort": "",
+      "LegacyID": "FOR-2020-11-24-3379",
+      "LawID": "2020-11-24-3379",
+      "RefID": "forskrift/2020-11-24-3379",
+      "DokID": "STV/forskrift/2020-11-24-3379",
+      "Ministry": [
+        "Stortinget"
+      ],
+      "LegalAreas": [],
+      "DateInForce": {
+        "Raw": "2021-10-01, 2022-01-01, 2026-07-01",
+        "Dates": [
+          "2021-10-01",
+          "2022-01-01",
+          "2026-07-01"
+        ],
+        "Note": ""
+      },
+      "LastUpdated": {
+        "Raw": "2022-02-02 (tegnsetting i lister tilpasset universell utforming)",
+        "Dates": [
+          "2022-02-02"
+        ],
+        "Note": "tegnsetting i lister tilpasset universell utforming"
+      },
+      "LastChangedBy": [],
+      "LastChangeInForce": null,
+      "MiscInformation": "Hjemmel: Vedtatt av Stortinget 24. november 2020, jf. Innst.92 S (2020–2021).\n Rettelser: 02.02.2022 (tegnsetting i lister tilpasset universell utforming).",
+      "DateOfPublication": {
+        "Raw": "2022-02-01 09:30",
+        "Dates": [
+          "2022-02-01"
+        ],
+        "Note": "09:30"
+      },
+      "ChangesToDocuments": [],
+      "EeaReferences": "",
+      "AppliesTo": "",
+      "Source": "stv",
+      "SourceFile": "sf-20201124-3379.xml"
+    },
+    {
+      "Title": "Stortingsvedtak om skatt av inntekt og formue mv. for inntektsåret 2021 (Stortingets skattevedtak)",
+      "TitleShort": "Stortingets skattevedtak 2021",
+      "LegacyID": "FOR-2020-12-15-2878",
+      "LawID": "2020-12-15-2878",
+      "RefID": "forskrift/2020-12-15-2878",
+      "DokID": "STV/forskrift/2020-12-15-2878",
+      "Ministry": [
+        "Finansdepartementet"
+      ],
+      "LegalAreas": [],
+      "DateInForce": {
+        "Raw": "Inntektsåret 2021",
+        "Dates": [],
+        "Note": "Inntektsåret 2021"
+      },
+      "LastUpdated": null,
+      "LastChangedBy": [
+        {
+          "RefID": "forskrift/2021-12-14-3570",
+          "Text": "forskrift/2021-12-14-3570",
+          "Date": "2021-12-14"
+        }
+      ],
+      "LastChangeInForce": {
+        "Raw": "2021-12-14",
+        "Dates": [
+          "2021-12-14"
+        ],
+        "Note": ""
+      },
+      "MiscInformation": "Hjemmel: Kunngjøring fra Finansdepartementet av stortingsvedtak 15. desember 2020 med hjemmel i Kongeriket Norges Grunnlov 17. mai 1814 § 75 bokstav a.\n Endret ved vedtak 14 des 2021 nr. 3570 (med virkning fra og med inntektsåret 2021).",
+      "DateOfPublication": {
+        "Raw": "2020-12-21 12:50",
+        "Dates": [
+          "2020-12-21"
+        ],
+        "Note": "12:50"
+      },
+      "ChangesToDocuments": [],
+      "EeaReferences": "",
+      "AppliesTo": "Norge",
+      "Source": "stv",
+      "SourceFile": "sf-20201215-2878.xml"
+    },
+    {
+      "Title": "Stortingsvedtak om fastsetting av finansskatt på lønn for 2021",
+      "TitleShort": "Vedtak om finansskatt på lønn, 2021",
+      "LegacyID": "FOR-2020-12-15-2880",
+      "LawID": "2020-12-15-2880",
+      "RefID": "forskrift/2020-12-15-2880",
+      "DokID": "STV/forskrift/2020-12-15-2880",
+      "Ministry": [
+        "Finansdepartementet"
+      ],
+      "LegalAreas": [],
+      "DateInForce": {
+        "Raw": "Inntektsåret 2021",
+        "Dates": [],
+        "Note": "Inntektsåret 2021"
+      },
+      "LastUpdated": null,
+      "LastChangedBy": [],
+      "LastChangeInForce": null,
+      "MiscInformation": "Hjemmel: Kunngjøring fra Finansdepartementet av stortingsvedtak 15. desember 2020 med hjemmel i Kongeriket Norges Grunnlov 17. mai 1814 § 75 bokstav a og lov 28. februar 1997 nr. 19 om folketrygd (folketrygdloven) § 23-2a.",
+      "DateOfPublication": {
+        "Raw": "2020-12-21 12:50",
+        "Dates": [
+          "2020-12-21"
+        ],
+        "Note": "12:50"
+      },
+      "ChangesToDocuments": [],
+      "EeaReferences": "",
+      "AppliesTo": "Norge",
+      "Source": "stv",
+      "SourceFile": "sf-20201215-2880.xml"
+    },
+    {
+      "Title": "Stortingsvedtak om formues- og inntektsskatt til Svalbard for inntektsåret 2021",
+      "TitleShort": "Vedtak om formues- og inntektsskatt til Svalbard, 2021",
+      "LegacyID": "FOR-2020-12-16-2799",
+      "LawID": "2020-12-16-2799",
+      "RefID": "forskrift/2020-12-16-2799",
+      "DokID": "STV/forskrift/2020-12-16-2799",
+      "Ministry": [
+        "Justis- og beredskapsdepartementet"
+      ],
+      "LegalAreas": [],
+      "DateInForce": {
+        "Raw": "Inntektsåret 2021",
+        "Dates": [],
+        "Note": "Inntektsåret 2021"
+      },
+      "LastUpdated": null,
+      "LastChangedBy": [],
+      "LastChangeInForce": null,
+      "MiscInformation": "Heimel: Kunngjering frå Justis- og beredskapsdepartementet av stortingsvedtak 16. desember 2020 med heimel i Kongeriket Noregs Grunnlov 17. mai 1814 § 75 bokstav a.",
+      "DateOfPublication": {
+        "Raw": "2020-12-17 13:40",
+        "Dates": [
+          "2020-12-17"
+        ],
+        "Note": "13:40"
+      },
+      "ChangesToDocuments": [],
+      "EeaReferences": "",
+      "AppliesTo": "Norge",
+      "Source": "stv",
+      "SourceFile": "sf-20201216-2799.xml"
+    },
+    {
+      "Title": "Endringer i Stortingets forretningsorden",
+      "TitleShort": "Endr. i Stortingets forretningsorden",
+      "LegacyID": "FOR-2021-06-17-2109",
+      "LawID": "2021-06-17-2109",
+      "RefID": "forskrift/2021-06-17-2109",
+      "DokID": "STV/forskrift/2021-06-17-2109",
+      "Ministry": [
+        "Stortinget"
+      ],
+      "LegalAreas": [],
+      "DateInForce": {
+        "Raw": "2021-10-01",
+        "Dates": [
+          "2021-10-01"
+        ],
+        "Note": ""
+      },
+      "LastUpdated": null,
+      "LastChangedBy": [],
+      "LastChangeInForce": null,
+      "MiscInformation": "Hjemmel: Vedtatt av Stortinget 17. juni 2021, jf. Innst.651 S (2020–2021).",
+      "DateOfPublication": {
+        "Raw": "2021-06-24 16:10",
+        "Dates": [
+          "2021-06-24"
+        ],
+        "Note": "16:10"
+      },
+      "ChangesToDocuments": [
+        {
+          "RefID": "forskrift/2012-06-07-518",
+          "Text": "forskrift/2012-06-07-518",
+          "Date": "2012-06-07"
+        }
+      ],
+      "EeaReferences": "",
+      "AppliesTo": "Norge, Svalbard, Jan Mayen, bilandene",
+      "Source": "stv",
+      "SourceFile": "sf-20210617-2109.xml"
+    },
+    {
+      "Title": "Vedtak om avgift på viltlevende marine ressurser",
+      "TitleShort": "Vedtak om avgift på viltlevende marine ressurser",
+      "LegacyID": "FOR-2021-06-18-2049",
+      "LawID": "2021-06-18-2049",
+      "RefID": "forskrift/2021-06-18-2049",
+      "DokID": "STV/forskrift/2021-06-18-2049",
+      "Ministry": [
+        "Finansdepartementet"
+      ],
+      "LegalAreas": [],
+      "DateInForce": {
+        "Raw": "2021-07-01 – 2021-12-31",
+        "Dates": [
+          "2021-07-01",
+          "2021-12-31"
+        ],
+        "Note": "–"
+      },
+      "LastUpdated": null,
+      "LastChangedBy": [],
+      "LastChangeInForce": null,
+      "MiscInformation": "Hjemmel: Kunngjøring fra Finansdepartementet av stortingsvedtak 18. juni 2021 med hjemmel i Kongeriket Norges Grunnlov 17. mai 1814 § 75 bokstav a,",
+      "DateOfPublication": {
+        "Raw": "2021-06-22 16:20",
+        "Dates": [
+          "2021-06-22"
+        ],
+        "Note": "16:20"
+      },
+      "ChangesToDocuments": [],
+      "EeaReferences": "",
+      "AppliesTo": "Norge",
+      "Source": "stv",
+      "SourceFile": "sf-20210618-2049.xml"
+    },
+    {
+      "Title": "Stortingsvedtak om skatt av inntekt og formue mv. for inntektsåret 2022 (Stortingets skattevedtak)",
+      "TitleShort": "Stortingets skattevedtak 2022",
+      "LegacyID": "FOR-2021-12-14-3571",
+      "LawID": "2021-12-14-3571",
+      "RefID": "forskrift/2021-12-14-3571",
+      "DokID": "STV/forskrift/2021-12-14-3571",
+      "Ministry": [
+        "Stortinget"
+      ],
+      "LegalAreas": [],
+      "DateInForce": {
+        "Raw": "Inntektsåret 2022",
+        "Dates": [],
+        "Note": "Inntektsåret 2022"
+      },
+      "LastUpdated": null,
+      "LastChangedBy": [
+        {
+          "RefID": "forskrift/2022-06-17-1083",
+          "Text": "forskrift/2022-06-17-1083",
+          "Date": "2022-06-17"
+        },
+        {
+          "RefID": "forskrift/2022-06-08-2016",
+          "Text": "forskrift/2022-06-08-2016",
+          "Date": "2022-06-17"
+        }
+      ],
+      "LastChangeInForce": {
+        "Raw": "2022-06-08",
+        "Dates": [
+          "2022-06-08"
+        ],
+        "Note": ""
+      },
+      "MiscInformation": "Hjemmel: Vedtatt av Stortinget 14. desember 2021 med hjemmel i Kongeriket Norges Grunnlov 17. mai 1814 § 75 bokstav a.\nEndret ved vedtak 17 juni 2022 nr. 1083 (i kraft 1 jan 2022), 8 juni 2022 nr. 2016.",
+      "DateOfPublication": {
+        "Raw": "2021-12-16 11:10",
+        "Dates": [
+          "2021-12-16"
+        ],
+        "Note": "11:10"
+      },
+      "ChangesToDocuments": [],
+      "EeaReferences": "",
+      "AppliesTo": "",
+      "Source": "stv",
+      "SourceFile": "sf-20211214-3571.xml"
+    },
+    {
+      "Title": "Stortingsvedtak om fastsetting av finansskatt på lønn for 2022",
+      "TitleShort": "Stortingsvedtak om fastsetting av finansskatt på lønn for 2022",
+      "LegacyID": "FOR-2021-12-14-3573",
+      "LawID": "2021-12-14-3573",
+      "RefID": "forskrift/2021-12-14-3573",
+      "DokID": "STV/forskrift/2021-12-14-3573",
+      "Ministry": [
+        "Stortinget"
+      ],
+      "LegalAreas": [],
+      "DateInForce": {
+        "Raw": "Inntektsåret 2022",
+        "Dates": [],
+        "Note": "Inntektsåret 2022"
+      },
+      "LastUpdated": null,
+      "LastChangedBy": [],
+      "LastChangeInForce": null,
+      "MiscInformation": "Hjemmel: Vedtatt av Stortinget 14. desember 2021 med hjemmel i Kongeriket Norges Grunnlov 17. mai 1814 § 75 bokstav a og lov 28. februar 1997 nr. 19 om folketrygd (folketrygdloven) § 23-2a.",
+      "DateOfPublication": {
+        "Raw": "2021-12-16 11:10",
+        "Dates": [
+          "2021-12-16"
+        ],
+        "Note": "11:10"
+      },
+      "ChangesToDocuments": [],
+      "EeaReferences": "",
+      "AppliesTo": "",
+      "Source": "stv",
+      "SourceFile": "sf-20211214-3573.xml"
+    },
+    {
+      "Title": "Stortingsvedtak om formues- og inntektsskatt til Svalbard for inntektsåret 2022",
+      "TitleShort": "Stortingsvedtak om formues- og inntektsskatt til Svalbard for inntektsåret 2022",
+      "LegacyID": "FOR-2021-12-15-3580",
+      "LawID": "2021-12-15-3580",
+      "RefID": "forskrift/2021-12-15-3580",
+      "DokID": "STV/forskrift/2021-12-15-3580",
+      "Ministry": [
+        "Stortinget"
+      ],
+      "LegalAreas": [],
+      "DateInForce": {
+        "Raw": "Inntektsåret 2022",
+        "Dates": [],
+        "Note": "Inntektsåret 2022"
+      },
+      "LastUpdated": null,
+      "LastChangedBy": [],
+      "LastChangeInForce": null,
+      "MiscInformation": "Heimel: Vedtatt av Stortinget 15. desember 2021 med heimel i Kongeriket Noregs Grunnlov 17. mai 1814 § 75 bokstav a.",
+      "DateOfPublication": {
+        "Raw": "2021-12-16 11:10",
+        "Dates": [
+          "2021-12-16"
+        ],
+        "Note": "11:10"
+      },
+      "ChangesToDocuments": [],
+      "EeaReferences": "",
+      "AppliesTo": "",
+      "Source": "stv",
+      "SourceFile": "sf-20211215-3580.xml"
+    },
+    {
+      "Title": "Stortingsvedtak om tillegg i skatt på grunnrenteinntekt i kraftforetak for inntektsåret 2022",
+      "TitleShort": "",
+      "LegacyID": "FOR-2022-12-13-2197",
+      "LawID": "2022-12-13-2197",
+      "RefID": "forskrift/2022-12-13-2197",
+      "DokID": "STV/forskrift/2022-12-13-2197",
+      "Ministry": [
+        "Stortinget"
+      ],
+      "LegalAreas": [],
+      "DateInForce": {
+        "Raw": "2022-12-13, med virkning for inntektsåret 2022",
+        "Dates": [
+          "2022-12-13"
+        ],
+        "Note": "med virkning for inntektsåret 2022"
+      },
+      "LastUpdated": null,
+      "LastChangedBy": [],
+      "LastChangeInForce": null,
+      "MiscInformation": "Hjemmel: Vedtatt av Stortinget 13. desember 2022 med hjemmel i Kongeriket Norges Grunnlov 17. mai 1814 § 75 bokstav a.",
+      "DateOfPublication": {
+        "Raw": "2022-12-15 13:55",
+        "Dates": [
+          "2022-12-15"
+        ],
+        "Note": "13:55"
+      },
+      "ChangesToDocuments": [
+        {
+          "RefID": "forskrift/2021-12-14-3571",
+          "Text": "forskrift/2021-12-14-3571",
+          "Date": "2021-12-14"
+        }
+      ],
+      "EeaReferences": "",
+      "AppliesTo": "",
+      "Source": "stv",
+      "SourceFile": "sf-20221213-2197.xml"
+    },
+    {
+      "Title": "Stortingsvedtak om skatt av inntekt og formue mv. for inntektsåret 2023 (Stortingets skattevedtak)",
+      "TitleShort": "Stortingets skattevedtak 2023",
+      "LegacyID": "FOR-2022-12-13-2199",
+      "LawID": "2022-12-13-2199",
+      "RefID": "forskrift/2022-12-13-2199",
+      "DokID": "STV/forskrift/2022-12-13-2199",
+      "Ministry": [
+        "Stortinget"
+      ],
+      "LegalAreas": [],
+      "DateInForce": {
+        "Raw": "Inntektsåret 2023",
+        "Dates": [],
+        "Note": "Inntektsåret 2023"
+      },
+      "LastUpdated": null,
+      "LastChangedBy": [
+        {
+          "RefID": "forskrift/2023-06-16-972",
+          "Text": "forskrift/2023-06-16-972",
+          "Date": "2023-06-16"
+        }
+      ],
+      "LastChangeInForce": {
+        "Raw": "2023-01-01",
+        "Dates": [
+          "2023-01-01"
+        ],
+        "Note": ""
+      },
+      "MiscInformation": "Hjemmel: Vedtatt av Stortinget 13. desember 2022 med hjemmel i Kongeriket Norges Grunnlov 17. mai 1814 § 75 bokstav a.\nEndret ved vedtak 31 mai 2023 nr. 776, 16 juni 2023 nr. 972 (i kraft 1 jan 2023).",
+      "DateOfPublication": {
+        "Raw": "2022-12-15 13:55",
+        "Dates": [
+          "2022-12-15"
+        ],
+        "Note": "13:55"
+      },
+      "ChangesToDocuments": [],
+      "EeaReferences": "",
+      "AppliesTo": "",
+      "Source": "stv",
+      "SourceFile": "sf-20221213-2199.xml"
+    },
+    {
+      "Title": "Stortingsvedtak om fastsetting av finansskatt på lønn for 2023",
+      "TitleShort": "",
+      "LegacyID": "FOR-2022-12-13-2201",
+      "LawID": "2022-12-13-2201",
+      "RefID": "forskrift/2022-12-13-2201",
+      "DokID": "STV/forskrift/2022-12-13-2201",
+      "Ministry": [
+        "Stortinget"
+      ],
+      "LegalAreas": [],
+      "DateInForce": {
+        "Raw": "Inntektsåret 2023",
+        "Dates": [],
+        "Note": "Inntektsåret 2023"
+      },
+      "LastUpdated": null,
+      "LastChangedBy": [],
+      "LastChangeInForce": null,
+      "MiscInformation": "Hjemmel: Vedtatt av Stortinget 13. desember 2022 med hjemmel i Kongeriket Norges Grunnlov 17. mai 1814 § 75 bokstav a og lov 28. februar 1997 nr. 19 om folketrygd (folketrygdloven) § 23-2a.",
+      "DateOfPublication": {
+        "Raw": "2022-12-15 13:55",
+        "Dates": [
+          "2022-12-15"
+        ],
+        "Note": "13:55"
+      },
+      "ChangesToDocuments": [],
+      "EeaReferences": "",
+      "AppliesTo": "",
+      "Source": "stv",
+      "SourceFile": "sf-20221213-2201.xml"
+    },
+    {
+      "Title": "Stortingsvedtak om formues- og inntektsskatt til Svalbard for inntektsåret 2023",
+      "TitleShort": "",
+      "LegacyID": "FOR-2022-12-13-2207",
+      "LawID": "2022-12-13-2207",
+      "RefID": "forskrift/2022-12-13-2207",
+      "DokID": "STV/forskrift/2022-12-13-2207",
+      "Ministry": [
+        "Stortinget"
+      ],
+      "LegalAreas": [],
+      "DateInForce": {
+        "Raw": "Inntektsåret 2023",
+        "Dates": [],
+        "Note": "Inntektsåret 2023"
+      },
+      "LastUpdated": null,
+      "LastChangedBy": [],
+      "LastChangeInForce": null,
+      "MiscInformation": "Heimel: Vedtatt av Stortinget 13. desember 2022 med heimel i Kongeriket Noregs grunnlov 17. mai 1814 § 75 bokstav a.",
+      "DateOfPublication": {
+        "Raw": "2022-12-15 13:55",
+        "Dates": [
+          "2022-12-15"
+        ],
+        "Note": "13:55"
+      },
+      "ChangesToDocuments": [],
+      "EeaReferences": "",
+      "AppliesTo": "",
+      "Source": "stv",
+      "SourceFile": "sf-20221213-2207.xml"
+    },
+    {
+      "Title": "Stortingsvedtak om fastsetting av finansskatt på lønn for 2024",
+      "TitleShort": "",
+      "LegacyID": "FOR-2023-12-14-2068",
+      "LawID": "2023-12-14-2068",
+      "RefID": "forskrift/2023-12-14-2068",
+      "DokID": "STV/forskrift/2023-12-14-2068",
+      "Ministry": [
+        "Stortinget"
+      ],
+      "LegalAreas": [],
+      "DateInForce": {
+        "Raw": "Inntektsåret 2024",
+        "Dates": [],
+        "Note": "Inntektsåret 2024"
+      },
+      "LastUpdated": null,
+      "LastChangedBy": [],
+      "LastChangeInForce": null,
+      "MiscInformation": "Hjemmel: Vedtatt av Stortinget 14. desember 2023 med hjemmel i Kongeriket Norges Grunnlov 17. mai 1814 § 75 bokstav a og lov 28. februar 1997 nr. 19 om folketrygd (folketrygdloven) § 23-2a.",
+      "DateOfPublication": {
+        "Raw": "2023-12-18 11:05",
+        "Dates": [
+          "2023-12-18"
+        ],
+        "Note": "11:05"
+      },
+      "ChangesToDocuments": [],
+      "EeaReferences": "",
+      "AppliesTo": "",
+      "Source": "stv",
+      "SourceFile": "sf-20231214-2068.xml"
+    },
+    {
+      "Title": "Stortingsvedtak om skatt av inntekt og formue mv. for inntektsåret 2024 (Stortingets skattevedtak)",
+      "TitleShort": "Stortingets skattevedtak 2024",
+      "LegacyID": "FOR-2023-12-14-2071",
+      "LawID": "2023-12-14-2071",
+      "RefID": "forskrift/2023-12-14-2071",
+      "DokID": "STV/forskrift/2023-12-14-2071",
+      "Ministry": [
+        "Stortinget"
+      ],
+      "LegalAreas": [],
+      "DateInForce": {
+        "Raw": "Inntektsåret 2024",
+        "Dates": [],
+        "Note": "Inntektsåret 2024"
+      },
+      "LastUpdated": null,
+      "LastChangedBy": [
+        {
+          "RefID": "forskrift/2023-12-20-2171",
+          "Text": "forskrift/2023-12-20-2171",
+          "Date": "2023-12-20"
+        }
+      ],
+      "LastChangeInForce": {
+        "Raw": "2023-12-20",
+        "Dates": [
+          "2023-12-20"
+        ],
+        "Note": ""
+      },
+      "MiscInformation": "Hjemmel: Vedtatt av Stortinget 14. desember 2023 med hjemmel i Kongeriket Norges Grunnlov 17. mai 1814 § 75 bokstav a.\nEndret ved vedtak 19 des 2023 nr. 2127, 20 des 2023 nr. 2171.",
+      "DateOfPublication": {
+        "Raw": "2023-12-18 11:05",
+        "Dates": [
+          "2023-12-18"
+        ],
+        "Note": "11:05"
+      },
+      "ChangesToDocuments": [],
+      "EeaReferences": "",
+      "AppliesTo": "",
+      "Source": "stv",
+      "SourceFile": "sf-20231214-2071.xml"
+    },
+    {
+      "Title": "Stortingsvedtak om tollavgift for 2024",
+      "TitleShort": "",
+      "LegacyID": "FOR-2023-12-14-2076",
+      "LawID": "2023-12-14-2076",
+      "RefID": "forskrift/2023-12-14-2076",
+      "DokID": "STV/forskrift/2023-12-14-2076",
+      "Ministry": [
+        "Stortinget"
+      ],
+      "LegalAreas": [],
+      "DateInForce": {
+        "Raw": "Budsjettåret 2024",
+        "Dates": [],
+        "Note": "Budsjettåret 2024"
+      },
+      "LastUpdated": null,
+      "LastChangedBy": [],
+      "LastChangeInForce": null,
+      "MiscInformation": "Hjemmel: Vedtatt av Stortinget 14. desember 2023 med hjemmel i Kongeriket Norges Grunnlov 17. mai 1814 § 75 bokstav a og lov 11. mars 2022 nr. 8 om tollavgift (tollavgiftsloven).",
+      "DateOfPublication": {
+        "Raw": "2023-12-18 11:05",
+        "Dates": [
+          "2023-12-18"
+        ],
+        "Note": "11:05"
+      },
+      "ChangesToDocuments": [],
+      "EeaReferences": "",
+      "AppliesTo": "",
+      "Source": "stv",
+      "SourceFile": "sf-20231214-2076.xml"
+    },
+    {
+      "Title": "Stortingsvedtak om formues- og inntektsskatt til Svalbard for inntektsåret 2024",
+      "TitleShort": "",
+      "LegacyID": "FOR-2023-12-18-2121",
+      "LawID": "2023-12-18-2121",
+      "RefID": "forskrift/2023-12-18-2121",
+      "DokID": "STV/forskrift/2023-12-18-2121",
+      "Ministry": [
+        "Stortinget"
+      ],
+      "LegalAreas": [],
+      "DateInForce": {
+        "Raw": "Inntektsåret 2024",
+        "Dates": [],
+        "Note": "Inntektsåret 2024"
+      },
+      "LastUpdated": null,
+      "LastChangedBy": [],
+      "LastChangeInForce": null,
+      "MiscInformation": "Heimel: Vedtatt av Stortinget 18. desember 2023 med heimel i Kongeriket Noregs grunnlov 17. mai 1814 § 75 bokstav a.",
+      "DateOfPublication": {
+        "Raw": "2023-12-19 15:20",
+        "Dates": [
+          "2023-12-19"
+        ],
+        "Note": "15:20"
+      },
+      "ChangesToDocuments": [],
+      "EeaReferences": "",
+      "AppliesTo": "",
+      "Source": "stv",
+      "SourceFile": "sf-20231218-2121.xml"
+    },
+    {
+      "Title": "Stortingsvedtak om inntekter ved tildeling av tillatelser",
+      "TitleShort": "",
+      "LegacyID": "FOR-2023-12-20-2442",
+      "LawID": "2023-12-20-2442",
+      "RefID": "forskrift/2023-12-20-2442",
+      "DokID": "STV/forskrift/2023-12-20-2442",
+      "Ministry": [
+        "Stortinget"
+      ],
+      "LegalAreas": [],
+      "DateInForce": {
+        "Raw": "2024-01-01",
+        "Dates": [
+          "2024-01-01"
+        ],
+        "Note": ""
+      },
+      "LastUpdated": null,
+      "LastChangedBy": [],
+      "LastChangeInForce": null,
+      "MiscInformation": "Hjemmel: Vedtatt av Stortinget 20. desember 2023 med hjemmel i Kongeriket Norges Grunnlov 17. mai 1814 § 75 bokstav a, jf. Innst.5 S (2023–2024).",
+      "DateOfPublication": {
+        "Raw": "2024-01-16 14:15",
+        "Dates": [
+          "2024-01-16"
+        ],
+        "Note": "14:15"
+      },
+      "ChangesToDocuments": [],
+      "EeaReferences": "",
+      "AppliesTo": "",
+      "Source": "stv",
+      "SourceFile": "sf-20231220-2442.xml"
+    },
+    {
+      "Title": "Stortingsvedtak om skatt av inntekt og formue mv. for inntektsåret 2025 (Stortingets skattevedtak)",
+      "TitleShort": "Stortingets skattevedtak 2025",
+      "LegacyID": "FOR-2024-12-13-3203",
+      "LawID": "2024-12-13-3203",
+      "RefID": "forskrift/2024-12-13-3203",
+      "DokID": "STV/forskrift/2024-12-13-3203",
+      "Ministry": [
+        "Stortinget"
+      ],
+      "LegalAreas": [],
+      "DateInForce": {
+        "Raw": "Inntektsåret 2025",
+        "Dates": [],
+        "Note": "Inntektsåret 2025"
+      },
+      "LastUpdated": null,
+      "LastChangedBy": [
+        {
+          "RefID": "forskrift/2025-12-18-2746",
+          "Text": "forskrift/2025-12-18-2746",
+          "Date": "2025-12-18"
+        }
+      ],
+      "LastChangeInForce": {
+        "Raw": "2025-12-18",
+        "Dates": [
+          "2025-12-18"
+        ],
+        "Note": ""
+      },
+      "MiscInformation": "Hjemmel: Vedtatt av Stortinget 13. desember 2024 med hjemmel i Kongeriket Norges Grunnlov 17. mai 1814 § 75 bokstav a.\n Endret ved vedtak 18 des 2025 nr. 2746 (fra inntektsåret 2025).",
+      "DateOfPublication": {
+        "Raw": "2024-12-19 13:35",
+        "Dates": [
+          "2024-12-19"
+        ],
+        "Note": "13:35"
+      },
+      "ChangesToDocuments": [],
+      "EeaReferences": "",
+      "AppliesTo": "",
+      "Source": "stv",
+      "SourceFile": "sf-20241213-3203.xml"
+    },
+    {
+      "Title": "Stortingsvedtak om fastsetting av finansskatt på lønn for 2025",
+      "TitleShort": "",
+      "LegacyID": "FOR-2024-12-13-3205",
+      "LawID": "2024-12-13-3205",
+      "RefID": "forskrift/2024-12-13-3205",
+      "DokID": "STV/forskrift/2024-12-13-3205",
+      "Ministry": [
+        "Stortinget"
+      ],
+      "LegalAreas": [],
+      "DateInForce": {
+        "Raw": "Inntektsåret 2025",
+        "Dates": [],
+        "Note": "Inntektsåret 2025"
+      },
+      "LastUpdated": null,
+      "LastChangedBy": [],
+      "LastChangeInForce": null,
+      "MiscInformation": "Hjemmel: Vedtatt av Stortinget 13. desember 2024 med hjemmel i Kongeriket Norges Grunnlov 17. mai 1814 § 75 bokstav a, jf. lov 28. februar 1997 nr. 19 om folketrygd (folketrygdloven) § 23-2a.",
+      "DateOfPublication": {
+        "Raw": "2024-12-19 13:35",
+        "Dates": [
+          "2024-12-19"
+        ],
+        "Note": "13:35"
+      },
+      "ChangesToDocuments": [],
+      "EeaReferences": "",
+      "AppliesTo": "",
+      "Source": "stv",
+      "SourceFile": "sf-20241213-3205.xml"
+    },
+    {
+      "Title": "Stortingsvedtak om formues- og inntektsskatt til Svalbard for inntektsåret 2025",
+      "TitleShort": "",
+      "LegacyID": "FOR-2024-12-18-3358",
+      "LawID": "2024-12-18-3358",
+      "RefID": "forskrift/2024-12-18-3358",
+      "DokID": "STV/forskrift/2024-12-18-3358",
+      "Ministry": [
+        "Stortinget"
+      ],
+      "LegalAreas": [],
+      "DateInForce": {
+        "Raw": "Inntektsåret 2025",
+        "Dates": [],
+        "Note": "Inntektsåret 2025"
+      },
+      "LastUpdated": null,
+      "LastChangedBy": [],
+      "LastChangeInForce": null,
+      "MiscInformation": "Heimel: Vedteken av Stortinget 18. desember 2024 med heimel i Kongeriket Noregs grunnlov 17. mai 1814 § 75 bokstav a, jf. lov 29. november 1996 nr. 68 om skatt til Svalbard (Svalbardskatteloven).",
+      "DateOfPublication": {
+        "Raw": "2024-12-23 10:10",
+        "Dates": [
+          "2024-12-23"
+        ],
+        "Note": "10:10"
+      },
+      "ChangesToDocuments": [],
+      "EeaReferences": "",
+      "AppliesTo": "",
+      "Source": "stv",
+      "SourceFile": "sf-20241218-3358.xml"
+    },
+    {
+      "Title": "Stortingets regler om dokumentinnsyn",
+      "TitleShort": "",
+      "LegacyID": "FOR-2025-06-19-1640",
+      "LawID": "2025-06-19-1640",
+      "RefID": "forskrift/2025-06-19-1640",
+      "DokID": "STV/forskrift/2025-06-19-1640",
+      "Ministry": [
+        "Stortinget"
+      ],
+      "LegalAreas": [],
+      "DateInForce": {
+        "Raw": "2025-10-01",
+        "Dates": [
+          "2025-10-01"
+        ],
+        "Note": ""
+      },
+      "LastUpdated": null,
+      "LastChangedBy": [],
+      "LastChangeInForce": null,
+      "MiscInformation": "Hjemmel: Vedtatt av Stortinget 19. juni 2025, jf. Innst. 512 S (2024–2025).",
+      "DateOfPublication": {
+        "Raw": "2025-08-13 14:50",
+        "Dates": [
+          "2025-08-13"
+        ],
+        "Note": "14:50"
+      },
+      "ChangesToDocuments": [
+        {
+          "RefID": "forskrift/2009-03-16-468",
+          "Text": "forskrift/2009-03-16-468",
+          "Date": "2009-03-16"
+        }
+      ],
+      "EeaReferences": "",
+      "AppliesTo": "",
+      "Source": "stv",
+      "SourceFile": "sf-20250619-1640.xml"
+    },
+    {
+      "Title": "Stortingsvedtak om skatt av inntekt og formue mv. for inntektsåret 2026 (Stortingets skattevedtak)",
+      "TitleShort": "Stortingets skattevedtak 2026",
+      "LegacyID": "FOR-2025-12-18-2747",
+      "LawID": "2025-12-18-2747",
+      "RefID": "forskrift/2025-12-18-2747",
+      "DokID": "STV/forskrift/2025-12-18-2747",
+      "Ministry": [
+        "Stortinget"
+      ],
+      "LegalAreas": [],
+      "DateInForce": {
+        "Raw": "Inntektsåret 2026",
+        "Dates": [],
+        "Note": "Inntektsåret 2026"
+      },
+      "LastUpdated": null,
+      "LastChangedBy": [
+        {
+          "RefID": "forskrift/2026-06-19-1243",
+          "Text": "forskrift/2026-06-19-1243",
+          "Date": "2026-06-19"
+        }
+      ],
+      "LastChangeInForce": {
+        "Raw": "2026-01-01",
+        "Dates": [
+          "2026-01-01"
+        ],
+        "Note": ""
+      },
+      "MiscInformation": "Hjemmel: Vedtatt av Stortinget 18. desember 2025 med hjemmel i Kongeriket Norges Grunnlov 17. mai 1814 § 75 bokstav a.\n Endret ved vedtak 19 juni 2026 nr. 1243 (i kraft 1 jan 2026).",
+      "DateOfPublication": {
+        "Raw": "2025-12-22 11:30",
+        "Dates": [
+          "2025-12-22"
+        ],
+        "Note": "11:30"
+      },
+      "ChangesToDocuments": [],
+      "EeaReferences": "",
+      "AppliesTo": "",
+      "Source": "stv",
+      "SourceFile": "sf-20251218-2747.xml"
+    },
+    {
+      "Title": "Stortingsvedtak om fastsetting av avgifter mv. til folketrygden for 2026",
+      "TitleShort": "",
+      "LegacyID": "FOR-2025-12-18-2748",
+      "LawID": "2025-12-18-2748",
+      "RefID": "forskrift/2025-12-18-2748",
+      "DokID": "STV/forskrift/2025-12-18-2748",
+      "Ministry": [
+        "Stortinget"
+      ],
+      "LegalAreas": [],
+      "DateInForce": {
+        "Raw": "Inntektsåret 2026",
+        "Dates": [],
+        "Note": "Inntektsåret 2026"
+      },
+      "LastUpdated": null,
+      "LastChangedBy": [
+        {
+          "RefID": "forskrift/2026-06-19-1244",
+          "Text": "forskrift/2026-06-19-1244",
+          "Date": "2026-06-19"
+        }
+      ],
+      "LastChangeInForce": {
+        "Raw": "2026-06-19",
+        "Dates": [
+          "2026-06-19"
+        ],
+        "Note": ""
+      },
+      "MiscInformation": "Hjemmel: Vedtatt av Stortinget 18. desember 2025 med hjemmel i Kongeriket Norges Grunnlov 17. mai 1814 § 75 bokstav a, jf. lov 28. februar 1997 nr. 19 om folketrygd (folketrygdloven) kapittel 23.\n Endret ved vedtak 19 juni 2026 nr. 1244.",
+      "DateOfPublication": {
+        "Raw": "2025-12-22 11:30",
+        "Dates": [
+          "2025-12-22"
+        ],
+        "Note": "11:30"
+      },
+      "ChangesToDocuments": [],
+      "EeaReferences": "",
+      "AppliesTo": "",
+      "Source": "stv",
+      "SourceFile": "sf-20251218-2748.xml"
+    },
+    {
+      "Title": "Stortingsvedtak om fastsetting av finansskatt på lønn for 2026",
+      "TitleShort": "",
+      "LegacyID": "FOR-2025-12-18-2749",
+      "LawID": "2025-12-18-2749",
+      "RefID": "forskrift/2025-12-18-2749",
+      "DokID": "STV/forskrift/2025-12-18-2749",
+      "Ministry": [
+        "Stortinget"
+      ],
+      "LegalAreas": [],
+      "DateInForce": {
+        "Raw": "Inntektsåret 2026",
+        "Dates": [],
+        "Note": "Inntektsåret 2026"
+      },
+      "LastUpdated": null,
+      "LastChangedBy": [
+        {
+          "RefID": "forskrift/2026-06-19-1245",
+          "Text": "forskrift/2026-06-19-1245",
+          "Date": "2026-06-19"
+        }
+      ],
+      "LastChangeInForce": {
+        "Raw": "2026-06-19",
+        "Dates": [
+          "2026-06-19"
+        ],
+        "Note": ""
+      },
+      "MiscInformation": "Hjemmel: Vedtatt av Stortinget 18. desember 2025 med hjemmel i Kongeriket Norges Grunnlov 17. mai 1814 § 75 bokstav a, jf. lov 28. februar 1997 nr. 19 om folketrygd (folketrygdloven) § 23-2a.\n Endret ved vedtak 19 juni 2026 nr. 1245.",
+      "DateOfPublication": {
+        "Raw": "2025-12-22 11:30",
+        "Dates": [
+          "2025-12-22"
+        ],
+        "Note": "11:30"
+      },
+      "ChangesToDocuments": [],
+      "EeaReferences": "",
+      "AppliesTo": "",
+      "Source": "stv",
+      "SourceFile": "sf-20251218-2749.xml"
+    },
+    {
+      "Title": "Stortingsvedtak om CO2-avgift i petroleumsvirksomheten på kontinentalsokkelen for 2026",
+      "TitleShort": "",
+      "LegacyID": "FOR-2025-12-18-2750",
+      "LawID": "2025-12-18-2750",
+      "RefID": "forskrift/2025-12-18-2750",
+      "DokID": "STV/forskrift/2025-12-18-2750",
+      "Ministry": [
+        "Stortinget"
+      ],
+      "LegalAreas": [],
+      "DateInForce": {
+        "Raw": "Budsjettåret 2026, departementet bestemmer",
+        "Dates": [],
+        "Note": "Budsjettåret 2026, departementet bestemmer"
+      },
+      "LastUpdated": null,
+      "LastChangedBy": [],
+      "LastChangeInForce": null,
+      "MiscInformation": "Hjemmel: Vedtatt av Stortinget 18. desember 2025 med hjemmel i Kongeriket Norges Grunnlov 17. mai 1814 § 75 bokstav a og lov 21. desember 1990 nr. 72 om avgift på utslipp av CO2 i petroleumsvirksomhet på kontinentalsokkelen.",
+      "DateOfPublication": {
+        "Raw": "2025-12-22 11:30",
+        "Dates": [
+          "2025-12-22"
+        ],
+        "Note": "11:30"
+      },
+      "ChangesToDocuments": [],
+      "EeaReferences": "",
+      "AppliesTo": "",
+      "Source": "stv",
+      "SourceFile": "sf-20251218-2750.xml"
+    },
+    {
+      "Title": "Stortingsvedtak om produktavgift til folketrygden for fiskeri-, hval- og selfangstnæringene for 2026",
+      "TitleShort": "",
+      "LegacyID": "FOR-2025-12-18-2751",
+      "LawID": "2025-12-18-2751",
+      "RefID": "forskrift/2025-12-18-2751",
+      "DokID": "STV/forskrift/2025-12-18-2751",
+      "Ministry": [
+        "Stortinget"
+      ],
+      "LegalAreas": [],
+      "DateInForce": {
+        "Raw": "Inntektsåret 2026",
+        "Dates": [],
+        "Note": "Inntektsåret 2026"
+      },
+      "LastUpdated": null,
+      "LastChangedBy": [],
+      "LastChangeInForce": null,
+      "MiscInformation": "Hjemmel: Vedtatt av Stortinget 18. desember 2025 med hjemmel i Kongeriket Norges Grunnlov 17. mai 1814 § 75 bokstav a, jf. lov 28. februar 1997 nr. 19 om folketrygd (folketrygdloven) § 23-5 annet ledd.",
+      "DateOfPublication": {
+        "Raw": "2025-12-22 11:30",
+        "Dates": [
+          "2025-12-22"
+        ],
+        "Note": "11:30"
+      },
+      "ChangesToDocuments": [],
+      "EeaReferences": "",
+      "AppliesTo": "",
+      "Source": "stv",
+      "SourceFile": "sf-20251218-2751.xml"
+    },
+    {
+      "Title": "Stortingsvedtak om merverdiavgift for 2026",
+      "TitleShort": "",
+      "LegacyID": "FOR-2025-12-18-2752",
+      "LawID": "2025-12-18-2752",
+      "RefID": "forskrift/2025-12-18-2752",
+      "DokID": "STV/forskrift/2025-12-18-2752",
+      "Ministry": [
+        "Stortinget"
+      ],
+      "LegalAreas": [],
+      "DateInForce": {
+        "Raw": "Budsjettåret 2026",
+        "Dates": [],
+        "Note": "Budsjettåret 2026"
+      },
+      "LastUpdated": null,
+      "LastChangedBy": [],
+      "LastChangeInForce": null,
+      "MiscInformation": "Hjemmel: Vedtatt av Stortinget 18. desember 2025 med hjemmel i Kongeriket Norges Grunnlov 17. mai 1814 § 75 bokstav a, jf. lov 19. juni 2009 nr. 58 om merverdiavgift (merverdiavgiftsloven).",
+      "DateOfPublication": {
+        "Raw": "2025-12-22 11:30",
+        "Dates": [
+          "2025-12-22"
+        ],
+        "Note": "11:30"
+      },
+      "ChangesToDocuments": [],
+      "EeaReferences": "",
+      "AppliesTo": "",
+      "Source": "stv",
+      "SourceFile": "sf-20251218-2752.xml"
+    },
+    {
+      "Title": "Stortingsvedtak om avgift på alkohol for 2026",
+      "TitleShort": "",
+      "LegacyID": "FOR-2025-12-18-2753",
+      "LawID": "2025-12-18-2753",
+      "RefID": "forskrift/2025-12-18-2753",
+      "DokID": "STV/forskrift/2025-12-18-2753",
+      "Ministry": [
+        "Stortinget"
+      ],
+      "LegalAreas": [],
+      "DateInForce": {
+        "Raw": "Budsjettåret 2026",
+        "Dates": [],
+        "Note": "Budsjettåret 2026"
+      },
+      "LastUpdated": null,
+      "LastChangedBy": [],
+      "LastChangeInForce": null,
+      "MiscInformation": "Hjemmel: Vedtatt av Stortinget 18. desember 2025 med hjemmel i Kongeriket Norges Grunnlov 17. mai 1814 § 75 bokstav a, jf. lov 19. mai 1933 nr. 11 om særavgifter (særavgiftsloven).",
+      "DateOfPublication": {
+        "Raw": "2025-12-22 11:30",
+        "Dates": [
+          "2025-12-22"
+        ],
+        "Note": "11:30"
+      },
+      "ChangesToDocuments": [],
+      "EeaReferences": "",
+      "AppliesTo": "",
+      "Source": "stv",
+      "SourceFile": "sf-20251218-2753.xml"
+    },
+    {
+      "Title": "Stortingsvedtak om avgift på tobakksvarer mv. for 2026",
+      "TitleShort": "",
+      "LegacyID": "FOR-2025-12-18-2754",
+      "LawID": "2025-12-18-2754",
+      "RefID": "forskrift/2025-12-18-2754",
+      "DokID": "STV/forskrift/2025-12-18-2754",
+      "Ministry": [
+        "Stortinget"
+      ],
+      "LegalAreas": [],
+      "DateInForce": {
+        "Raw": "Budsjettåret 2026",
+        "Dates": [],
+        "Note": "Budsjettåret 2026"
+      },
+      "LastUpdated": null,
+      "LastChangedBy": [],
+      "LastChangeInForce": null,
+      "MiscInformation": "Hjemmel: Vedtatt av Stortinget 18. desember 2025 med hjemmel i Kongeriket Norges Grunnlov 17. mai 1814 § 75 bokstav a, jf. lov 19. mai 1933 nr. 11 om særavgifter (særavgiftsloven).",
+      "DateOfPublication": {
+        "Raw": "2025-12-22 11:30",
+        "Dates": [
+          "2025-12-22"
+        ],
+        "Note": "11:30"
+      },
+      "ChangesToDocuments": [],
+      "EeaReferences": "",
+      "AppliesTo": "",
+      "Source": "stv",
+      "SourceFile": "sf-20251218-2754.xml"
+    },
+    {
+      "Title": "Stortingsvedtak om engangsavgift på motorvogner mv. for 2026",
+      "TitleShort": "",
+      "LegacyID": "FOR-2025-12-18-2755",
+      "LawID": "2025-12-18-2755",
+      "RefID": "forskrift/2025-12-18-2755",
+      "DokID": "STV/forskrift/2025-12-18-2755",
+      "Ministry": [
+        "Stortinget"
+      ],
+      "LegalAreas": [],
+      "DateInForce": {
+        "Raw": "Budsjettåret 2026",
+        "Dates": [],
+        "Note": "Budsjettåret 2026"
+      },
+      "LastUpdated": null,
+      "LastChangedBy": [],
+      "LastChangeInForce": null,
+      "MiscInformation": "Hjemmel: Vedtatt av Stortinget 18. desember 2025 med hjemmel i Kongeriket Norges Grunnlov 17. mai 1814 § 75 bokstav a jf. lov 19. juni 1959 nr. 2 om avgifter vedrørende motorkjøretøyer og båter (motorkjøretøy- og båtavgiftsloven).\n Endres ved vedtak 19 juni 2026 nr. 1246 (i kraft 1 sept 2026).",
+      "DateOfPublication": {
+        "Raw": "2025-12-22 11:30",
+        "Dates": [
+          "2025-12-22"
+        ],
+        "Note": "11:30"
+      },
+      "ChangesToDocuments": [],
+      "EeaReferences": "",
+      "AppliesTo": "",
+      "Source": "stv",
+      "SourceFile": "sf-20251218-2755.xml"
+    },
+    {
+      "Title": "Stortingsvedtak om avgift på trafikkforsikringer for 2026",
+      "TitleShort": "",
+      "LegacyID": "FOR-2025-12-18-2756",
+      "LawID": "2025-12-18-2756",
+      "RefID": "forskrift/2025-12-18-2756",
+      "DokID": "STV/forskrift/2025-12-18-2756",
+      "Ministry": [
+        "Stortinget"
+      ],
+      "LegalAreas": [],
+      "DateInForce": {
+        "Raw": "Budsjettåret 2026",
+        "Dates": [],
+        "Note": "Budsjettåret 2026"
+      },
+      "LastUpdated": null,
+      "LastChangedBy": [],
+      "LastChangeInForce": null,
+      "MiscInformation": "Hjemmel: Vedtatt av Stortinget 18. desember 2025 med hjemmel i Kongeriket Norges Grunnlov 17. mai 1814 § 75 bokstav a, jf. lov 19. mai 1933 nr. 11 om særavgifter (særavgiftsloven).",
+      "DateOfPublication": {
+        "Raw": "2025-12-22 11:30",
+        "Dates": [
+          "2025-12-22"
+        ],
+        "Note": "11:30"
+      },
+      "ChangesToDocuments": [],
+      "EeaReferences": "",
+      "AppliesTo": "",
+      "Source": "stv",
+      "SourceFile": "sf-20251218-2756.xml"
+    },
+    {
+      "Title": "Stortingsvedtak om vektårsavgift for 2026",
+      "TitleShort": "",
+      "LegacyID": "FOR-2025-12-18-2757",
+      "LawID": "2025-12-18-2757",
+      "RefID": "forskrift/2025-12-18-2757",
+      "DokID": "STV/forskrift/2025-12-18-2757",
+      "Ministry": [
+        "Stortinget"
+      ],
+      "LegalAreas": [],
+      "DateInForce": {
+        "Raw": "Budsjettåret 2026",
+        "Dates": [],
+        "Note": "Budsjettåret 2026"
+      },
+      "LastUpdated": null,
+      "LastChangedBy": [],
+      "LastChangeInForce": null,
+      "MiscInformation": "Hjemmel: Vedtatt av Stortinget 18. desember 2025 med hjemmel i Kongeriket Norges Grunnlov 17. mai 1814 § 75 bokstav a, jf. lov 19. juni 1959 nr. 2 om avgifter vedrørende motorkjøretøyer og båter (motorkjøretøy- og båtavgiftsloven).",
+      "DateOfPublication": {
+        "Raw": "2025-12-22 11:30",
+        "Dates": [
+          "2025-12-22"
+        ],
+        "Note": "11:30"
+      },
+      "ChangesToDocuments": [],
+      "EeaReferences": "",
+      "AppliesTo": "",
+      "Source": "stv",
+      "SourceFile": "sf-20251218-2757.xml"
+    },
+    {
+      "Title": "Stortingsvedtak om omregistreringsavgift for 2026",
+      "TitleShort": "",
+      "LegacyID": "FOR-2025-12-18-2758",
+      "LawID": "2025-12-18-2758",
+      "RefID": "forskrift/2025-12-18-2758",
+      "DokID": "STV/forskrift/2025-12-18-2758",
+      "Ministry": [
+        "Stortinget"
+      ],
+      "LegalAreas": [],
+      "DateInForce": {
+        "Raw": "Budsjettåret 2026",
+        "Dates": [],
+        "Note": "Budsjettåret 2026"
+      },
+      "LastUpdated": null,
+      "LastChangedBy": [],
+      "LastChangeInForce": null,
+      "MiscInformation": "Hjemmel: Vedtatt av Stortinget 18. desember 2025 med hjemmel i Kongeriket Norges Grunnlov 17. mai 1814 § 75 bokstav a, jf. lov 19. juni 1959 nr. 2 om avgifter vedrørende motorkjøretøyer og båter (motorkjøretøy- og båtavgiftsloven).",
+      "DateOfPublication": {
+        "Raw": "2025-12-22 11:30",
+        "Dates": [
+          "2025-12-22"
+        ],
+        "Note": "11:30"
+      },
+      "ChangesToDocuments": [],
+      "EeaReferences": "",
+      "AppliesTo": "",
+      "Source": "stv",
+      "SourceFile": "sf-20251218-2758.xml"
+    },
+    {
+      "Title": "Stortingsvedtak om veibruksavgift på drivstoff for 2026",
+      "TitleShort": "",
+      "LegacyID": "FOR-2025-12-18-2759",
+      "LawID": "2025-12-18-2759",
+      "RefID": "forskrift/2025-12-18-2759",
+      "DokID": "STV/forskrift/2025-12-18-2759",
+      "Ministry": [
+        "Stortinget"
+      ],
+      "LegalAreas": [],
+      "DateInForce": {
+        "Raw": "Budsjettåret 2026",
+        "Dates": [],
+        "Note": "Budsjettåret 2026"
+      },
+      "LastUpdated": {
+        "Raw": "2026-05-07 (§ 1)",
+        "Dates": [
+          "2026-05-07"
+        ],
+        "Note": "§ 1"
+      },
+      "LastChangedBy": [
+        {
+          "RefID": "forskrift/2026-03-26-486",
+          "Text": "forskrift/2026-03-26-486",
+          "Date": "2026-03-26"
+        }
+      ],
+      "LastChangeInForce": {
+        "Raw": "2026-04-01",
+        "Dates": [
+          "2026-04-01"
+        ],
+        "Note": ""
+      },
+      "MiscInformation": "Hjemmel: Vedtatt av Stortinget 18. desember 2025 med hjemmel i Kongeriket Norges Grunnlov 17. mai 1814 § 75 bokstav a, jf. lov 19. mai 1933 nr. 11 om særavgifter (særavgiftsloven).\n Endret ved vedtak 26 mars 2026 nr. 486 (i kraft 1 april 2026).\n Endres ved vedtak 26 mars 2026 nr. 486 (i kraft 1 september 2026, forrige endring reverseres).",
+      "DateOfPublication": {
+        "Raw": "2025-12-22 11:30",
+        "Dates": [
+          "2025-12-22"
+        ],
+        "Note": "11:30"
+      },
+      "ChangesToDocuments": [],
+      "EeaReferences": "",
+      "AppliesTo": "",
+      "Source": "stv",
+      "SourceFile": "sf-20251218-2759.xml"
+    },
+    {
+      "Title": "Stortingsvedtak om avgift på elektrisk kraft for 2026",
+      "TitleShort": "",
+      "LegacyID": "FOR-2025-12-18-2760",
+      "LawID": "2025-12-18-2760",
+      "RefID": "forskrift/2025-12-18-2760",
+      "DokID": "STV/forskrift/2025-12-18-2760",
+      "Ministry": [
+        "Stortinget"
+      ],
+      "LegalAreas": [],
+      "DateInForce": {
+        "Raw": "Budsjettåret 2026, departementet bestemmer",
+        "Dates": [],
+        "Note": "Budsjettåret 2026, departementet bestemmer"
+      },
+      "LastUpdated": null,
+      "LastChangedBy": [
+        {
+          "RefID": "forskrift/2025-12-19-2788",
+          "Text": "forskrift/2025-12-19-2788",
+          "Date": "2025-12-19"
+        }
+      ],
+      "LastChangeInForce": {
+        "Raw": "2026-01-01",
+        "Dates": [
+          "2026-01-01"
+        ],
+        "Note": ""
+      },
+      "MiscInformation": "Hjemmel: Vedtatt av Stortinget 18. desember 2025 med hjemmel i Kongeriket Norges Grunnlov 17. mai 1814 § 75 bokstav a, jf. lov 19. mai 1933 nr. 11 om særavgifter (særavgiftsloven).\n Endret ved vedtak 19 des 2025 nr. 2788 (i kraft 1 jan 2026, ikrafttredelse av endringer i romertall II).",
+      "DateOfPublication": {
+        "Raw": "2025-12-22 11:30",
+        "Dates": [
+          "2025-12-22"
+        ],
+        "Note": "11:30"
+      },
+      "ChangesToDocuments": [],
+      "EeaReferences": "",
+      "AppliesTo": "",
+      "Source": "stv",
+      "SourceFile": "sf-20251218-2760.xml"
+    },
+    {
+      "Title": "Stortingsvedtak om avgift på vindkraft for 2026",
+      "TitleShort": "",
+      "LegacyID": "FOR-2025-12-18-2761",
+      "LawID": "2025-12-18-2761",
+      "RefID": "forskrift/2025-12-18-2761",
+      "DokID": "STV/forskrift/2025-12-18-2761",
+      "Ministry": [
+        "Stortinget"
+      ],
+      "LegalAreas": [],
+      "DateInForce": {
+        "Raw": "Budsjettåret 2026",
+        "Dates": [],
+        "Note": "Budsjettåret 2026"
+      },
+      "LastUpdated": null,
+      "LastChangedBy": [],
+      "LastChangeInForce": null,
+      "MiscInformation": "Hjemmel: Vedtatt av Stortinget 18. desember 2025 med hjemmel i Kongeriket Norges Grunnlov 17. mai 1814 § 75 bokstav a, jf. lov 19. mai 1933 nr. 11 om særavgifter (særavgiftsloven).",
+      "DateOfPublication": {
+        "Raw": "2025-12-22 11:30",
+        "Dates": [
+          "2025-12-22"
+        ],
+        "Note": "11:30"
+      },
+      "ChangesToDocuments": [],
+      "EeaReferences": "",
+      "AppliesTo": "",
+      "Source": "stv",
+      "SourceFile": "sf-20251218-2761.xml"
+    },
+    {
+      "Title": "Stortingsvedtak om avgift på smøreolje mv. for 2026",
+      "TitleShort": "",
+      "LegacyID": "FOR-2025-12-18-2762",
+      "LawID": "2025-12-18-2762",
+      "RefID": "forskrift/2025-12-18-2762",
+      "DokID": "STV/forskrift/2025-12-18-2762",
+      "Ministry": [
+        "Stortinget"
+      ],
+      "LegalAreas": [],
+      "DateInForce": {
+        "Raw": "Budsjettåret 2026",
+        "Dates": [],
+        "Note": "Budsjettåret 2026"
+      },
+      "LastUpdated": null,
+      "LastChangedBy": [],
+      "LastChangeInForce": null,
+      "MiscInformation": "Hjemmel: Vedtatt av Stortinget 18. desember 2025 med hjemmel i Kongeriket Norges Grunnlov 17. mai 1814 § 75 bokstav a, jf. lov 19. mai 1933 nr. 11 om særavgifter (særavgiftsloven).",
+      "DateOfPublication": {
+        "Raw": "2025-12-22 11:30",
+        "Dates": [
+          "2025-12-22"
+        ],
+        "Note": "11:30"
+      },
+      "ChangesToDocuments": [],
+      "EeaReferences": "",
+      "AppliesTo": "",
+      "Source": "stv",
+      "SourceFile": "sf-20251218-2762.xml"
+    },
+    {
+      "Title": "Stortingsvedtak om CO2-avgift på mineralske produkter for 2026",
+      "TitleShort": "",
+      "LegacyID": "FOR-2025-12-18-2763",
+      "LawID": "2025-12-18-2763",
+      "RefID": "forskrift/2025-12-18-2763",
+      "DokID": "STV/forskrift/2025-12-18-2763",
+      "Ministry": [
+        "Stortinget"
+      ],
+      "LegalAreas": [],
+      "DateInForce": {
+        "Raw": "Budsjettåret 2026, 2026-03-01",
+        "Dates": [
+          "2026-03-01"
+        ],
+        "Note": "Budsjettåret 2026"
+      },
+      "LastUpdated": {
+        "Raw": "2026-03-10 (§ 1 første ledd bokstav c og d)",
+        "Dates": [
+          "2026-03-10"
+        ],
+        "Note": "§ 1 første ledd bokstav c og d"
+      },
+      "LastChangedBy": [
+        {
+          "RefID": "forskrift/2026-06-23-1236",
+          "Text": "forskrift/2026-06-23-1236",
+          "Date": "2026-06-23"
+        }
+      ],
+      "LastChangeInForce": {
+        "Raw": "2026-06-23",
+        "Dates": [
+          "2026-06-23"
+        ],
+        "Note": ""
+      },
+      "MiscInformation": "Hjemmel: Vedtatt av Stortinget 18. desember 2025 med hjemmel i Kongeriket Norges Grunnlov 17. mai 1814 § 75 bokstav a, jf. lov 19. mai 1933 nr. 11 om særavgifter (særavgiftsloven).\n Endret ved vedtak 18 des 2025 nr. 2763 (i kraft 1 jan 2026 iflg. vedtak 27 feb 2026 nr. 300, ikrafttredelsen endret ved vedtak 23 juni 2026 nr. 1236), 3 mars 2026 nr. 320 (i kraft 1 mars 2026, opphevelse av ikrafttredelse av endringene i dette vedtakets romertall IV), 26 mars 2026 nr. 479 (i kraft 1 april 2026), 26 mars 2026 nr. 480 (i kraft 1 april 2026), 26 mars 2026 nr. 481 (i kraft 1 mai 2026 iflg. vedtak 30 mars 2026 nr. 525), 26 mars 2026 nr. 482 (i kraft 1 mai 2026 iflg. vedtak 30 mars 2026 nr. 525), 26 mars 2026 nr. 483 (i kraft 1 mai 2026 iflg. vedtak 30 mars 2026 nr. 525), 26 mars 2026 nr. 484 (i kraft 1 mai 2026 iflg. vedtak 30 mars 2026 nr. 525), 26 mars 2026 nr. 485 (i kraft 1 mai 2026 iflg. vedtak 30 mars 2026 nr. 525).\n Endres ved vedtak 26 mars 2026 nr. 479 (i kraft 1 september 2026, forrige endring reverseres). Endres ved vedtak 26 mars 2026 nr. 480 (i kraft 1 september 2026, forrige endring reverseres). Endres ved vedtak 26 mars 2026 nr. 481 (i kraft 1 september 2026, forrige endring reverseres). Endres ved vedtak 26 mars 2026 nr. 482 (i kraft 1 september 2026, forrige endring reverseres). Endres ved vedtak 26 mars 2026 nr. 483 (i kraft 1 september 2026, forrige endring reverseres). Endres ved vedtak 26 mars 2026 nr. 484 (i kraft 1 september 2026, forrige endring reverseres). Endres ved vedtak 26 mars 2026 nr. 485 (i kraft 1 september 2026, forrige endring reverseres).\n Rettet 10.03.2026 (§ 1 første ledd bokstav c og d).",
+      "DateOfPublication": {
+        "Raw": "2025-12-22 11:30",
+        "Dates": [
+          "2025-12-22"
+        ],
+        "Note": "11:30"
+      },
+      "ChangesToDocuments": [],
+      "EeaReferences": "",
+      "AppliesTo": "",
+      "Source": "stv",
+      "SourceFile": "sf-20251218-2763.xml"
+    },
+    {
+      "Title": "Stortingsvedtak om avgift på avfallsforbrenning for 2026",
+      "TitleShort": "",
+      "LegacyID": "FOR-2025-12-18-2764",
+      "LawID": "2025-12-18-2764",
+      "RefID": "forskrift/2025-12-18-2764",
+      "DokID": "STV/forskrift/2025-12-18-2764",
+      "Ministry": [
+        "Stortinget"
+      ],
+      "LegalAreas": [],
+      "DateInForce": {
+        "Raw": "Budsjettåret 2026, departementet bestemmer",
+        "Dates": [],
+        "Note": "Budsjettåret 2026, departementet bestemmer"
+      },
+      "LastUpdated": null,
+      "LastChangedBy": [
+        {
+          "RefID": "forskrift/2025-12-19-2782",
+          "Text": "forskrift/2025-12-19-2782",
+          "Date": "2025-12-19"
+        }
+      ],
+      "LastChangeInForce": {
+        "Raw": "2026-01-01",
+        "Dates": [
+          "2026-01-01"
+        ],
+        "Note": ""
+      },
+      "MiscInformation": "Hjemmel: Vedtatt av Stortinget 18. desember 2025 med hjemmel i Kongeriket Norges Grunnlov 17. mai 1814 § 75 bokstav a, jf. lov 19. mai 1933 nr. 11 om særavgifter (særavgiftsloven).\n Endret ved vedtak 19 des 2025 nr. 2782 (i kraft 1 jan 2026, ikrafttredelse av endringene i romertall II).",
+      "DateOfPublication": {
+        "Raw": "2025-12-22 11:30",
+        "Dates": [
+          "2025-12-22"
+        ],
+        "Note": "11:30"
+      },
+      "ChangesToDocuments": [],
+      "EeaReferences": "",
+      "AppliesTo": "",
+      "Source": "stv",
+      "SourceFile": "sf-20251218-2764.xml"
+    },
+    {
+      "Title": "Stortingsvedtak om avgift på HFK og PFK for 2026",
+      "TitleShort": "",
+      "LegacyID": "FOR-2025-12-18-2765",
+      "LawID": "2025-12-18-2765",
+      "RefID": "forskrift/2025-12-18-2765",
+      "DokID": "STV/forskrift/2025-12-18-2765",
+      "Ministry": [
+        "Stortinget"
+      ],
+      "LegalAreas": [],
+      "DateInForce": {
+        "Raw": "Budsjettåret 2026",
+        "Dates": [],
+        "Note": "Budsjettåret 2026"
+      },
+      "LastUpdated": null,
+      "LastChangedBy": [],
+      "LastChangeInForce": null,
+      "MiscInformation": "Hjemmel: Vedtatt av Stortinget 18. desember 2025 med hjemmel i Kongeriket Norges Grunnlov 17. mai 1814 § 75 bokstav a, jf. lov 19. mai 1933 nr. 11 om særavgifter (særavgiftsloven).",
+      "DateOfPublication": {
+        "Raw": "2025-12-22 11:30",
+        "Dates": [
+          "2025-12-22"
+        ],
+        "Note": "11:30"
+      },
+      "ChangesToDocuments": [],
+      "EeaReferences": "",
+      "AppliesTo": "",
+      "Source": "stv",
+      "SourceFile": "sf-20251218-2765.xml"
+    },
+    {
+      "Title": "Stortingsvedtak om avgift på SF6 for 2026",
+      "TitleShort": "",
+      "LegacyID": "FOR-2025-12-18-2766",
+      "LawID": "2025-12-18-2766",
+      "RefID": "forskrift/2025-12-18-2766",
+      "DokID": "STV/forskrift/2025-12-18-2766",
+      "Ministry": [
+        "Stortinget"
+      ],
+      "LegalAreas": [],
+      "DateInForce": {
+        "Raw": "Budsjettåret 2026",
+        "Dates": [],
+        "Note": "Budsjettåret 2026"
+      },
+      "LastUpdated": null,
+      "LastChangedBy": [],
+      "LastChangeInForce": null,
+      "MiscInformation": "Hjemmel: Vedtatt av Stortinget 18. desember 2025 med hjemmel i Kongeriket Norges Grunnlov 17. mai 1814 § 75 bokstav a, jf. lov 19. mai 1933 nr. 11 om særavgifter (særavgiftsloven).",
+      "DateOfPublication": {
+        "Raw": "2025-12-22 11:30",
+        "Dates": [
+          "2025-12-22"
+        ],
+        "Note": "11:30"
+      },
+      "ChangesToDocuments": [],
+      "EeaReferences": "",
+      "AppliesTo": "",
+      "Source": "stv",
+      "SourceFile": "sf-20251218-2766.xml"
+    },
+    {
+      "Title": "Stortingsvedtak om svovelavgift for 2026",
+      "TitleShort": "",
+      "LegacyID": "FOR-2025-12-18-2767",
+      "LawID": "2025-12-18-2767",
+      "RefID": "forskrift/2025-12-18-2767",
+      "DokID": "STV/forskrift/2025-12-18-2767",
+      "Ministry": [
+        "Stortinget"
+      ],
+      "LegalAreas": [],
+      "DateInForce": {
+        "Raw": "Budsjettåret 2026",
+        "Dates": [],
+        "Note": "Budsjettåret 2026"
+      },
+      "LastUpdated": null,
+      "LastChangedBy": [],
+      "LastChangeInForce": null,
+      "MiscInformation": "Hjemmel: Vedtatt av Stortinget 18. desember 2025 med hjemmel i Kongeriket Norges Grunnlov 17. mai 1814 § 75 bokstav a, jf. lov 19. mai 1933 nr. 11 om særavgifter (særavgiftsloven).",
+      "DateOfPublication": {
+        "Raw": "2025-12-22 11:30",
+        "Dates": [
+          "2025-12-22"
+        ],
+        "Note": "11:30"
+      },
+      "ChangesToDocuments": [],
+      "EeaReferences": "",
+      "AppliesTo": "",
+      "Source": "stv",
+      "SourceFile": "sf-20251218-2767.xml"
+    },
+    {
+      "Title": "Stortingsvedtak om avgift på NOX for 2026",
+      "TitleShort": "",
+      "LegacyID": "FOR-2025-12-18-2768",
+      "LawID": "2025-12-18-2768",
+      "RefID": "forskrift/2025-12-18-2768",
+      "DokID": "STV/forskrift/2025-12-18-2768",
+      "Ministry": [
+        "Stortinget"
+      ],
+      "LegalAreas": [],
+      "DateInForce": {
+        "Raw": "Budsjettåret 2026",
+        "Dates": [],
+        "Note": "Budsjettåret 2026"
+      },
+      "LastUpdated": null,
+      "LastChangedBy": [],
+      "LastChangeInForce": null,
+      "MiscInformation": "Hjemmel: Vedtatt av Stortinget 18. desember 2025 med hjemmel i Kongeriket Norges Grunnlov 17. mai 1814 § 75 bokstav a, jf. lov 19. mai 1933 nr. 11 om særavgifter (særavgiftsloven).",
+      "DateOfPublication": {
+        "Raw": "2025-12-22 11:30",
+        "Dates": [
+          "2025-12-22"
+        ],
+        "Note": "11:30"
+      },
+      "ChangesToDocuments": [],
+      "EeaReferences": "",
+      "AppliesTo": "",
+      "Source": "stv",
+      "SourceFile": "sf-20251218-2768.xml"
+    },
+    {
+      "Title": "Stortingsvedtak om miljøavgift på plantevernmidler for 2026",
+      "TitleShort": "",
+      "LegacyID": "FOR-2025-12-18-2769",
+      "LawID": "2025-12-18-2769",
+      "RefID": "forskrift/2025-12-18-2769",
+      "DokID": "STV/forskrift/2025-12-18-2769",
+      "Ministry": [
+        "Stortinget"
+      ],
+      "LegalAreas": [],
+      "DateInForce": {
+        "Raw": "Budsjettåret 2026",
+        "Dates": [],
+        "Note": "Budsjettåret 2026"
+      },
+      "LastUpdated": null,
+      "LastChangedBy": [],
+      "LastChangeInForce": null,
+      "MiscInformation": "Hjemmel: Vedtatt av Stortinget 18. desember 2025 med hjemmel i Kongeriket Norges Grunnlov 17. mai 1814 § 75 bokstav a, jf. lov 19. desember 2003 nr. 124 om matproduksjon og mattrygghet mv. (matloven) § 21.",
+      "DateOfPublication": {
+        "Raw": "2025-12-22 11:30",
+        "Dates": [
+          "2025-12-22"
+        ],
+        "Note": "11:30"
+      },
+      "ChangesToDocuments": [],
+      "EeaReferences": "",
+      "AppliesTo": "",
+      "Source": "stv",
+      "SourceFile": "sf-20251218-2769.xml"
+    },
+    {
+      "Title": "Stortingsvedtak om årsavgift knyttet til mineraler for 2026",
+      "TitleShort": "",
+      "LegacyID": "FOR-2025-12-18-2770",
+      "LawID": "2025-12-18-2770",
+      "RefID": "forskrift/2025-12-18-2770",
+      "DokID": "STV/forskrift/2025-12-18-2770",
+      "Ministry": [
+        "Stortinget"
+      ],
+      "LegalAreas": [],
+      "DateInForce": {
+        "Raw": "Budsjettåret 2026",
+        "Dates": [],
+        "Note": "Budsjettåret 2026"
+      },
+      "LastUpdated": null,
+      "LastChangedBy": [],
+      "LastChangeInForce": null,
+      "MiscInformation": "Hjemmel: Vedtatt av Stortinget 18. desember 2025 med hjemmel i Kongeriket Norges Grunnlov 17. mai 1814 § 75 bokstav a, jf. lov 19. juni 2009 nr. 101 om erverv og utvinning av mineralressurser (mineralloven) § 56.",
+      "DateOfPublication": {
+        "Raw": "2025-12-22 11:30",
+        "Dates": [
+          "2025-12-22"
+        ],
+        "Note": "11:30"
+      },
+      "ChangesToDocuments": [],
+      "EeaReferences": "",
+      "AppliesTo": "",
+      "Source": "stv",
+      "SourceFile": "sf-20251218-2770.xml"
+    },
+    {
+      "Title": "Stortingsvedtak om avgift på undersjøisk utnyttelse mv. av kalkstein for 2026",
+      "TitleShort": "",
+      "LegacyID": "FOR-2025-12-18-2771",
+      "LawID": "2025-12-18-2771",
+      "RefID": "forskrift/2025-12-18-2771",
+      "DokID": "STV/forskrift/2025-12-18-2771",
+      "Ministry": [
+        "Stortinget"
+      ],
+      "LegalAreas": [],
+      "DateInForce": {
+        "Raw": "Budsjettåret 2026",
+        "Dates": [],
+        "Note": "Budsjettåret 2026"
+      },
+      "LastUpdated": null,
+      "LastChangedBy": [],
+      "LastChangeInForce": null,
+      "MiscInformation": "Hjemmel: Vedtatt av Stortinget 18. desember 2025 med hjemmel i Kongeriket Norges Grunnlov 17. mai 1814 § 75 bokstav a.",
+      "DateOfPublication": {
+        "Raw": "2025-12-22 11:30",
+        "Dates": [
+          "2025-12-22"
+        ],
+        "Note": "11:30"
+      },
+      "ChangesToDocuments": [],
+      "EeaReferences": "",
+      "AppliesTo": "",
+      "Source": "stv",
+      "SourceFile": "sf-20251218-2771.xml"
+    },
+    {
+      "Title": "Stortingsvedtak om avgift på oppdrettsfisk for 2026",
+      "TitleShort": "",
+      "LegacyID": "FOR-2025-12-18-2772",
+      "LawID": "2025-12-18-2772",
+      "RefID": "forskrift/2025-12-18-2772",
+      "DokID": "STV/forskrift/2025-12-18-2772",
+      "Ministry": [
+        "Stortinget"
+      ],
+      "LegalAreas": [],
+      "DateInForce": {
+        "Raw": "Budsjettåret 2026",
+        "Dates": [],
+        "Note": "Budsjettåret 2026"
+      },
+      "LastUpdated": null,
+      "LastChangedBy": [],
+      "LastChangeInForce": null,
+      "MiscInformation": "Hjemmel: Vedtatt av Stortinget 18. desember 2025 med hjemmel i Kongeriket Norges Grunnlov 17. mai 1814 § 75 bokstav a, jf. lov 19. mai 1933 nr. 11 om særavgifter (særavgiftsloven).",
+      "DateOfPublication": {
+        "Raw": "2025-12-22 11:30",
+        "Dates": [
+          "2025-12-22"
+        ],
+        "Note": "11:30"
+      },
+      "ChangesToDocuments": [],
+      "EeaReferences": "",
+      "AppliesTo": "",
+      "Source": "stv",
+      "SourceFile": "sf-20251218-2772.xml"
+    },
+    {
+      "Title": "Stortingsvedtak om avgift på viltlevende marine ressurser for 2026",
+      "TitleShort": "",
+      "LegacyID": "FOR-2025-12-18-2773",
+      "LawID": "2025-12-18-2773",
+      "RefID": "forskrift/2025-12-18-2773",
+      "DokID": "STV/forskrift/2025-12-18-2773",
+      "Ministry": [
+        "Stortinget"
+      ],
+      "LegalAreas": [],
+      "DateInForce": {
+        "Raw": "Budsjettåret 2026",
+        "Dates": [],
+        "Note": "Budsjettåret 2026"
+      },
+      "LastUpdated": null,
+      "LastChangedBy": [],
+      "LastChangeInForce": null,
+      "MiscInformation": "Hjemmel: Vedtatt av Stortinget 18. desember 2025 med hjemmel i Kongeriket Norges Grunnlov 17. mai 1814 § 75 bokstav a, jf. lov 19. mai 1933 nr. 11 om særavgifter (særavgiftsloven).",
+      "DateOfPublication": {
+        "Raw": "2025-12-22 11:30",
+        "Dates": [
+          "2025-12-22"
+        ],
+        "Note": "11:30"
+      },
+      "ChangesToDocuments": [],
+      "EeaReferences": "",
+      "AppliesTo": "",
+      "Source": "stv",
+      "SourceFile": "sf-20251218-2773.xml"
+    },
+    {
+      "Title": "Stortingsvedtak om avgift på sukker mv. for 2026",
+      "TitleShort": "",
+      "LegacyID": "FOR-2025-12-18-2774",
+      "LawID": "2025-12-18-2774",
+      "RefID": "forskrift/2025-12-18-2774",
+      "DokID": "STV/forskrift/2025-12-18-2774",
+      "Ministry": [
+        "Stortinget"
+      ],
+      "LegalAreas": [],
+      "DateInForce": {
+        "Raw": "Budsjettåret 2026",
+        "Dates": [],
+        "Note": "Budsjettåret 2026"
+      },
+      "LastUpdated": null,
+      "LastChangedBy": [],
+      "LastChangeInForce": null,
+      "MiscInformation": "Hjemmel: Vedtatt av Stortinget 18. desember 2025 med hjemmel i Kongeriket Norges Grunnlov 17. mai 1814 § 75 bokstav a, jf. lov 19. mai 1933 nr. 11 om særavgifter (særavgiftsloven).",
+      "DateOfPublication": {
+        "Raw": "2025-12-22 11:30",
+        "Dates": [
+          "2025-12-22"
+        ],
+        "Note": "11:30"
+      },
+      "ChangesToDocuments": [],
+      "EeaReferences": "",
+      "AppliesTo": "",
+      "Source": "stv",
+      "SourceFile": "sf-20251218-2774.xml"
+    },
+    {
+      "Title": "Stortingsvedtak om avgifter på drikkevareemballasje for 2026",
+      "TitleShort": "",
+      "LegacyID": "FOR-2025-12-18-2775",
+      "LawID": "2025-12-18-2775",
+      "RefID": "forskrift/2025-12-18-2775",
+      "DokID": "STV/forskrift/2025-12-18-2775",
+      "Ministry": [
+        "Stortinget"
+      ],
+      "LegalAreas": [],
+      "DateInForce": {
+        "Raw": "Budsjettåret 2026",
+        "Dates": [],
+        "Note": "Budsjettåret 2026"
+      },
+      "LastUpdated": null,
+      "LastChangedBy": [],
+      "LastChangeInForce": null,
+      "MiscInformation": "Hjemmel: Vedtatt av Stortinget 18. desember 2025 med hjemmel i Kongeriket Norges Grunnlov 17. mai 1814 § 75 bokstav a, jf. lov 19. mai 1933 nr. 11 om særavgifter (særavgiftsloven).",
+      "DateOfPublication": {
+        "Raw": "2025-12-22 11:30",
+        "Dates": [
+          "2025-12-22"
+        ],
+        "Note": "11:30"
+      },
+      "ChangesToDocuments": [],
+      "EeaReferences": "",
+      "AppliesTo": "",
+      "Source": "stv",
+      "SourceFile": "sf-20251218-2775.xml"
+    },
+    {
+      "Title": "Stortingsvedtak om flypassasjeravgift for 2026",
+      "TitleShort": "",
+      "LegacyID": "FOR-2025-12-18-2776",
+      "LawID": "2025-12-18-2776",
+      "RefID": "forskrift/2025-12-18-2776",
+      "DokID": "STV/forskrift/2025-12-18-2776",
+      "Ministry": [
+        "Stortinget"
+      ],
+      "LegalAreas": [],
+      "DateInForce": {
+        "Raw": "Budsjettåret 2026",
+        "Dates": [],
+        "Note": "Budsjettåret 2026"
+      },
+      "LastUpdated": null,
+      "LastChangedBy": [],
+      "LastChangeInForce": null,
+      "MiscInformation": "Hjemmel: Vedtatt av Stortinget 18. desember 2025 med hjemmel i Kongeriket Norges Grunnlov 17. mai 1814 § 75 bokstav a, jf. lov 19. mai 1933 nr. 11 om særavgifter (særavgiftsloven).",
+      "DateOfPublication": {
+        "Raw": "2025-12-22 11:30",
+        "Dates": [
+          "2025-12-22"
+        ],
+        "Note": "11:30"
+      },
+      "ChangesToDocuments": [],
+      "EeaReferences": "",
+      "AppliesTo": "",
+      "Source": "stv",
+      "SourceFile": "sf-20251218-2776.xml"
+    },
+    {
+      "Title": "Stortingsvedtak om dokumentavgift for 2026",
+      "TitleShort": "",
+      "LegacyID": "FOR-2025-12-18-2777",
+      "LawID": "2025-12-18-2777",
+      "RefID": "forskrift/2025-12-18-2777",
+      "DokID": "STV/forskrift/2025-12-18-2777",
+      "Ministry": [
+        "Stortinget"
+      ],
+      "LegalAreas": [],
+      "DateInForce": {
+        "Raw": "Budsjettåret 2026",
+        "Dates": [],
+        "Note": "Budsjettåret 2026"
+      },
+      "LastUpdated": null,
+      "LastChangedBy": [],
+      "LastChangeInForce": null,
+      "MiscInformation": "Hjemmel: Vedtatt av Stortinget 18. desember 2025 med hjemmel i Kongeriket Norges Grunnlov 17. mai 1814 § 75 bokstav a, jf. lov 12. desember 1975 nr. 59 om dokumentavgift (dokumentavgiftsloven).",
+      "DateOfPublication": {
+        "Raw": "2025-12-22 11:30",
+        "Dates": [
+          "2025-12-22"
+        ],
+        "Note": "11:30"
+      },
+      "ChangesToDocuments": [],
+      "EeaReferences": "",
+      "AppliesTo": "",
+      "Source": "stv",
+      "SourceFile": "sf-20251218-2777.xml"
+    },
+    {
+      "Title": "Stortingsvedtak om frekvens- og nummeravgift for 2026",
+      "TitleShort": "",
+      "LegacyID": "FOR-2025-12-18-2778",
+      "LawID": "2025-12-18-2778",
+      "RefID": "forskrift/2025-12-18-2778",
+      "DokID": "STV/forskrift/2025-12-18-2778",
+      "Ministry": [
+        "Stortinget"
+      ],
+      "LegalAreas": [],
+      "DateInForce": {
+        "Raw": "Budsjettåret 2026",
+        "Dates": [],
+        "Note": "Budsjettåret 2026"
+      },
+      "LastUpdated": null,
+      "LastChangedBy": [],
+      "LastChangeInForce": null,
+      "MiscInformation": "Hjemmel: Vedtatt av Stortinget 18. desember 2025 med hjemmel i Kongeriket Norges Grunnlov 17. mai 1814 § 75 bokstav a, jf. lov 13. desember 2024 nr. 76 om elektronisk kommunikasjon (ekomloven).",
+      "DateOfPublication": {
+        "Raw": "2025-12-22 11:30",
+        "Dates": [
+          "2025-12-22"
+        ],
+        "Note": "11:30"
+      },
+      "ChangesToDocuments": [],
+      "EeaReferences": "",
+      "AppliesTo": "",
+      "Source": "stv",
+      "SourceFile": "sf-20251218-2778.xml"
+    },
+    {
+      "Title": "Stortingsvedtak om tollavgift for 2026",
+      "TitleShort": "",
+      "LegacyID": "FOR-2025-12-18-2779",
+      "LawID": "2025-12-18-2779",
+      "RefID": "forskrift/2025-12-18-2779",
+      "DokID": "STV/forskrift/2025-12-18-2779",
+      "Ministry": [
+        "Stortinget"
+      ],
+      "LegalAreas": [],
+      "DateInForce": {
+        "Raw": "Budsjettåret 2026",
+        "Dates": [],
+        "Note": "Budsjettåret 2026"
+      },
+      "LastUpdated": null,
+      "LastChangedBy": [],
+      "LastChangeInForce": null,
+      "MiscInformation": "Hjemmel: Vedtatt av Stortinget 18. desember 2025 med hjemmel i Kongeriket Norges Grunnlov 17. mai 1814 § 75 bokstav a, jf. lov 11. mars 2022 nr. 8 om tollavgift (tollavgiftsloven).",
+      "DateOfPublication": {
+        "Raw": "2025-12-22 11:30",
+        "Dates": [
+          "2025-12-22"
+        ],
+        "Note": "11:30"
+      },
+      "ChangesToDocuments": [],
+      "EeaReferences": "",
+      "AppliesTo": "",
+      "Source": "stv",
+      "SourceFile": "sf-20251218-2779.xml"
+    },
+    {
+      "Title": "Stortingsvedtak om formues- og inntektsskatt til Svalbard for inntektsåret 2026",
+      "TitleShort": "Vedtak om Svalbardskatt, 2026",
+      "LegacyID": "FOR-2025-12-19-2780",
+      "LawID": "2025-12-19-2780",
+      "RefID": "forskrift/2025-12-19-2780",
+      "DokID": "STV/forskrift/2025-12-19-2780",
+      "Ministry": [
+        "Stortinget"
+      ],
+      "LegalAreas": [],
+      "DateInForce": {
+        "Raw": "Inntektsåret 2026",
+        "Dates": [],
+        "Note": "Inntektsåret 2026"
+      },
+      "LastUpdated": null,
+      "LastChangedBy": [],
+      "LastChangeInForce": null,
+      "MiscInformation": "Heimel: Vedteken av Stortinget 19. desember 2025 med heimel i Kongeriket Noregs grunnlov 17. mai 1814 § 75 bokstav a, jf. lov 29. november 1996 nr. 68 om skatt til Svalbard (Svalbardskatteloven).",
+      "DateOfPublication": {
+        "Raw": "2025-12-22 11:30",
+        "Dates": [
+          "2025-12-22"
+        ],
+        "Note": "11:30"
+      },
+      "ChangesToDocuments": [],
+      "EeaReferences": "",
+      "AppliesTo": "",
+      "Source": "stv",
+      "SourceFile": "sf-20251219-2780.xml"
+    },
+    {
+      "Title": "Stortingsvedtak om avgift av kol som blir utført frå Svalbard, for budsjetterminen 2026",
+      "TitleShort": "",
+      "LegacyID": "FOR-2025-12-19-2781",
+      "LawID": "2025-12-19-2781",
+      "RefID": "forskrift/2025-12-19-2781",
+      "DokID": "STV/forskrift/2025-12-19-2781",
+      "Ministry": [
+        "Stortinget"
+      ],
+      "LegalAreas": [],
+      "DateInForce": {
+        "Raw": "Budsjettåret 2026",
+        "Dates": [],
+        "Note": "Budsjettåret 2026"
+      },
+      "LastUpdated": null,
+      "LastChangedBy": [],
+      "LastChangeInForce": null,
+      "MiscInformation": "Heimel: Vedteken av Stortinget 19. desember 2025 med heimel i Kongeriket Noregs grunnlov 17. mai 1814 § 75 bokstav a.",
+      "DateOfPublication": {
+        "Raw": "2025-12-22 11:30",
+        "Dates": [
+          "2025-12-22"
+        ],
+        "Note": "11:30"
+      },
+      "ChangesToDocuments": [],
+      "EeaReferences": "",
+      "AppliesTo": "",
+      "Source": "stv",
+      "SourceFile": "sf-20251219-2781.xml"
+    },
+    {
+      "Title": "Stortingsvedtak om inntekter ved tildeling av tillatelser for 2026",
+      "TitleShort": "",
+      "LegacyID": "FOR-2025-12-22-2790",
+      "LawID": "2025-12-22-2790",
+      "RefID": "forskrift/2025-12-22-2790",
+      "DokID": "STV/forskrift/2025-12-22-2790",
+      "Ministry": [
+        "Stortinget"
+      ],
+      "LegalAreas": [],
+      "DateInForce": {
+        "Raw": "Budsjettåret 2026",
+        "Dates": [],
+        "Note": "Budsjettåret 2026"
+      },
+      "LastUpdated": null,
+      "LastChangedBy": [],
+      "LastChangeInForce": null,
+      "MiscInformation": "Hjemmel: Vedtatt av Stortinget 22. desember 2025 med hjemmel i Kongeriket Norges Grunnlov 17. mai 1814 § 75 bokstav a.",
+      "DateOfPublication": {
+        "Raw": "2025-12-22 14:10",
+        "Dates": [
+          "2025-12-22"
+        ],
+        "Note": "14:10"
+      },
+      "ChangesToDocuments": [],
+      "EeaReferences": "",
+      "AppliesTo": "",
+      "Source": "stv",
+      "SourceFile": "sf-20251222-2790.xml"
+    },
+    {
+      "Title": "Vedtak om endring i stortingsvedtak 18. desember 2025 nr. 2755 om engangsavgift på motorvogner mv. for 2026",
+      "TitleShort": "",
+      "LegacyID": "FOR-2026-06-19-1246",
+      "LawID": "2026-06-19-1246",
+      "RefID": "forskrift/2026-06-19-1246",
+      "DokID": "STV/forskrift/2026-06-19-1246",
+      "Ministry": [
+        "Stortinget"
+      ],
+      "LegalAreas": [],
+      "DateInForce": {
+        "Raw": "2026-09-01",
+        "Dates": [
+          "2026-09-01"
+        ],
+        "Note": ""
+      },
+      "LastUpdated": null,
+      "LastChangedBy": [],
+      "LastChangeInForce": null,
+      "MiscInformation": "Heimel: Vedtatt av Stortinget 19. juni 2026 med heimel i Kongeriket Noregs grunnlov 17. mai 1814 § 75 bokstav a, jf. jf. lov 19. juni 1959 nr. 2 om avgifter vedrørende motorkjøretøyer og båter (motorkjøretøy- og båtavgiftsloven).",
+      "DateOfPublication": {
+        "Raw": "2026-06-23 15:50",
+        "Dates": [
+          "2026-06-23"
+        ],
+        "Note": "15:50"
+      },
+      "ChangesToDocuments": [
+        {
+          "RefID": "forskrift/2025-12-18-2755",
+          "Text": "forskrift/2025-12-18-2755",
+          "Date": "2025-12-18"
+        }
+      ],
+      "EeaReferences": "",
+      "AppliesTo": "",
+      "Source": "stv",
+      "SourceFile": "sf-20260619-1246.xml"
+    }
+  ]
+}
