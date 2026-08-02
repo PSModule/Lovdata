@@ -1,3 +1,6 @@
+# The generated index and the XML fixtures carry Norwegian legal text, which the English spell checker
+# would flag on every other word. They are data, not prose we author, so they are skipped wholesale.
+# Trade-off: a genuine typo introduced into a future fixture would not be caught here.
 [codespell]
 skip = ./.github/linters,*LovdataIndex.*.json,*/tests/fixtures/*
 ignore-words-list = afterall
