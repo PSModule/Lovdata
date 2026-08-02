@@ -6,7 +6,7 @@ function Find-LovdataDocument {
         .DESCRIPTION
         Searches the metadata-only index the module ships and returns the matching documents, with no
         network access. A search term is matched against the title, short title, and the identifiers
-        (RefID, legacy id, and bare law id); a plain term without wildcards is treated as a substring. The
+        (RefID, legacy ID, and bare law ID); a plain term without wildcards is treated as a substring. The
         results can be narrowed further by ministry or legal area. All given filters must match.
 
         .EXAMPLE
@@ -47,7 +47,7 @@ function Find-LovdataDocument {
         [ValidateNotNullOrEmpty()]
         [string] $Ministry,
 
-        # A legal area to match against its id, name, or path. A plain term matches as a substring.
+        # A legal area to match against its ID, name, or path. A plain term matches as a substring.
         [Parameter()]
         [ValidateNotNullOrEmpty()]
         [string] $LegalArea
