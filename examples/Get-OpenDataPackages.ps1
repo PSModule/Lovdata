@@ -23,8 +23,6 @@ $packages = Get-LovdataPublicDataset -FileName 'gjeldende-*' |
 
 # Unpack each downloaded archive next to itself.
 foreach ($package in $packages) {
-    $target = Join-Path -Path $destination -ChildPath $package.BaseName
-    $null = New-Item -Path $target -ItemType Directory -Force
-    tar -xjf $package.FullName -C $target
-    "Unpacked [$($package.Name)] into [$target]."
+    $folder = Expand-LovdataPublicDataset -Path $package.FullName -Force
+    "Unpacked [$($package.Name)] into [$($folder.FullName)]."
 }

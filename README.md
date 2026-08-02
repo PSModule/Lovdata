@@ -48,6 +48,29 @@ Download the current acts and central regulations to a folder, with progress and
 Get-LovdataPublicDataset -FileName 'gjeldende-*' | Save-LovdataPublicDataset -Path './lovdata'
 ```
 
+Unpack a downloaded package and read its documents as objects, with the full chapter and paragraph structure, clauses, lists,
+footnotes, and change notes:
+
+```powershell
+$folder = Expand-LovdataPublicDataset -Path './lovdata/gjeldende-lover.tar.bz2'
+Get-LovdataDocument -Path $folder -RefID 'lov/1997-02-28-19'
+```
+
+Look documents up offline from the metadata index the module ships, refreshed daily, without downloading anything:
+
+```powershell
+Get-LovdataDocument -RefID 'lov/1997-02-28-19'
+Find-LovdataDocument -Name 'folketrygd'
+Find-LovdataDocument -Ministry 'Justis*' -LegalArea 'Strafferett*'
+```
+
+Browse the legal-area taxonomy the documents are filed under:
+
+```powershell
+Get-LovdataLegalArea
+Get-LovdataLegalArea -ID '09*'
+```
+
 Point the module at a different API base URI for the session, for example a test deployment:
 
 ```powershell
