@@ -5,29 +5,22 @@
     Shared setup for the Lovdata test suites.
 
     .DESCRIPTION
-    Points the imported Lovdata module at a throwaway Context vault so tests exercise the real store
-    without touching the vault a developer or runner already has, and returns the vault name so the
-    calling suite can remove it again.
+    Resets the imported Lovdata module's in-memory settings back to the module defaults so each suite
+    starts from a known state. The module keeps no vault and no secret, so there is nothing to clean up
+    afterwards.
 
     .EXAMPLE
-    $vault = . "$PSScriptRoot/Lovdata.TestSetup.ps1"
+    . "$PSScriptRoot/Lovdata.TestSetup.ps1"
 
     .INPUTS
     None
 
     .OUTPUTS
-    System.String
+    None
 #>
 [CmdletBinding()]
 param()
 
-$testVault = "PSModule.Lovdata.Tests.$([guid]::NewGuid().Guid)"
-
-InModuleScope -ModuleName Lovdata -Parameters @{ Vault = $testVault } -ScriptBlock {
-    param($Vault)
-
-    $script:Lovdata.ContextVault = $Vault
+InModuleScope -ModuleName Lovdata {
     $script:Lovdata.Config = $null
 }
-
-$testVault
