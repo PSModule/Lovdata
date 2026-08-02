@@ -1,8 +1,9 @@
 # Public data
 
 Lovdata publishes the current Norwegian acts (`gjeldende-lover.tar.bz2`) and central regulations
-(`gjeldende-sentrale-forskrifter.tar.bz2`) as free open data. These commands list the packages and
-download one to disk, with no account and no `API` key.
+(`gjeldende-sentrale-forskrifter.tar.bz2`) as free open data. These commands list the packages, download
+one to disk, and unpack it, with no account and no `API` key. Once unpacked, `Get-LovdataDocument` parses
+the documents into objects.
 
 ## Licence and attribution
 
