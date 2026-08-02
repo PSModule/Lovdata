@@ -92,12 +92,41 @@ function ConvertFrom-LovdataMetadata {
                 return @()
             }
             $node = $meta[$class]
-            $date = (ConvertFrom-LovdataDateField -Text (& $clean $node.InnerText)).Dates | Select-Object -First 1
             $refs = foreach ($a in $node.SelectNodes(".//*[local-name()='a']")) {
+                $refId = $a.GetAttribute('href')
+
+                # The reference's own date comes from its own RefID, never from a neighbouring reference.
+                $selfDate = $null
+                $idMatch = [regex]::Match($refId, '\d{4}-\d{2}-\d{2}')
+                if ($idMatch.Success) {
+                    $selfDate = [datetime]::ParseExact(
+                        $idMatch.Value, 'yyyy-MM-dd', [cultureinfo]::InvariantCulture,
+                        [System.Globalization.DateTimeStyles]::None
+                    )
+                }
+
+                # The text between this anchor and the next carries an optional 'fra <date>' in-force date
+                # that belongs to this reference alone.
+                $trailing = ''
+                $sibling = $a.NextSibling
+                while ($null -ne $sibling -and -not ($sibling.NodeType -eq 'Element' -and $sibling.LocalName -eq 'a')) {
+                    $trailing += $sibling.InnerText
+                    $sibling = $sibling.NextSibling
+                }
+                $inForce = $null
+                $fraMatch = [regex]::Match((& $clean $trailing), 'fra\s+(\d{4}-\d{2}-\d{2})')
+                if ($fraMatch.Success) {
+                    $inForce = [datetime]::ParseExact(
+                        $fraMatch.Groups[1].Value, 'yyyy-MM-dd', [cultureinfo]::InvariantCulture,
+                        [System.Globalization.DateTimeStyles]::None
+                    )
+                }
+
                 [LovdataDocumentReference]@{
-                    RefID = $a.GetAttribute('href')
-                    Text  = & $clean $a.InnerText
-                    Date  = $date
+                    RefID       = $refId
+                    Text        = & $clean $a.InnerText
+                    Date        = $selfDate
+                    InForceFrom = $inForce
                 }
             }
             @($refs)

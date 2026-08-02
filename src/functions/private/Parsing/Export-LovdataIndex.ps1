@@ -65,9 +65,10 @@ function Export-LovdataIndex {
         $reference = {
             param($ref)
             [ordered]@{
-                RefID = $ref.RefID
-                Text  = $ref.Text
-                Date  = & $dateToText $ref.Date
+                RefID       = $ref.RefID
+                Text        = $ref.Text
+                Date        = & $dateToText $ref.Date
+                InForceFrom = & $dateToText $ref.InForceFrom
             }
         }
 
