@@ -58,7 +58,11 @@ function Get-LovdataPublicDataset {
             FileName     = [string]$item.filename
             Description  = [string]$item.description
             SizeBytes    = [long]$item.sizeBytes
-            LastModified = [datetime]$item.lastModified
+            LastModified = [datetime]::Parse(
+                [string]$item.lastModified,
+                [cultureinfo]::InvariantCulture,
+                [System.Globalization.DateTimeStyles]::RoundtripKind
+            )
         }
     }
 
