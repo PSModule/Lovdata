@@ -50,7 +50,9 @@ function ConvertFrom-LovdataDateField {
 
         # Whatever is left once the dates and their surrounding parentheses are removed is the note.
         $note = ($raw -replace '\d{4}-\d{2}-\d{2}', '') -replace '[()]', ' '
-        $note = ($note -replace '\s+', ' ').Trim().Trim(',', '.', ';').Trim()
+        $note = $note -replace '\s+', ' '
+        $note = $note -replace '(?:\s*,\s*)+', ', '
+        $note = $note.Trim().Trim(',', '.', ';').Trim()
         if ([string]::IsNullOrWhiteSpace($note)) {
             $note = $null
         }

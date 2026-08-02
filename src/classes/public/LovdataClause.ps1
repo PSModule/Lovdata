@@ -1,8 +1,9 @@
 # A single clause within a Lovdata article. A clause is a paragraph of legal text; a numbered clause also
-# carries the number Lovdata assigned it.
+# carries the label Lovdata assigned it.
 class LovdataClause {
-    # The clause number where Lovdata numbers it, otherwise null.
-    [nullable[int]] $Number
+    # The clause label where Lovdata numbers it, otherwise null. Kept as text because Lovdata uses more
+    # than plain integers, for example '1a', '4.2', or a roman numeral.
+    [string] $Number
 
     # The text of the clause.
     [string] $Text

@@ -46,7 +46,7 @@ function ConvertFrom-LovdataBody {
             param($node)
             $numerator = $node.GetAttribute('data-numerator')
             [LovdataClause]@{
-                Number = if ($numerator) { [int] $numerator } else { $null }
+                Number = if ($numerator) { $numerator } else { $null }
                 Text   = $node.InnerText.Trim()
                 ID     = $node.GetAttribute('id')
             }
