@@ -7,6 +7,9 @@ on:
   pull_request:
     branches:
       - main
+      # Bootstrap integration branch: follow-up function pull requests target it until the first release.
+      # https://psmodule.github.io/docs/Modules/Process-PSModule/module-bootstrap/
+      - build-lovdata-module
     types:
       - closed
       - opened

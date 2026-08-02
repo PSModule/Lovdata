@@ -1,28 +1,10 @@
-# This file is used to configure the Process-PSModule workflow.
-# Reference:
-# - https://github.com/PSModule/Process-PSModule?tab=readme-ov-file#configuration
-
-Test:
-  CodeCoverage:
-    PercentTarget: 0
-# Uncomment this to test faster by skipping some steps
-#   TestResults:
-#     Skip: true
-#   SourceCode:
-#     Skip: true
-#   PSModule:
-#     Skip: true
-#   Module:
-#     Windows:
-#       Skip: true
-#     MacOS:
-#       Skip: true
-# Build:
-#   Docs:
-#     Skip: true
+# Configuration for the Process-PSModule workflow.
+# Reference: https://github.com/PSModule/Process-PSModule?tab=readme-ov-file#configuration
+# Only settings that need to differ from the framework defaults belong here.
 
 Linter:
   env:
+    # Formatting-only validators that conflict with the PowerShell and Markdown style used in this repository.
     VALIDATE_BIOME_FORMAT: false
     VALIDATE_BIOME_LINT: false
     VALIDATE_GITHUB_ACTIONS_ZIZMOR: false
