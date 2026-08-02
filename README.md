@@ -1,29 +1,75 @@
-# Template-PSModule
+# Lovdata
 
-The canonical starting template for new PowerShell modules in the PSModule organization.
-
-## Purpose
-
-Use this template when creating a new PowerShell module repository.
-It provides the CI/CD framework wiring, required community files, and starter layout that every PSModule module repository needs.
-
-For step-by-step instructions, see the [template quickstart](https://psmodule.github.io/docs/Modules/Process-PSModule/template-quickstart/).
-
-## After creating a repository from this template
-
-1. Replace the `{{ NAME }}` and `{{ DESCRIPTION }}` placeholders throughout the repository.
-2. Replace the starter function, test, and example with your module's first real command.
-3. Set the repository description and custom properties on GitHub.
-4. Confirm `.github/PSModule.yml` only overrides defaults when your module needs different behavior.
-5. Open a draft pull request and run the full CI pipeline.
-
-See [repository defaults](https://psmodule.github.io/docs/Modules/Repository-Defaults/) for the full checklist.
+A PowerShell module for working with Norwegian legal data from [Lovdata](https://lovdata.no), the foundation that maintains the
+authoritative, continuously updated body of Norwegian law. The module wraps the [Lovdata API](https://api.lovdata.no/swagger/index.html)
+so laws (`lover`) and regulations (`forskrifter`) can be listed, inspected, and pulled into scripts as PowerShell objects instead of
+scraped HTML.
 
 ## Prerequisites
 
-Modules built from this template use the [PSModule framework](https://github.com/PSModule/Process-PSModule) for building, testing, and publishing.
+- PowerShell 7 or later on Windows, Linux, or macOS.
+- An API key from Lovdata for the authenticated endpoints. Lovdata issues keys to users with the `api` role in their user base;
+  contact [api@lovdata.no](mailto:api@lovdata.no) to request one. The key is sent as the `X-API-Key` request header on every call.
+- No key is needed for Lovdata's free public datasets, which are published under
+  [NLOD 2.0](https://data.norge.no/nlod/no/2.0). See [lovdata.no/info/api](https://lovdata.no/info/api) for the background.
 
-## Contributing
+The API also rate limits each key. Responses carry `X-RateLimit-Limit`, `X-RateLimit-Remaining`, and `X-RateLimit-Reset` headers, and
+the module surfaces the remaining budget on verbose output so long-running scripts can pace themselves.
 
-To contribute to this template itself, read the [Contribution guidelines](CONTRIBUTING.md).
-For agents and AI tools, start with [`AGENTS.md`](AGENTS.md).
+## Installation
+
+Install the module from the PowerShell Gallery:
+
+```powershell
+Install-PSResource -Name Lovdata
+Import-Module -Name Lovdata
+```
+
+## Capabilities
+
+Store the API key once. It is encrypted at rest by the [Context](https://psmodule.io/Context/) module and reused by every
+subsequent command, so scripts never carry the key themselves.
+
+```powershell
+Connect-LovdataAccount -ApiKey (Read-Host -Prompt 'Lovdata API key' -AsSecureString)
+```
+
+List the legal sources the account can reach, then narrow to the ones of interest:
+
+```powershell
+Get-LovdataLegalSource
+Get-LovdataLegalSource -ID 'lov*'
+```
+
+Keep several keys side by side — one per environment or customer — and switch between them without reconnecting:
+
+```powershell
+Connect-LovdataAccount -ApiKey $productionKey -Context 'production'
+Get-LovdataContext -ListAvailable
+Switch-LovdataContext -Context 'production'
+```
+
+Module-wide defaults, such as the API base URI, live in their own context and can be inspected or changed:
+
+```powershell
+Get-LovdataConfig
+Set-LovdataConfig -Name ApiBaseUri -Value 'https://api.lovdata.no'
+```
+
+## Attribution
+
+Lovdata publishes current laws and central regulations as open data under the
+[Norwegian Licence for Open Government Data (NLOD) 2.0](https://data.norge.no/nlod/no/2.0). Content retrieved through this module
+remains subject to Lovdata's terms; credit Lovdata as the source when redistributing it. This module is not affiliated with or
+endorsed by Lovdata.
+
+## Documentation
+
+Documentation is published at [psmodule.io/Lovdata](https://psmodule.io/Lovdata/).
+
+Use PowerShell help and command discovery for module details:
+
+```powershell
+Get-Command -Module Lovdata
+Get-Help -Name Get-LovdataLegalSource -Examples
+```
