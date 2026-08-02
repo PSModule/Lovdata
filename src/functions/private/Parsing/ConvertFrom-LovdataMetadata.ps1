@@ -59,10 +59,19 @@ function ConvertFrom-LovdataMetadata {
             }
         }
 
+        # Fold irregular whitespace (non-breaking space and friends, which the source encodes as numeric
+        # entities that resolve after load) down to ordinary spaces and trim, so no extracted text carries
+        # characters that later trip strict JSON or spell linters on the bundled index.
+        $clean = {
+            param($value)
+            if ($null -eq $value) { return $null }
+            (($value -replace '[\u00A0\u1680\u2000-\u200A\u2028\u2029\u202F\u205F\u3000\u000B\u000C]', ' ') -replace '\uFEFF', '').Trim()
+        }
+
         $text = {
             param($class)
             if ($meta.ContainsKey($class)) {
-                $meta[$class].InnerText.Trim()
+                & $clean $meta[$class].InnerText
             }
         }
 
@@ -72,7 +81,7 @@ function ConvertFrom-LovdataMetadata {
                 return @()
             }
             $values = foreach ($li in $meta[$class].SelectNodes(".//*[local-name()='li']")) {
-                $li.InnerText.Trim()
+                & $clean $li.InnerText
             }
             @($values)
         }
@@ -83,11 +92,11 @@ function ConvertFrom-LovdataMetadata {
                 return @()
             }
             $node = $meta[$class]
-            $date = (ConvertFrom-LovdataDateField -Text $node.InnerText).Dates | Select-Object -First 1
+            $date = (ConvertFrom-LovdataDateField -Text (& $clean $node.InnerText)).Dates | Select-Object -First 1
             $refs = foreach ($a in $node.SelectNodes(".//*[local-name()='a']")) {
                 [LovdataDocumentReference]@{
                     RefID = $a.GetAttribute('href')
-                    Text  = $a.InnerText.Trim()
+                    Text  = & $clean $a.InnerText
                     Date  = $date
                 }
             }
@@ -99,7 +108,7 @@ function ConvertFrom-LovdataMetadata {
             $entries = foreach ($li in $ul.SelectNodes("*[local-name()='li']")) {
                 $anchor = $li.SelectSingleNode("*[local-name()='a']")
                 $entry = [LovdataTocEntry]@{
-                    Title  = if ($anchor) { $anchor.InnerText.Trim() } else { $li.InnerText.Trim() }
+                    Title  = if ($anchor) { & $clean $anchor.InnerText } else { & $clean $li.InnerText }
                     Anchor = if ($anchor) { $anchor.GetAttribute('href') } else { '' }
                 }
                 $childUl = $li.SelectSingleNode("*[local-name()='ul']")
@@ -127,7 +136,7 @@ function ConvertFrom-LovdataMetadata {
             $segments = foreach ($a in $li.SelectNodes(".//*[local-name()='a']")) {
                 [pscustomobject]@{
                     ID   = $a.GetAttribute('href') -replace '^legal-areas/', ''
-                    Name = $a.InnerText.Trim()
+                    Name = & $clean $a.InnerText
                 }
             }
             $segments = @($segments)
@@ -144,16 +153,16 @@ function ConvertFrom-LovdataMetadata {
         $result.LegalAreas = @($areas)
 
         if ($meta.ContainsKey('dateInForce')) {
-            $result.DateInForce = ConvertFrom-LovdataDateField -Text $meta['dateInForce'].InnerText
+            $result.DateInForce = ConvertFrom-LovdataDateField -Text (& $clean $meta['dateInForce'].InnerText)
         }
         if ($meta.ContainsKey('lastupdated')) {
-            $result.LastUpdated = ConvertFrom-LovdataDateField -Text $meta['lastupdated'].InnerText
+            $result.LastUpdated = ConvertFrom-LovdataDateField -Text (& $clean $meta['lastupdated'].InnerText)
         }
         if ($meta.ContainsKey('lastChangeInForce')) {
-            $result.LastChangeInForce = ConvertFrom-LovdataDateField -Text $meta['lastChangeInForce'].InnerText
+            $result.LastChangeInForce = ConvertFrom-LovdataDateField -Text (& $clean $meta['lastChangeInForce'].InnerText)
         }
         if ($meta.ContainsKey('dateOfPublication')) {
-            $result.DateOfPublication = ConvertFrom-LovdataDateField -Text $meta['dateOfPublication'].InnerText
+            $result.DateOfPublication = ConvertFrom-LovdataDateField -Text (& $clean $meta['dateOfPublication'].InnerText)
         }
 
         $result.LastChangedBy = & $references 'lastChangedBy'
