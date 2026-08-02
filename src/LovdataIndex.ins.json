@@ -84,7 +84,8 @@
         {
           "RefID": "forskrift/2009-06-26-979",
           "Text": "forskrift/2009-06-26-979",
-          "Date": "2009-06-26"
+          "Date": "2009-06-26",
+          "InForceFrom": null
         }
       ],
       "LastChangeInForce": {
@@ -125,7 +126,8 @@
         {
           "RefID": "forskrift/2021-12-10-3466",
           "Text": "forskrift/2021-12-10-3466",
-          "Date": "2021-12-10"
+          "Date": "2021-12-10",
+          "InForceFrom": "2022-01-01"
         }
       ],
       "LastChangeInForce": {
@@ -443,7 +445,8 @@
         {
           "RefID": "forskrift/2001-09-28-1130",
           "Text": "forskrift/2001-09-28-1130",
-          "Date": "2001-09-28"
+          "Date": "2001-09-28",
+          "InForceFrom": "2001-10-01"
         }
       ],
       "LastChangeInForce": {
@@ -565,7 +568,8 @@
         {
           "RefID": "forskrift/2023-10-13-1628",
           "Text": "forskrift/2023-10-13-1628",
-          "Date": "2023-10-13"
+          "Date": "2023-10-13",
+          "InForceFrom": null
         }
       ],
       "LastChangeInForce": {
@@ -658,7 +662,8 @@
         {
           "RefID": "forskrift/1993-04-02-231",
           "Text": "forskrift/1993-04-02-231",
-          "Date": "1993-04-02"
+          "Date": "1993-04-02",
+          "InForceFrom": null
         }
       ],
       "LastChangeInForce": {
@@ -757,7 +762,8 @@
         {
           "RefID": "forskrift/2021-12-10-3466",
           "Text": "forskrift/2021-12-10-3466",
-          "Date": "2021-12-10"
+          "Date": "2021-12-10",
+          "InForceFrom": "2022-01-01"
         }
       ],
       "LastChangeInForce": {
@@ -798,7 +804,8 @@
         {
           "RefID": "forskrift/2015-04-24-397",
           "Text": "forskrift/2015-04-24-397",
-          "Date": "2015-04-24"
+          "Date": "2015-04-24",
+          "InForceFrom": null
         }
       ],
       "LastChangeInForce": {
@@ -920,7 +927,8 @@
         {
           "RefID": "forskrift/2007-12-18-1760",
           "Text": "forskrift/2007-12-18-1760",
-          "Date": "2007-12-18"
+          "Date": "2007-12-18",
+          "InForceFrom": "2008-01-15"
         }
       ],
       "LastChangeInForce": {
@@ -990,7 +998,8 @@
         {
           "RefID": "forskrift/2021-12-10-3466",
           "Text": "forskrift/2021-12-10-3466",
-          "Date": "2021-12-10"
+          "Date": "2021-12-10",
+          "InForceFrom": "2022-01-01"
         }
       ],
       "LastChangeInForce": {
@@ -1031,7 +1040,8 @@
         {
           "RefID": "forskrift/1992-12-04-894",
           "Text": "forskrift/1992-12-04-894",
-          "Date": "1992-12-04"
+          "Date": "1992-12-04",
+          "InForceFrom": null
         }
       ],
       "LastChangeInForce": {
@@ -1130,7 +1140,8 @@
         {
           "RefID": "forskrift/2025-04-04-597",
           "Text": "forskrift/2025-04-04-597",
-          "Date": "2025-04-04"
+          "Date": "2025-04-04",
+          "InForceFrom": "2025-06-10"
         }
       ],
       "LastChangeInForce": {
@@ -1171,7 +1182,8 @@
         {
           "RefID": "forskrift/2022-11-25-2256",
           "Text": "forskrift/2022-11-25-2256",
-          "Date": "2022-11-25"
+          "Date": "2022-11-25",
+          "InForceFrom": "2023-01-01"
         }
       ],
       "LastChangeInForce": {
@@ -1247,7 +1259,8 @@
         {
           "RefID": "forskrift/2021-12-10-3466",
           "Text": "forskrift/2021-12-10-3466",
-          "Date": "2021-12-10"
+          "Date": "2021-12-10",
+          "InForceFrom": "2022-01-01"
         }
       ],
       "LastChangeInForce": {
@@ -1288,7 +1301,8 @@
         {
           "RefID": "forskrift/2021-12-03-3363",
           "Text": "forskrift/2021-12-03-3363",
-          "Date": "2021-12-03"
+          "Date": "2021-12-03",
+          "InForceFrom": null
         }
       ],
       "LastChangeInForce": {
@@ -1304,7 +1318,8 @@
         {
           "RefID": "forskrift/1983-09-02-1431",
           "Text": "forskrift/1983-09-02-1431",
-          "Date": "1983-09-02"
+          "Date": "1983-09-02",
+          "InForceFrom": null
         }
       ],
       "EeaReferences": "",
@@ -1366,7 +1381,8 @@
         {
           "RefID": "forskrift/2015-12-18-1784",
           "Text": "forskrift/2015-12-18-1784",
-          "Date": "2015-12-18"
+          "Date": "2015-12-18",
+          "InForceFrom": null
         }
       ],
       "LastChangeInForce": {
@@ -1407,7 +1423,8 @@
         {
           "RefID": "forskrift/2021-12-03-3363",
           "Text": "forskrift/2021-12-03-3363",
-          "Date": "2021-12-03"
+          "Date": "2021-12-03",
+          "InForceFrom": null
         }
       ],
       "LastChangeInForce": {
@@ -1423,12 +1440,14 @@
         {
           "RefID": "forskrift/1980-01-11-3574",
           "Text": "forskrift/1980-01-11-3574",
-          "Date": "1980-01-11"
+          "Date": "1980-01-11",
+          "InForceFrom": null
         },
         {
           "RefID": "forskrift/1990-06-22-3963",
           "Text": "forskrift/1990-06-22-3963",
-          "Date": "1980-01-11"
+          "Date": "1990-06-22",
+          "InForceFrom": null
         }
       ],
       "EeaReferences": "",
@@ -1459,7 +1478,8 @@
         {
           "RefID": "forskrift/2023-12-18-2278",
           "Text": "forskrift/2023-12-18-2278",
-          "Date": "2023-12-18"
+          "Date": "2023-12-18",
+          "InForceFrom": "2024-01-01"
         }
       ],
       "LastChangeInForce": {
@@ -1529,7 +1549,8 @@
         {
           "RefID": "forskrift/2003-05-18-688",
           "Text": "forskrift/2003-05-18-688",
-          "Date": "2003-05-18"
+          "Date": "2003-05-18",
+          "InForceFrom": null
         }
       ],
       "LastChangeInForce": {
@@ -1658,7 +1679,8 @@
         {
           "RefID": "forskrift/2000-12-14-1422",
           "Text": "forskrift/2000-12-14-1422",
-          "Date": "2000-12-14"
+          "Date": "2000-12-14",
+          "InForceFrom": null
         }
       ],
       "EeaReferences": "",
@@ -1689,7 +1711,8 @@
         {
           "RefID": "forskrift/2020-02-07-113",
           "Text": "forskrift/2020-02-07-113",
-          "Date": "2020-02-07"
+          "Date": "2020-02-07",
+          "InForceFrom": null
         }
       ],
       "LastChangeInForce": {
@@ -1736,7 +1759,8 @@
         {
           "RefID": "forskrift/2021-12-03-3363",
           "Text": "forskrift/2021-12-03-3363",
-          "Date": "2021-12-03"
+          "Date": "2021-12-03",
+          "InForceFrom": null
         }
       ],
       "LastChangeInForce": {
@@ -1783,7 +1807,8 @@
         {
           "RefID": "forskrift/2014-09-22-1223",
           "Text": "forskrift/2014-09-22-1223",
-          "Date": "2014-09-22"
+          "Date": "2014-09-22",
+          "InForceFrom": null
         }
       ],
       "LastChangeInForce": {
@@ -1805,7 +1830,8 @@
         {
           "RefID": "forskrift/1971-02-16-4068",
           "Text": "forskrift/1971-02-16-4068",
-          "Date": "1971-02-16"
+          "Date": "1971-02-16",
+          "InForceFrom": null
         }
       ],
       "EeaReferences": "",
@@ -1988,7 +2014,8 @@
         {
           "RefID": "forskrift/1997-05-02-424",
           "Text": "forskrift/1997-05-02-424",
-          "Date": "1997-05-02"
+          "Date": "1997-05-02",
+          "InForceFrom": null
         }
       ],
       "EeaReferences": "",
@@ -2019,7 +2046,8 @@
         {
           "RefID": "forskrift/2022-06-03-964",
           "Text": "forskrift/2022-06-03-964",
-          "Date": "2022-06-03"
+          "Date": "2022-06-03",
+          "InForceFrom": "2022-07-01"
         }
       ],
       "LastChangeInForce": {
@@ -2171,7 +2199,8 @@
         {
           "RefID": "forskrift/2005-12-02-1359",
           "Text": "forskrift/2005-12-02-1359",
-          "Date": "2005-12-02"
+          "Date": "2005-12-02",
+          "InForceFrom": "2006-01-01"
         }
       ],
       "LastChangeInForce": {
@@ -2218,7 +2247,8 @@
         {
           "RefID": "forskrift/2025-12-05-3008",
           "Text": "forskrift/2025-12-05-3008",
-          "Date": "2025-12-05"
+          "Date": "2025-12-05",
+          "InForceFrom": "2026-01-01"
         }
       ],
       "LastChangeInForce": {
@@ -2275,7 +2305,8 @@
         {
           "RefID": "forskrift/1985-06-28-3388",
           "Text": "forskrift/1985-06-28-3388",
-          "Date": "1985-06-28"
+          "Date": "1985-06-28",
+          "InForceFrom": null
         }
       ],
       "EeaReferences": "",
@@ -2376,7 +2407,8 @@
         {
           "RefID": "forskrift/2014-11-07-1707",
           "Text": "forskrift/2014-11-07-1707",
-          "Date": "2014-11-07"
+          "Date": "2014-11-07",
+          "InForceFrom": "2015-01-01"
         }
       ],
       "LastChangeInForce": {
@@ -2452,7 +2484,8 @@
         {
           "RefID": "forskrift/2015-06-19-673",
           "Text": "forskrift/2015-06-19-673",
-          "Date": "2015-06-19"
+          "Date": "2015-06-19",
+          "InForceFrom": "2015-10-01"
         }
       ],
       "LastChangeInForce": {
@@ -2499,7 +2532,8 @@
         {
           "RefID": "forskrift/2012-12-14-1270",
           "Text": "forskrift/2012-12-14-1270",
-          "Date": "2012-12-14"
+          "Date": "2012-12-14",
+          "InForceFrom": "2013-01-01"
         }
       ],
       "LastChangeInForce": {
@@ -2546,7 +2580,8 @@
         {
           "RefID": "forskrift/2021-12-03-3395",
           "Text": "forskrift/2021-12-03-3395",
-          "Date": "2021-12-03"
+          "Date": "2021-12-03",
+          "InForceFrom": null
         }
       ],
       "LastChangeInForce": {
@@ -2593,7 +2628,8 @@
         {
           "RefID": "forskrift/2019-02-11-188",
           "Text": "forskrift/2019-02-11-188",
-          "Date": "2019-02-11"
+          "Date": "2019-02-11",
+          "InForceFrom": "2019-03-01"
         }
       ],
       "LastChangeInForce": {
@@ -2745,7 +2781,8 @@
         {
           "RefID": "forskrift/2016-11-01-1287",
           "Text": "forskrift/2016-11-01-1287",
-          "Date": "2016-11-01"
+          "Date": "2016-11-01",
+          "InForceFrom": null
         }
       ],
       "LastChangeInForce": {
@@ -2827,7 +2864,8 @@
         {
           "RefID": "forskrift/2021-06-18-2046",
           "Text": "forskrift/2021-06-18-2046",
-          "Date": "2021-06-18"
+          "Date": "2021-06-18",
+          "InForceFrom": null
         }
       ],
       "LastChangeInForce": {
@@ -2944,7 +2982,8 @@
         {
           "RefID": "forskrift/2021-12-21-4008",
           "Text": "forskrift/2021-12-21-4008",
-          "Date": "2021-12-21"
+          "Date": "2021-12-21",
+          "InForceFrom": "2022-01-01"
         }
       ],
       "LastChangeInForce": {
@@ -3313,7 +3352,8 @@
         {
           "RefID": "forskrift/2026-02-16-648",
           "Text": "forskrift/2026-02-16-648",
-          "Date": "2026-02-16"
+          "Date": "2026-02-16",
+          "InForceFrom": null
         }
       ],
       "LastChangeInForce": {
@@ -3335,12 +3375,14 @@
         {
           "RefID": "forskrift/2005-12-22-1725",
           "Text": "forskrift/2005-12-22-1725",
-          "Date": "2005-12-22"
+          "Date": "2005-12-22",
+          "InForceFrom": null
         },
         {
           "RefID": "forskrift/2010-02-24-242",
           "Text": "forskrift/2010-02-24-242",
-          "Date": "2005-12-22"
+          "Date": "2010-02-24",
+          "InForceFrom": null
         }
       ],
       "EeaReferences": "",
@@ -3442,7 +3484,8 @@
         {
           "RefID": "forskrift/2026-06-18-1206",
           "Text": "forskrift/2026-06-18-1206",
-          "Date": "2026-06-18"
+          "Date": "2026-06-18",
+          "InForceFrom": "2026-08-01"
         }
       ],
       "LastChangeInForce": {
@@ -3464,7 +3507,8 @@
         {
           "RefID": "forskrift/2007-11-07-1228",
           "Text": "forskrift/2007-11-07-1228",
-          "Date": "2007-11-07"
+          "Date": "2007-11-07",
+          "InForceFrom": null
         }
       ],
       "EeaReferences": "",
@@ -3781,7 +3825,8 @@
         {
           "RefID": "forskrift/2017-01-13-28",
           "Text": "forskrift/2017-01-13-28",
-          "Date": "2017-01-13"
+          "Date": "2017-01-13",
+          "InForceFrom": null
         }
       ],
       "LastChangeInForce": {
@@ -4165,7 +4210,8 @@
         {
           "RefID": "forskrift/1985-07-26-1458",
           "Text": "forskrift/1985-07-26-1458",
-          "Date": "1985-07-26"
+          "Date": "1985-07-26",
+          "InForceFrom": null
         }
       ],
       "EeaReferences": "",
@@ -4276,7 +4322,8 @@
         {
           "RefID": "forskrift/2004-04-14-620",
           "Text": "forskrift/2004-04-14-620",
-          "Date": "2004-04-14"
+          "Date": "2004-04-14",
+          "InForceFrom": null
         }
       ],
       "EeaReferences": "",
@@ -4307,7 +4354,8 @@
         {
           "RefID": "forskrift/2021-12-10-3466",
           "Text": "forskrift/2021-12-10-3466",
-          "Date": "2021-12-10"
+          "Date": "2021-12-10",
+          "InForceFrom": "2022-01-01"
         }
       ],
       "LastChangeInForce": {
@@ -4494,7 +4542,8 @@
         {
           "RefID": "forskrift/2023-11-13-1829",
           "Text": "forskrift/2023-11-13-1829",
-          "Date": "2023-11-13"
+          "Date": "2023-11-13",
+          "InForceFrom": null
         }
       ],
       "LastChangeInForce": {
@@ -4516,7 +4565,8 @@
         {
           "RefID": "forskrift/2005-10-05-1114",
           "Text": "forskrift/2005-10-05-1114",
-          "Date": "2005-10-05"
+          "Date": "2005-10-05",
+          "InForceFrom": null
         }
       ],
       "EeaReferences": "",
@@ -4693,7 +4743,8 @@
         {
           "RefID": "forskrift/2021-12-10-3466",
           "Text": "forskrift/2021-12-10-3466",
-          "Date": "2021-12-10"
+          "Date": "2021-12-10",
+          "InForceFrom": "2022-01-01"
         }
       ],
       "LastChangeInForce": {
@@ -4715,7 +4766,8 @@
         {
           "RefID": "forskrift/2008-04-18-388",
           "Text": "forskrift/2008-04-18-388",
-          "Date": "2008-04-18"
+          "Date": "2008-04-18",
+          "InForceFrom": null
         }
       ],
       "EeaReferences": "",
@@ -4746,7 +4798,8 @@
         {
           "RefID": "forskrift/2025-03-07-386",
           "Text": "forskrift/2025-03-07-386",
-          "Date": "2025-03-07"
+          "Date": "2025-03-07",
+          "InForceFrom": null
         }
       ],
       "LastChangeInForce": {
@@ -4768,7 +4821,8 @@
         {
           "RefID": "forskrift/1989-08-01-4872",
           "Text": "forskrift/1989-08-01-4872",
-          "Date": "1989-08-01"
+          "Date": "1989-08-01",
+          "InForceFrom": null
         }
       ],
       "EeaReferences": "",
@@ -4939,7 +4993,8 @@
         {
           "RefID": "forskrift/2017-05-22-620",
           "Text": "forskrift/2017-05-22-620",
-          "Date": "2017-05-22"
+          "Date": "2017-05-22",
+          "InForceFrom": "2017-06-01"
         }
       ],
       "LastChangeInForce": {
@@ -5097,7 +5152,8 @@
         {
           "RefID": "forskrift/2024-10-18-2492",
           "Text": "forskrift/2024-10-18-2492",
-          "Date": "2024-10-18"
+          "Date": "2024-10-18",
+          "InForceFrom": "2024-11-01"
         }
       ],
       "LastChangeInForce": {
@@ -5119,7 +5175,8 @@
         {
           "RefID": "forskrift/2000-02-18-108",
           "Text": "forskrift/2000-02-18-108",
-          "Date": "2000-02-18"
+          "Date": "2000-02-18",
+          "InForceFrom": null
         }
       ],
       "EeaReferences": "",
@@ -5183,7 +5240,8 @@
         {
           "RefID": "forskrift/2024-12-12-3391",
           "Text": "forskrift/2024-12-12-3391",
-          "Date": "2024-12-12"
+          "Date": "2024-12-12",
+          "InForceFrom": "2025-01-01"
         }
       ],
       "LastChangeInForce": {
@@ -5205,7 +5263,8 @@
         {
           "RefID": "forskrift/2010-12-17-1928",
           "Text": "forskrift/2010-12-17-1928",
-          "Date": "2010-12-17"
+          "Date": "2010-12-17",
+          "InForceFrom": null
         }
       ],
       "EeaReferences": "",
@@ -5234,7 +5293,8 @@
         {
           "RefID": "forskrift/2021-12-03-3395",
           "Text": "forskrift/2021-12-03-3395",
-          "Date": "2021-12-03"
+          "Date": "2021-12-03",
+          "InForceFrom": null
         }
       ],
       "LastChangeInForce": {
@@ -5466,7 +5526,8 @@
         {
           "RefID": "forskrift/2012-06-22-581",
           "Text": "forskrift/2012-06-22-581",
-          "Date": "2012-06-22"
+          "Date": "2012-06-22",
+          "InForceFrom": null
         }
       ],
       "EeaReferences": "",
@@ -5698,7 +5759,8 @@
         {
           "RefID": "forskrift/2012-11-22-1102",
           "Text": "forskrift/2012-11-22-1102",
-          "Date": "2012-11-22"
+          "Date": "2012-11-22",
+          "InForceFrom": null
         }
       ],
       "EeaReferences": "",
@@ -5739,7 +5801,8 @@
         {
           "RefID": "forskrift/2015-11-20-1331",
           "Text": "forskrift/2015-11-20-1331",
-          "Date": "2015-11-20"
+          "Date": "2015-11-20",
+          "InForceFrom": null
         }
       ],
       "EeaReferences": "",
@@ -5780,7 +5843,8 @@
         {
           "RefID": "forskrift/2010-04-29-695",
           "Text": "forskrift/2010-04-29-695",
-          "Date": "2010-04-29"
+          "Date": "2010-04-29",
+          "InForceFrom": null
         }
       ],
       "EeaReferences": "",
@@ -5821,7 +5885,8 @@
         {
           "RefID": "forskrift/2015-11-20-1331",
           "Text": "forskrift/2015-11-20-1331",
-          "Date": "2015-11-20"
+          "Date": "2015-11-20",
+          "InForceFrom": null
         }
       ],
       "EeaReferences": "",
@@ -5862,12 +5927,14 @@
         {
           "RefID": "forskrift/2018-08-24-1267",
           "Text": "forskrift/2018-08-24-1267",
-          "Date": "2018-08-24"
+          "Date": "2018-08-24",
+          "InForceFrom": null
         },
         {
           "RefID": "forskrift/2015-11-20-1331",
           "Text": "forskrift/2015-11-20-1331",
-          "Date": "2018-08-24"
+          "Date": "2015-11-20",
+          "InForceFrom": null
         }
       ],
       "EeaReferences": "",
@@ -5908,7 +5975,8 @@
         {
           "RefID": "forskrift/2012-08-24-827",
           "Text": "forskrift/2012-08-24-827",
-          "Date": "2012-08-24"
+          "Date": "2012-08-24",
+          "InForceFrom": null
         }
       ],
       "EeaReferences": "",
@@ -6009,7 +6077,8 @@
         {
           "RefID": "forskrift/2025-12-09-3028",
           "Text": "forskrift/2025-12-09-3028",
-          "Date": "2025-12-09"
+          "Date": "2025-12-09",
+          "InForceFrom": "2026-01-01"
         }
       ],
       "LastChangeInForce": {
@@ -6031,7 +6100,8 @@
         {
           "RefID": "forskrift/2015-06-19-677",
           "Text": "forskrift/2015-06-19-677",
-          "Date": "2015-06-19"
+          "Date": "2015-06-19",
+          "InForceFrom": null
         }
       ],
       "EeaReferences": "",
@@ -6072,7 +6142,8 @@
         {
           "RefID": "forskrift/2018-03-02-305",
           "Text": "forskrift/2018-03-02-305",
-          "Date": "2018-03-02"
+          "Date": "2018-03-02",
+          "InForceFrom": null
         }
       ],
       "EeaReferences": "",
@@ -6149,7 +6220,8 @@
         {
           "RefID": "forskrift/2025-02-10-194",
           "Text": "forskrift/2025-02-10-194",
-          "Date": "2025-02-10"
+          "Date": "2025-02-10",
+          "InForceFrom": null
         }
       ],
       "LastChangeInForce": {
@@ -6171,7 +6243,8 @@
         {
           "RefID": "forskrift/2011-12-08-1217",
           "Text": "forskrift/2011-12-08-1217",
-          "Date": "2011-12-08"
+          "Date": "2011-12-08",
+          "InForceFrom": null
         }
       ],
       "EeaReferences": "",
@@ -6202,7 +6275,8 @@
         {
           "RefID": "forskrift/2025-02-10-193",
           "Text": "forskrift/2025-02-10-193",
-          "Date": "2025-02-10"
+          "Date": "2025-02-10",
+          "InForceFrom": null
         }
       ],
       "LastChangeInForce": {
@@ -6224,7 +6298,8 @@
         {
           "RefID": "forskrift/2011-01-01-1",
           "Text": "forskrift/2011-01-01-1",
-          "Date": "2011-01-01"
+          "Date": "2011-01-01",
+          "InForceFrom": null
         }
       ],
       "EeaReferences": "",
@@ -6255,7 +6330,8 @@
         {
           "RefID": "forskrift/2023-01-16-51",
           "Text": "forskrift/2023-01-16-51",
-          "Date": "2023-01-16"
+          "Date": "2023-01-16",
+          "InForceFrom": "2023-04-01"
         }
       ],
       "LastChangeInForce": {
@@ -6277,7 +6353,8 @@
         {
           "RefID": "forskrift/2000-08-07-809",
           "Text": "forskrift/2000-08-07-809",
-          "Date": "2000-08-07"
+          "Date": "2000-08-07",
+          "InForceFrom": null
         }
       ],
       "EeaReferences": "",
@@ -6349,7 +6426,8 @@
         {
           "RefID": "forskrift/2020-05-08-968",
           "Text": "forskrift/2020-05-08-968",
-          "Date": "2020-05-08"
+          "Date": "2020-05-08",
+          "InForceFrom": null
         }
       ],
       "LastChangeInForce": {
@@ -6482,7 +6560,8 @@
         {
           "RefID": "forskrift/2016-02-05-127",
           "Text": "forskrift/2016-02-05-127",
-          "Date": "2016-02-05"
+          "Date": "2016-02-05",
+          "InForceFrom": null
         }
       ],
       "EeaReferences": "",
@@ -6513,7 +6592,8 @@
         {
           "RefID": "forskrift/2023-05-26-740",
           "Text": "forskrift/2023-05-26-740",
-          "Date": "2023-05-26"
+          "Date": "2023-05-26",
+          "InForceFrom": null
         }
       ],
       "LastChangeInForce": {
@@ -6535,7 +6615,8 @@
         {
           "RefID": "forskrift/2019-12-13-1776",
           "Text": "forskrift/2019-12-13-1776",
-          "Date": "2019-12-13"
+          "Date": "2019-12-13",
+          "InForceFrom": null
         }
       ],
       "EeaReferences": "",
@@ -6576,7 +6657,8 @@
         {
           "RefID": "forskrift/2017-07-01-2007",
           "Text": "forskrift/2017-07-01-2007",
-          "Date": "2017-07-01"
+          "Date": "2017-07-01",
+          "InForceFrom": null
         }
       ],
       "EeaReferences": "",
@@ -6652,7 +6734,8 @@
         {
           "RefID": "forskrift/2009-12-17-1630",
           "Text": "forskrift/2009-12-17-1630",
-          "Date": "2009-12-17"
+          "Date": "2009-12-17",
+          "InForceFrom": null
         }
       ],
       "EeaReferences": "",
@@ -6683,7 +6766,8 @@
         {
           "RefID": "forskrift/2025-05-20-825",
           "Text": "forskrift/2025-05-20-825",
-          "Date": "2025-05-20"
+          "Date": "2025-05-20",
+          "InForceFrom": null
         }
       ],
       "LastChangeInForce": {
@@ -6705,7 +6789,8 @@
         {
           "RefID": "forskrift/2019-07-02-961",
           "Text": "forskrift/2019-07-02-961",
-          "Date": "2019-07-02"
+          "Date": "2019-07-02",
+          "InForceFrom": null
         }
       ],
       "EeaReferences": "",
@@ -6752,17 +6837,20 @@
         {
           "RefID": "forskrift/2019-12-19-2057",
           "Text": "forskrift/2019-12-19-2057",
-          "Date": "2019-12-19"
+          "Date": "2019-12-19",
+          "InForceFrom": null
         },
         {
           "RefID": "forskrift/2019-12-19-2058",
           "Text": "forskrift/2019-12-19-2058",
-          "Date": "2019-12-19"
+          "Date": "2019-12-19",
+          "InForceFrom": null
         },
         {
           "RefID": "forskrift/2019-12-19-2059",
           "Text": "forskrift/2019-12-19-2059",
-          "Date": "2019-12-19"
+          "Date": "2019-12-19",
+          "InForceFrom": null
         }
       ],
       "EeaReferences": "",
@@ -6829,7 +6917,8 @@
         {
           "RefID": "forskrift/2025-01-17-94",
           "Text": "forskrift/2025-01-17-94",
-          "Date": "2025-01-17"
+          "Date": "2025-01-17",
+          "InForceFrom": null
         }
       ],
       "LastChangeInForce": {
@@ -6886,7 +6975,8 @@
         {
           "RefID": "forskrift/2020-11-02-3396",
           "Text": "forskrift/2020-11-02-3396",
-          "Date": "2020-11-02"
+          "Date": "2020-11-02",
+          "InForceFrom": null
         }
       ],
       "EeaReferences": "",
@@ -6927,7 +7017,8 @@
         {
           "RefID": "forskrift/2022-08-12-1435",
           "Text": "forskrift/2022-08-12-1435",
-          "Date": "2022-08-12"
+          "Date": "2022-08-12",
+          "InForceFrom": null
         }
       ],
       "EeaReferences": "",
@@ -7003,12 +7094,14 @@
         {
           "RefID": "forskrift/2005-12-09-1431",
           "Text": "forskrift/2005-12-09-1431",
-          "Date": "2005-12-09"
+          "Date": "2005-12-09",
+          "InForceFrom": null
         },
         {
           "RefID": "forskrift/2021-12-10-3465",
           "Text": "forskrift/2021-12-10-3465",
-          "Date": "2005-12-09"
+          "Date": "2021-12-10",
+          "InForceFrom": null
         }
       ],
       "EeaReferences": "",
@@ -7039,7 +7132,8 @@
         {
           "RefID": "forskrift/2026-02-12-199",
           "Text": "forskrift/2026-02-12-199",
-          "Date": "2026-02-12"
+          "Date": "2026-02-12",
+          "InForceFrom": "2026-01-01"
         }
       ],
       "LastChangeInForce": {
@@ -7131,7 +7225,8 @@
         {
           "RefID": "forskrift/2014-12-18-1793",
           "Text": "forskrift/2014-12-18-1793",
-          "Date": "2014-12-18"
+          "Date": "2014-12-18",
+          "InForceFrom": null
         }
       ],
       "EeaReferences": "",
