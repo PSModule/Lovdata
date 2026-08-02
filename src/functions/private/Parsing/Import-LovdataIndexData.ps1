@@ -27,7 +27,7 @@ function Import-LovdataIndexData {
         .LINK
         https://api.lovdata.no/om-api-tjenesten/
     #>
-    [OutputType([LovdataDocument])]
+    [OutputType([LovdataDocument], [LovdataDocument[]])]
     [CmdletBinding()]
     param(
         # Discard the cached index and read the files from disk again.
@@ -39,7 +39,7 @@ function Import-LovdataIndexData {
         $script:LovdataIndexCache = $null
     }
     if ($null -ne $script:LovdataIndexCache) {
-        return $script:LovdataIndexCache
+        return [LovdataDocument[]] $script:LovdataIndexCache
     }
 
     # Probe the module root first, then climb the source tree, so the files are found either way.
@@ -71,6 +71,6 @@ function Import-LovdataIndexData {
         }
     }
 
-    $script:LovdataIndexCache = @($documents)
-    $script:LovdataIndexCache
+    $script:LovdataIndexCache = [LovdataDocument[]]@($documents)
+    [LovdataDocument[]] $script:LovdataIndexCache
 }
