@@ -30,6 +30,10 @@ function ConvertFrom-LovdataMetadata {
         https://api.lovdata.no/om-api-tjenesten/
     #>
     [OutputType([LovdataDocument])]
+    [Diagnostics.CodeAnalysis.SuppressMessageAttribute(
+        'PSUseSingularNouns', '',
+        Justification = 'Metadata is a mass noun and reads correctly as a single noun here.'
+    )]
     [CmdletBinding()]
     param(
         # The XML document of a Lovdata archive document.

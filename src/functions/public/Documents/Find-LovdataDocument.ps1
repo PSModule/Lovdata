@@ -67,13 +67,11 @@ function Find-LovdataDocument {
 
         Import-LovdataIndexData | Where-Object {
             $document = $_
-            $nameMatch = @($document.Title, $document.TitleShort, $document.RefID, $document.LegacyID, $document.LawID) |
-                Where-Object { $_ -like $namePattern }
-
-            $ministryMatch = -not $ministryPattern -or (@($document.Ministry) | Where-Object { $_ -like $ministryPattern })
-            $areaMatch = -not $areaPattern -or (@($document.LegalAreas) |
-                    Where-Object { $_.ID -like $areaPattern -or $_.Name -like $areaPattern -or $_.Path -like $areaPattern })
-
+            $nameFields = @($document.Title, $document.TitleShort, $document.RefID, $document.LegacyID, $document.LawID)
+            $nameMatch = [bool](@($nameFields) -like $namePattern)
+            $ministryMatch = -not $ministryPattern -or [bool](@($document.Ministry) -like $ministryPattern)
+            $areaValues = foreach ($area in $document.LegalAreas) { $area.ID; $area.Name; $area.Path }
+            $areaMatch = -not $areaPattern -or [bool](@($areaValues) -like $areaPattern)
             $nameMatch -and $ministryMatch -and $areaMatch
         }
     }

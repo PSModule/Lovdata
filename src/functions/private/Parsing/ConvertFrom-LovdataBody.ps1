@@ -168,7 +168,9 @@ function ConvertFrom-LovdataBody {
             }
         }
 
-        $footnotes = foreach ($fn in $Document.SelectNodes("//*[local-name()='footer'][@class='footnotes']//*[local-name()='article'][@class='footnote']")) {
+        $footnoteXPath = "//*[local-name()='footer'][@class='footnotes']" +
+        "//*[local-name()='article'][@class='footnote']"
+        $footnotes = foreach ($fn in $Document.SelectNodes($footnoteXPath)) {
             $label = $fn.SelectSingleNode(".//*[@class='footnoteLabel']")
             [LovdataFootnote]@{
                 Label = if ($label) { $label.InnerText.Trim() } else { $fn.GetAttribute('data-name') }
