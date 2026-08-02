@@ -8,68 +8,55 @@
     'PSReviewUnusedParameter', '',
     Justification = 'Parameters are read by Pester mock parameter filters.'
 )]
-[Diagnostics.CodeAnalysis.SuppressMessageAttribute(
-    'PSAvoidUsingConvertToSecureStringWithPlainText', '',
-    Justification = 'The fixed test key never leaves the mocked request boundary.'
-)]
 [CmdletBinding()]
 param()
 
 Describe 'Lovdata internals' {
-    BeforeAll {
-        $script:testVault = . (Join-Path -Path $PSScriptRoot -ChildPath 'Lovdata.TestSetup.ps1')
-    }
-
-    AfterAll {
-        Remove-ContextVault -Name $script:testVault -Confirm:$false -ErrorAction SilentlyContinue
+    BeforeEach {
+        . (Join-Path -Path $PSScriptRoot -ChildPath 'Lovdata.TestSetup.ps1')
+        InModuleScope -ModuleName Lovdata {
+            $script:Lovdata.Config = [LovdataConfig]@{ ApiBaseUri = 'https://api.example.test' }
+        }
     }
 
     Context 'Types' {
         It 'exports the module types as type accelerators' {
             [LovdataConfig] | Should -Not -BeNullOrEmpty
-            [LovdataContext] | Should -Not -BeNullOrEmpty
-            [LovdataLegalSource] | Should -Not -BeNullOrEmpty
+            [LovdataPublicDataset] | Should -Not -BeNullOrEmpty
+            [LovdataApiVersion] | Should -Not -BeNullOrEmpty
         }
 
-        It 'builds a context from an object and ignores fields it does not know' {
-            $context = [LovdataContext]::new([pscustomobject]@{
-                    ID          = 'demo'
-                    ApiBaseUri  = 'https://api.example.test'
-                    AuthType    = 'APIKey'
+        It 'builds a dataset from an object and ignores fields it does not know' {
+            $dataset = [LovdataPublicDataset]::new([pscustomobject]@{
+                    FileName    = 'gjeldende-lover.tar.bz2'
+                    SizeBytes   = 10
                     Unsupported = 'ignored'
                 })
 
-            $context.ID | Should -Be 'demo'
-            $context.ApiBaseUri | Should -Be 'https://api.example.test'
-            "$context" | Should -Be 'demo'
+            $dataset.FileName | Should -Be 'gjeldende-lover.tar.bz2'
+            $dataset.SizeBytes | Should -Be 10
+            "$dataset" | Should -Be 'gjeldende-lover.tar.bz2'
         }
     }
 
     Context 'Invoke-LovdataAPI' {
-        It 'sends the API key as the X-API-Key header and deserializes the response' {
+        It 'builds the request URI from the configured base URI and deserializes the response' {
             InModuleScope -ModuleName Lovdata {
                 Mock Invoke-WebRequest {
                     [pscustomobject]@{
                         StatusCode = 200
-                        Content    = '[{"id":"lov","description":"Lover"}]'
+                        Content    = '[{"filename":"gjeldende-lover.tar.bz2"}]'
                         Headers    = @{ 'X-RateLimit-Remaining' = @('199') }
                     }
                 }
 
-                $context = [LovdataContext]@{
-                    ID         = 'demo'
-                    ApiBaseUri = 'https://api.example.test'
-                    AuthType   = 'APIKey'
-                    ApiKey     = ConvertTo-SecureString -String 'secret-key' -AsPlainText -Force
-                }
+                $result = Invoke-LovdataAPI -Endpoint '/v1/publicData/list'
 
-                $result = Invoke-LovdataAPI -Endpoint '/v1/legalSource/list' -Context $context
-
-                $result.id | Should -Be 'lov'
+                $result.filename | Should -Be 'gjeldende-lover.tar.bz2'
                 Should -Invoke Invoke-WebRequest -Times 1 -Exactly -ParameterFilter {
                     $Method -eq 'Get' -and
-                    $Uri -eq 'https://api.example.test/v1/legalSource/list' -and
-                    $Headers['X-API-Key'] -eq 'secret-key'
+                    $Uri -eq 'https://api.example.test/v1/publicData/list' -and
+                    -not $Headers.ContainsKey('X-API-Key')
                 }
             }
         }
@@ -80,13 +67,7 @@ Describe 'Lovdata internals' {
                     [pscustomobject]@{ StatusCode = 200; Content = '{}'; Headers = @{} }
                 }
 
-                $context = [LovdataContext]@{
-                    ID         = 'demo'
-                    ApiBaseUri = 'https://api.example.test/'
-                    ApiKey     = ConvertTo-SecureString -String 'secret-key' -AsPlainText -Force
-                }
-
-                Invoke-LovdataAPI -Endpoint 'v1/search' -Query @{ q = 'lov test'; limit = 10; offset = $null } -Context $context
+                Invoke-LovdataAPI -Endpoint 'v1/search' -Query @{ q = 'lov test'; limit = 10; offset = $null }
 
                 Should -Invoke Invoke-WebRequest -Times 1 -Exactly -ParameterFilter {
                     $Uri -eq 'https://api.example.test/v1/search?limit=10&q=lov%20test'
@@ -100,34 +81,7 @@ Describe 'Lovdata internals' {
                     [pscustomobject]@{ StatusCode = 200; Content = 'Pong'; Headers = @{} }
                 }
 
-                $context = [LovdataContext]@{
-                    ID         = 'demo'
-                    ApiBaseUri = 'https://api.example.test'
-                    ApiKey     = ConvertTo-SecureString -String 'secret-key' -AsPlainText -Force
-                }
-
-                Invoke-LovdataAPI -Endpoint '/ping' -Context $context | Should -Be 'Pong'
-            }
-        }
-
-        It 'explains a rejected API key' {
-            InModuleScope -ModuleName Lovdata {
-                Mock Invoke-WebRequest {
-                    [pscustomobject]@{
-                        StatusCode = 401
-                        Content    = '{"status":401,"message":"Unauthorized","detail":"Missing api role"}'
-                        Headers    = @{}
-                    }
-                }
-
-                $context = [LovdataContext]@{
-                    ID         = 'demo'
-                    ApiBaseUri = 'https://api.example.test'
-                    ApiKey     = ConvertTo-SecureString -String 'secret-key' -AsPlainText -Force
-                }
-
-                { Invoke-LovdataAPI -Endpoint '/v1/legalSource/list' -Context $context } |
-                    Should -Throw '*rejected the API key in context*demo*Missing api role*'
+                Invoke-LovdataAPI -Endpoint '/ping' | Should -Be 'Pong'
             }
         }
 
@@ -141,14 +95,8 @@ Describe 'Lovdata internals' {
                     }
                 }
 
-                $context = [LovdataContext]@{
-                    ID         = 'demo'
-                    ApiBaseUri = 'https://api.example.test'
-                    ApiKey     = ConvertTo-SecureString -String 'secret-key' -AsPlainText -Force
-                }
-
-                { Invoke-LovdataAPI -Endpoint '/v1/search' -Context $context } |
-                    Should -Throw '*rate limit for context*demo*is exhausted*The limit resets at*'
+                { Invoke-LovdataAPI -Endpoint '/v1/search' } |
+                    Should -Throw '*rate limit is exhausted*The limit resets at*'
             }
         }
 
@@ -158,14 +106,23 @@ Describe 'Lovdata internals' {
                     [pscustomobject]@{ StatusCode = 500; Content = ''; Headers = @{} }
                 }
 
-                $context = [LovdataContext]@{
-                    ID         = 'demo'
-                    ApiBaseUri = 'https://api.example.test'
-                    ApiKey     = ConvertTo-SecureString -String 'secret-key' -AsPlainText -Force
-                }
-
-                { Invoke-LovdataAPI -Endpoint '/v1/search' -Context $context } |
+                { Invoke-LovdataAPI -Endpoint '/v1/search' } |
                     Should -Throw '*https://api.example.test/v1/search*failed with status*500*'
+            }
+        }
+    }
+
+    Context 'Invoke-LovdataDownload' {
+        It 'streams the configured download URI to the given file' {
+            InModuleScope -ModuleName Lovdata {
+                Mock Invoke-WebRequest {}
+
+                Invoke-LovdataDownload -Endpoint '/v1/publicData/get/gjeldende-lover.tar.bz2' -OutFile 'TestDrive:\out.bz2'
+
+                Should -Invoke Invoke-WebRequest -Times 1 -Exactly -ParameterFilter {
+                    $Uri -eq 'https://api.example.test/v1/publicData/get/gjeldende-lover.tar.bz2' -and
+                    $OutFile -eq 'TestDrive:\out.bz2'
+                }
             }
         }
     }
@@ -183,71 +140,6 @@ Describe 'Lovdata internals' {
             InModuleScope -ModuleName Lovdata {
                 Get-LovdataResponseHeader -Headers @{} -Name 'X-RateLimit-Reset' | Should -BeNullOrEmpty
                 Get-LovdataResponseHeader -Headers $null -Name 'X-RateLimit-Reset' | Should -BeNullOrEmpty
-            }
-        }
-    }
-
-    Context 'Resolve-LovdataContext' {
-        BeforeEach {
-            Connect-LovdataAccount -ApiKey 'test-key' -Context 'alpha' -Confirm:$false
-            Connect-LovdataAccount -ApiKey 'test-key' -Context 'beta' -Confirm:$false
-        }
-
-        AfterEach {
-            Get-LovdataContext -ListAvailable | Disconnect-LovdataAccount -Confirm:$false
-            Set-LovdataConfig -Name DefaultContext -Value '' -Confirm:$false
-        }
-
-        It 'falls back to the default connection' {
-            InModuleScope -ModuleName Lovdata {
-                (Resolve-LovdataContext -Context $null).ID | Should -Be 'alpha'
-                (Resolve-LovdataContext -Context '').ID | Should -Be 'alpha'
-            }
-        }
-
-        It 'resolves a connection by name' {
-            InModuleScope -ModuleName Lovdata {
-                (Resolve-LovdataContext -Context 'beta').ID | Should -Be 'beta'
-            }
-        }
-
-        It 'passes an already resolved connection straight through' {
-            InModuleScope -ModuleName Lovdata {
-                $context = Get-LovdataContext -Context 'beta'
-
-                (Resolve-LovdataContext -Context $context).ID | Should -Be 'beta'
-            }
-        }
-
-        It 'asks for a key when the connection has none' {
-            InModuleScope -ModuleName Lovdata {
-                $context = [LovdataContext]@{ ID = 'keyless'; ApiBaseUri = 'https://api.example.test' }
-
-                { Resolve-LovdataContext -Context $context } | Should -Throw '*has no API key*'
-            }
-        }
-
-        It 'asks for a base URI when the connection has none' {
-            InModuleScope -ModuleName Lovdata {
-                $context = [LovdataContext]@{
-                    ID     = 'uriless'
-                    ApiKey = ConvertTo-SecureString -String 'secret-key' -AsPlainText -Force
-                }
-
-                { Resolve-LovdataContext -Context $context } | Should -Throw '*has no API base URI*'
-            }
-        }
-    }
-
-    Context 'Initialize-LovdataConfig' {
-        It 'backfills settings that a stored configuration predates' {
-            InModuleScope -ModuleName Lovdata {
-                $null = Set-Context -ID 'Module' -Context ([pscustomobject]@{ ID = 'Module' }) -Vault $script:Lovdata.ContextVault
-
-                Initialize-LovdataConfig -Force
-
-                $script:Lovdata.Config.ApiBaseUri | Should -Be 'https://api.lovdata.no'
-                (Get-Context -ID 'Module' -Vault $script:Lovdata.ContextVault).ApiBaseUri | Should -Be 'https://api.lovdata.no'
             }
         }
     }

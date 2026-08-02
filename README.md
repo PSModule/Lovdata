@@ -1,20 +1,21 @@
 # Lovdata
 
 A PowerShell module for working with Norwegian legal data from [Lovdata](https://lovdata.no), the foundation that maintains the
-authoritative, continuously updated body of Norwegian law. The module wraps the [Lovdata API](https://api.lovdata.no/swagger/index.html)
-so laws (`lover`) and regulations (`forskrifter`) can be listed, inspected, and pulled into scripts as PowerShell objects instead of
-scraped HTML.
+authoritative, continuously updated body of Norwegian law.
+
+**No account needed.** This release wraps the open, key-free part of the [Lovdata API](https://api.lovdata.no/swagger/index.html):
+the current acts (`lover`) and central regulations (`forskrifter`) published as free open data under
+[NLOD 2.0](https://data.norge.no/nlod/no/2.0), plus the service endpoints that report whether the API is up and which build is
+deployed. Install the module and pull the full corpus of Norwegian acts in two commands, with nothing to configure and no
+credential to obtain.
 
 ## Prerequisites
 
 - PowerShell 7 or later on Windows, Linux, or macOS.
-- An API key from Lovdata for the authenticated endpoints. Lovdata issues keys to users with the `api` role in their user base;
-  contact [api@lovdata.no](mailto:api@lovdata.no) to request one. The key is sent as the `X-API-Key` request header on every call.
-- No key is needed for Lovdata's free public datasets, which are published under
-  [NLOD 2.0](https://data.norge.no/nlod/no/2.0). See [Lovdata's API information page](https://lovdata.no/info/api) for the background.
+- No account, no API key, no configuration.
 
-The API also rate limits each key. Responses carry `X-RateLimit-Limit`, `X-RateLimit-Remaining`, and `X-RateLimit-Reset` headers, and
-the module surfaces the remaining budget on verbose output so long-running scripts can pace themselves.
+The API rate limits every caller. Responses carry `X-RateLimit-Limit`, `X-RateLimit-Remaining`, and `X-RateLimit-Reset` headers,
+and the module surfaces the remaining budget on verbose output so long-running scripts can pace themselves.
 
 ## Installation
 
@@ -27,34 +28,34 @@ Import-Module -Name Lovdata
 
 ## Capabilities
 
-Store the API key once. It is encrypted at rest by the [Context](https://psmodule.io/Context/) module and reused by every
-subsequent command, so scripts never carry the key themselves.
+Check that the service is up and see which build is deployed:
 
 ```powershell
-Connect-LovdataAccount -ApiKey (Read-Host -Prompt 'Lovdata API key' -AsSecureString)
+Test-LovdataConnection
+Get-LovdataApiVersion
 ```
 
-List the legal sources the account can reach, then narrow to the ones of interest:
+List the free open data packages Lovdata publishes, with the size and last-modified date of each:
 
 ```powershell
-Get-LovdataLegalSource
-Get-LovdataLegalSource -ID 'lov*'
+Get-LovdataPublicDataset
+Get-LovdataPublicDataset -FileName 'gjeldende-*'
 ```
 
-Keep several keys side by side — one per environment or customer — and switch between them without reconnecting:
+Download the current acts and central regulations to a folder, with progress and without silently overwriting existing files:
 
 ```powershell
-Connect-LovdataAccount -ApiKey $productionKey -Context 'production'
-Get-LovdataContext -ListAvailable
-Switch-LovdataContext -Context 'production'
+Get-LovdataPublicDataset -FileName 'gjeldende-*' | Save-LovdataPublicDataset -Path './lovdata'
 ```
 
-Module-wide defaults, such as the API base URI, live in their own context and can be inspected or changed:
+Point the module at a different API base URI for the session, for example a test deployment:
 
 ```powershell
 Get-LovdataConfig
 Set-LovdataConfig -Name ApiBaseUri -Value 'https://api.lovdata.no'
 ```
+
+See the [examples](examples) folder for complete scripts, including downloading and unpacking the full corpus.
 
 ## Attribution
 
@@ -62,6 +63,12 @@ Lovdata publishes current laws and central regulations as open data under the
 [Norwegian Licence for Open Government Data (NLOD) 2.0](https://data.norge.no/nlod/no/2.0). Content retrieved through this module
 remains subject to Lovdata's terms; credit Lovdata as the source when redistributing it. This module is not affiliated with or
 endorsed by Lovdata.
+
+## The paid surface
+
+Everything Lovdata offers behind an API key -- search, document retrieval, structured rules, vocabularies, reference resolution --
+is not covered by this release. That authenticated surface, together with the credential store it needs, is tracked in
+[PSModule/Lovdata#15](https://github.com/PSModule/Lovdata/issues/15).
 
 ## Documentation
 
@@ -71,5 +78,5 @@ Use PowerShell help and command discovery for module details:
 
 ```powershell
 Get-Command -Module Lovdata
-Get-Help -Name Get-LovdataLegalSource -Examples
+Get-Help -Name Get-LovdataPublicDataset -Examples
 ```

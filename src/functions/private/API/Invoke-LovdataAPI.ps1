@@ -1,24 +1,27 @@
 function Invoke-LovdataAPI {
     <#
         .SYNOPSIS
-        Send an authenticated request to the Lovdata API.
+        Send a request to the Lovdata API.
 
         .DESCRIPTION
-        Owns every HTTP call the module makes. Builds the request URI from the context's base URI and the
-        endpoint, injects the API key as the 'X-API-Key' header Lovdata expects, and returns the response
-        body deserialized from JSON when the API sends JSON. Failures are translated into terminating
-        errors that carry the API's own problem description, with dedicated guidance for a rejected key
-        and for an exhausted rate limit.
+        Owns every JSON HTTP call the module makes. Builds the request URI from the module's configured
+        base URI and the endpoint, and returns the response body deserialized from JSON when the API
+        sends JSON, or the raw text otherwise. Failures are translated into terminating errors that carry
+        the API's own problem description, with dedicated guidance for an exhausted rate limit.
+
+        The open Lovdata endpoints this release covers need no credential, so no authentication header is
+        sent. The service still rate limits unauthenticated callers, so the remaining budget it reports is
+        written to the verbose stream.
 
         .EXAMPLE
-        Invoke-LovdataAPI -Endpoint '/v1/legalSource/list' -Context $context
+        Invoke-LovdataAPI -Endpoint '/v1/publicData/list'
 
-        Sends an authenticated GET request and returns the deserialized response.
+        Sends a GET request and returns the deserialized response.
 
         .EXAMPLE
-        Invoke-LovdataAPI -Endpoint '/v1/search' -Query @{ q = 'arbeidsmiljo' } -Context $context
+        Invoke-LovdataAPI -Endpoint '/version'
 
-        Sends an authenticated GET request with a URL-encoded query string.
+        Sends a GET request to an endpoint that answers with plain text and returns it unchanged.
 
         .INPUTS
         None
@@ -36,7 +39,7 @@ function Invoke-LovdataAPI {
     [OutputType([object])]
     [CmdletBinding()]
     param(
-        # The API endpoint to call, relative to the context's base URI, for example '/v1/legalSource/list'.
+        # The API endpoint to call, relative to the configured base URI, for example '/v1/publicData/list'.
         [Parameter(Mandatory)]
         [ValidateNotNullOrEmpty()]
         [string] $Endpoint,
@@ -54,15 +57,11 @@ function Invoke-LovdataAPI {
         # The request payload, serialized as JSON.
         [Parameter()]
         [AllowNull()]
-        [object] $Body,
-
-        # The resolved context holding the API key and base URI to use.
-        [Parameter(Mandatory)]
-        [ValidateNotNull()]
-        [LovdataContext] $Context
+        [object] $Body
     )
 
-    $uri = '{0}/{1}' -f $Context.ApiBaseUri.TrimEnd('/'), $Endpoint.TrimStart('/')
+    $baseUri = (Get-LovdataConfig).ApiBaseUri
+    $uri = '{0}/{1}' -f $baseUri.TrimEnd('/'), $Endpoint.TrimStart('/')
 
     $queryString = @(
         $Query.GetEnumerator() |
@@ -79,10 +78,7 @@ function Invoke-LovdataAPI {
     $params = @{
         Method             = $Method
         Uri                = $uri
-        Headers            = @{
-            'X-API-Key' = ConvertFrom-SecureString -SecureString $Context.ApiKey -AsPlainText
-            'Accept'    = 'application/json'
-        }
+        Headers            = @{ 'Accept' = 'application/json' }
         SkipHttpErrorCheck = $true
         ErrorAction        = 'Stop'
     }
@@ -92,13 +88,13 @@ function Invoke-LovdataAPI {
         $params['Body'] = $Body | ConvertTo-Json -Depth 100
     }
 
-    Write-Verbose "Sending [$Method] request to [$uri] using context [$($Context.ID)]."
+    Write-Verbose "Sending [$Method] request to [$uri]."
     $response = Invoke-WebRequest @params
 
     $statusCode = [int]$response.StatusCode
     $remaining = Get-LovdataResponseHeader -Headers $response.Headers -Name 'X-RateLimit-Remaining'
     if ($remaining) {
-        Write-Verbose "Lovdata rate limit remaining for this key: [$remaining]."
+        Write-Verbose "Lovdata rate limit remaining: [$remaining]."
     }
 
     $content = [string]$response.Content
@@ -131,10 +127,6 @@ function Invoke-LovdataAPI {
         }
 
         $message = switch ($statusCode) {
-            401 {
-                "The Lovdata API rejected the API key in context [$($Context.ID)] (401 Unauthorized). " +
-                "Confirm the key is current and that the Lovdata user holds the 'api' role, then reconnect with 'Connect-LovdataAccount'."
-            }
             429 {
                 $reset = Get-LovdataResponseHeader -Headers $response.Headers -Name 'X-RateLimit-Reset'
                 $resetText = if ($null -ne ($reset -as [long])) {
@@ -142,7 +134,7 @@ function Invoke-LovdataAPI {
                 } else {
                     ''
                 }
-                "The Lovdata API rate limit for context [$($Context.ID)] is exhausted (429 Too Many Requests).$resetText"
+                "The Lovdata API rate limit is exhausted (429 Too Many Requests).$resetText"
             }
             default {
                 "The Lovdata API request to [$uri] failed with status [$statusCode]."

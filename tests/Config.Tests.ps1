@@ -8,12 +8,8 @@
 param()
 
 Describe 'Config' {
-    BeforeAll {
-        $script:testVault = . (Join-Path -Path $PSScriptRoot -ChildPath 'Lovdata.TestSetup.ps1')
-    }
-
-    AfterAll {
-        Remove-ContextVault -Name $script:testVault -Confirm:$false -ErrorAction SilentlyContinue
+    BeforeEach {
+        . (Join-Path -Path $PSScriptRoot -ChildPath 'Lovdata.TestSetup.ps1')
     }
 
     Context 'Get-LovdataConfig' {
@@ -21,25 +17,20 @@ Describe 'Config' {
             $config = Get-LovdataConfig
 
             $config | Should -BeOfType [LovdataConfig]
-            $config.ID | Should -Be 'Module'
             $config.ApiBaseUri | Should -Be 'https://api.lovdata.no'
-            $config.DefaultContext | Should -BeNullOrEmpty
         }
 
         It 'returns the same settings on a later read' {
-            (Get-LovdataConfig).ApiBaseUri | Should -Be 'https://api.lovdata.no'
+            $first = Get-LovdataConfig
+            $first.ApiBaseUri = 'https://api.example.test'
+
+            (Get-LovdataConfig).ApiBaseUri | Should -Be 'https://api.example.test'
         }
     }
 
     Context 'Set-LovdataConfig' {
-        AfterEach {
-            Set-LovdataConfig -Name ApiBaseUri -Value 'https://api.lovdata.no' -Confirm:$false
-        }
-
-        It 'stores a changed setting so it survives a reload' {
+        It 'changes the API base URI for the session' {
             Set-LovdataConfig -Name ApiBaseUri -Value 'https://api.example.test' -Confirm:$false
-
-            InModuleScope -ModuleName Lovdata { Initialize-LovdataConfig -Force }
 
             (Get-LovdataConfig).ApiBaseUri | Should -Be 'https://api.example.test'
         }
