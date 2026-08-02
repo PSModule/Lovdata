@@ -1,14 +1,9 @@
 $script:Lovdata = [pscustomobject]@{
-    # The Context vault every Lovdata context is stored in.
-    ContextVault  = 'PSModule.Lovdata'
-
-    # The module-scoped settings used until the user changes them.
+    # The module-scoped settings used until the user changes them in this session.
     DefaultConfig = [LovdataConfig]@{
-        ID             = 'Module'
-        ApiBaseUri     = 'https://api.lovdata.no'
-        DefaultContext = ''
+        ApiBaseUri = 'https://api.lovdata.no'
     }
 
-    # The configuration loaded from the vault, cached for the lifetime of the session.
+    # The in-memory settings for the current session. Seeded from DefaultConfig on first use.
     Config        = $null
 }

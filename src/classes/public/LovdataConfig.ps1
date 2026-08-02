@@ -1,14 +1,7 @@
-# Module-wide settings for the Lovdata module, stored in a module-scoped context so they are shared
-# by every user context in the vault.
+# Module-wide settings for the Lovdata module, kept in memory for the current session.
 class LovdataConfig {
-    # The ID of the context that holds this configuration.
-    [string] $ID
-
-    # The base URI new contexts connect to, for example 'https://api.lovdata.no'.
+    # The base URI the module sends requests to, for example 'https://api.lovdata.no'.
     [string] $ApiBaseUri
-
-    # The name of the context used by commands that are not given one explicitly.
-    [string] $DefaultContext
 
     LovdataConfig() {}
 
@@ -28,6 +21,6 @@ class LovdataConfig {
     }
 
     [string] ToString() {
-        return $this.ID
+        return $this.ApiBaseUri
     }
 }
