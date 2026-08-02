@@ -19,6 +19,7 @@ BeforeAll {
     $script:multiArea = Join-Path -Path $script:nlRoot -ChildPath 'nl-20010518-022.xml'  # three legal areas
     $script:nested = Join-Path -Path $script:nlRoot -ChildPath 'nl-16870415-000.xml'     # nested sections
     $script:footnotes = Join-Path -Path $script:nlRoot -ChildPath 'nl-20110415-012.xml'  # footnotes
+    $script:multiRef = Join-Path -Path $script:nlRoot -ChildPath 'nl-19590619-002.xml'   # lastChangedBy: two refs, first with a 'fra' date
 }
 
 Describe 'Lovdata parsing' {
@@ -65,6 +66,30 @@ Describe 'Lovdata parsing' {
                 $area.Path | Should -Be 'Energirett > Petroleumsvirksomhet'
                 @($area.Segments).Count | Should -Be 2
                 $area.Segments[0].ID | Should -Be '04'
+            }
+        }
+
+        It 'reads each change reference from its own context, never a neighbour''s date' {
+            InModuleScope -ModuleName Lovdata -Parameters @{ path = $script:multiRef } {
+                param($path)
+                $xml = ConvertTo-LovdataXmlDocument -Text ([System.IO.File]::ReadAllText($path))
+                $doc = ConvertFrom-LovdataMetadata -Document $xml
+
+                # Field is: lov/2016-05-27-14 fra 2017-01-01, lov/2016-06-17-34
+                @($doc.LastChangedBy).Count | Should -Be 2
+
+                $first = $doc.LastChangedBy[0]
+                $first.RefID | Should -Be 'lov/2016-05-27-14'
+                $first.Date | Should -Be ([datetime]'2016-05-27')
+                $first.InForceFrom | Should -Be ([datetime]'2017-01-01')
+
+                $second = $doc.LastChangedBy[1]
+                $second.RefID | Should -Be 'lov/2016-06-17-34'
+                # The second reference carries its own date, not the first reference's date.
+                $second.Date | Should -Be ([datetime]'2016-06-17')
+                $second.Date | Should -Not -Be $first.Date
+                # It has no 'fra' qualifier, so the in-force date is left empty rather than borrowed.
+                $second.InForceFrom | Should -BeNullOrEmpty
             }
         }
     }
