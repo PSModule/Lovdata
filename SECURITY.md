@@ -19,9 +19,11 @@ triaged as quickly as possible.
 
 ## Credentials handled by this module
 
-This module stores a Lovdata API key using the [`Context`](https://github.com/PSModule/Context) module, which encrypts secrets
-at rest. Keys are never written to the repository, module source, or command output. If a key is exposed, revoke it with
-Lovdata and remove the stored context with `Disconnect-LovdataAccount`.
+This release handles no credentials. Everything it covers is Lovdata's open, key-free surface, so the module stores no API key
+and no other secret, on disk or in memory. There is nothing for this module to leak.
+
+The authenticated Lovdata surface, and the encrypted credential store it will need, are tracked separately in
+[PSModule/Lovdata#15](https://github.com/PSModule/Lovdata/issues/15); this section will be revisited when that lands.
 
 Problems with the Lovdata service itself, rather than with this module, belong with Lovdata's own tech support at
 [api@lovdata.no](mailto:api@lovdata.no).

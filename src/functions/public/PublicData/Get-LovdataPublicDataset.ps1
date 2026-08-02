@@ -29,7 +29,7 @@ function Get-LovdataPublicDataset {
         LovdataPublicDataset
 
         .NOTES
-        The packages are published under NLOD 2.0. See https://data.norge.no/nlod/en/2.0 for the licence.
+        The packages are published under the Norwegian Licence for Open Government Data (NLOD) 2.0.
 
         .LINK
         https://psmodule.io/Lovdata/Functions/PublicData/Get-LovdataPublicDataset/
