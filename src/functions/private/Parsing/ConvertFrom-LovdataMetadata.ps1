@@ -113,10 +113,10 @@ function ConvertFrom-LovdataMetadata {
                     $trailing += $sibling.InnerText
                     $sibling = $sibling.NextSibling
                 }
-                $inForce = $null
+                $inForceFrom = $null
                 $fraMatch = [regex]::Match((& $clean $trailing), 'fra\s+(\d{4}-\d{2}-\d{2})')
                 if ($fraMatch.Success) {
-                    $inForce = [datetime]::ParseExact(
+                    $inForceFrom = [datetime]::ParseExact(
                         $fraMatch.Groups[1].Value, 'yyyy-MM-dd', [cultureinfo]::InvariantCulture,
                         [System.Globalization.DateTimeStyles]::None
                     )
@@ -126,7 +126,7 @@ function ConvertFrom-LovdataMetadata {
                     RefID       = $refId
                     Text        = & $clean $a.InnerText
                     Date        = $selfDate
-                    InForceFrom = $inForce
+                    InForceFrom = $inForceFrom
                 }
             }
             @($refs)
