@@ -54,15 +54,27 @@ function Get-LovdataPublicDataset {
             continue
         }
 
-        [LovdataPublicDataset]@{
-            FileName     = [string]$item.filename
-            Description  = [string]$item.description
-            SizeBytes    = [long]$item.sizeBytes
-            LastModified = [datetime]::Parse(
+        # The JSON deserializer already turns an ISO-8601 'Z' timestamp into a UTC DateTime, so casting
+        # it back to a string first would render it in the current culture and lose the offset.
+        $lastModified = if ($item.lastModified -is [datetime]) {
+            [datetime]$item.lastModified
+        } else {
+            [datetime]::Parse(
                 [string]$item.lastModified,
                 [cultureinfo]::InvariantCulture,
                 [System.Globalization.DateTimeStyles]::RoundtripKind
             )
+        }
+        if ($lastModified.Kind -eq [System.DateTimeKind]::Unspecified) {
+            # Lovdata reports these timestamps in UTC even when the value carries no offset.
+            $lastModified = [datetime]::SpecifyKind($lastModified, [System.DateTimeKind]::Utc)
+        }
+
+        [LovdataPublicDataset]@{
+            FileName     = [string]$item.filename
+            Description  = [string]$item.description
+            SizeBytes    = [long]$item.sizeBytes
+            LastModified = $lastModified
         }
     }
 
