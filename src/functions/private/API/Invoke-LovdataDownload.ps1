@@ -44,12 +44,6 @@ function Invoke-LovdataDownload {
     $baseUri = (Get-LovdataConfig).ApiBaseUri
     $uri = '{0}/{1}' -f $baseUri.TrimEnd('/'), $Endpoint.TrimStart('/')
 
-    $activity = "Downloading [$([System.IO.Path]::GetFileName($OutFile))] from Lovdata"
-    Write-Progress -Activity $activity -Status 'Transferring'
-    try {
-        Write-Verbose "Streaming [$uri] to [$OutFile]."
-        Invoke-WebRequest -Uri $uri -OutFile $OutFile -ErrorAction Stop
-    } finally {
-        Write-Progress -Activity $activity -Completed
-    }
+    Write-Verbose "Streaming [$uri] to [$OutFile]."
+    Invoke-WebRequest -Uri $uri -OutFile $OutFile -ErrorAction Stop
 }

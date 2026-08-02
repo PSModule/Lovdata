@@ -36,6 +36,8 @@ Describe 'PublicData' {
             $result.SizeBytes | Should -Be 5842472
             $result.SizeBytes | Should -BeOfType [long]
             $result.LastModified | Should -BeOfType [datetime]
+            $result.LastModified.Kind | Should -Be ([System.DateTimeKind]::Utc)
+            $result.LastModified | Should -Be ([datetime]::new(2026, 8, 1, 1, 31, 0, [System.DateTimeKind]::Utc))
             Should -Invoke -ModuleName Lovdata Invoke-LovdataAPI -Times 1 -Exactly -ParameterFilter {
                 $Endpoint -eq '/v1/publicData/list'
             }
@@ -103,6 +105,14 @@ Describe 'PublicData' {
             Mock -ModuleName Lovdata Invoke-LovdataDownload {}
 
             Save-LovdataPublicDataset -FileName 'gjeldende-lover.tar.bz2' -Path $script:downloadDir -WhatIf
+            Should -Invoke -ModuleName Lovdata Invoke-LovdataDownload -Times 0 -Exactly
+        }
+
+        It 'rejects a FileName that contains a path and never downloads' {
+            Mock -ModuleName Lovdata Invoke-LovdataDownload {}
+
+            { Save-LovdataPublicDataset -FileName '../escape.txt' -Path $script:downloadDir } |
+                Should -Throw '*bare package filename*'
             Should -Invoke -ModuleName Lovdata Invoke-LovdataDownload -Times 0 -Exactly
         }
 

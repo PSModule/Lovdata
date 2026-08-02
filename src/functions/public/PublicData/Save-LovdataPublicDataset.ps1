@@ -45,6 +45,10 @@ function Save-LovdataPublicDataset {
         # The filename of the package to download, as reported by Get-LovdataPublicDataset.
         [Parameter(Mandatory, Position = 0, ValueFromPipelineByPropertyName)]
         [ValidateNotNullOrEmpty()]
+        [ValidateScript(
+            { $_ -eq [System.IO.Path]::GetFileName($_) -and $_ -notin '.', '..' },
+            ErrorMessage = "FileName must be a bare package filename with no path separators, for example 'gjeldende-lover.tar.bz2'."
+        )]
         [string] $FileName,
 
         # The directory to download the package into. Defaults to the current directory.
@@ -58,17 +62,17 @@ function Save-LovdataPublicDataset {
     )
 
     process {
-        $directory = Resolve-Path -Path $Path -ErrorAction SilentlyContinue
+        $directory = Resolve-Path -LiteralPath $Path -ErrorAction SilentlyContinue
         if ($null -eq $directory) {
             throw "The download directory [$Path] does not exist. Create it first, or pass an existing directory to -Path."
         }
-        if (-not (Test-Path -Path $directory -PathType Container)) {
+        if (-not (Test-Path -LiteralPath $directory -PathType Container)) {
             throw "The download path [$Path] is not a directory. Pass a directory to -Path."
         }
 
-        $target = Join-Path -Path $directory -ChildPath $FileName
+        $target = Join-Path -Path $directory.ProviderPath -ChildPath $FileName
 
-        if ((Test-Path -Path $target -PathType Leaf) -and -not $Force) {
+        if ((Test-Path -LiteralPath $target -PathType Leaf) -and -not $Force) {
             throw "A file already exists at [$target]. Use -Force to overwrite it."
         }
 
@@ -78,6 +82,6 @@ function Save-LovdataPublicDataset {
 
         Invoke-LovdataDownload -Endpoint "/v1/publicData/get/$FileName" -OutFile $target
 
-        Get-Item -Path $target
+        Get-Item -LiteralPath $target
     }
 }
