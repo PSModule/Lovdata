@@ -11,7 +11,7 @@ function Set-LovdataConfig {
         context commands fall back to when none is given.
 
         .EXAMPLE
-        Set-LovdataConfig -Name ApiBaseUri -Value 'https://api.lovdata.no'
+        Set-LovdataConfig -Name ApiBaseUri -Value $baseUri
 
         Points new connections at the given API base URI.
 

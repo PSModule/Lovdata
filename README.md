@@ -11,7 +11,7 @@ scraped HTML.
 - An API key from Lovdata for the authenticated endpoints. Lovdata issues keys to users with the `api` role in their user base;
   contact [api@lovdata.no](mailto:api@lovdata.no) to request one. The key is sent as the `X-API-Key` request header on every call.
 - No key is needed for Lovdata's free public datasets, which are published under
-  [NLOD 2.0](https://data.norge.no/nlod/no/2.0). See [lovdata.no/info/api](https://lovdata.no/info/api) for the background.
+  [NLOD 2.0](https://data.norge.no/nlod/no/2.0). See [Lovdata's API information page](https://lovdata.no/info/api) for the background.
 
 The API also rate limits each key. Responses carry `X-RateLimit-Limit`, `X-RateLimit-Remaining`, and `X-RateLimit-Reset` headers, and
 the module surfaces the remaining budget on verbose output so long-running scripts can pace themselves.

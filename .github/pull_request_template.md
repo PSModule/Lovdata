@@ -1,3 +1,4 @@
+<!-- markdownlint-disable MD041 -->
 <!--
 Pull request description = release note. Write it for the people who use the module, not for reviewers.
 Format reference: https://msxorg.github.io/docs/Ways-of-Working/PR-Format/

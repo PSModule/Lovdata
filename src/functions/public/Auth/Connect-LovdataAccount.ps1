@@ -11,7 +11,7 @@ function Connect-LovdataAccount {
         Storing more than one context keeps several accounts available at the same time; the first one
         stored becomes the default, and Default moves the default to another one.
 
-        Lovdata issues API keys to users holding the 'api' role. The key is sent as the 'X-API-Key'
+        Lovdata issues API keys to users holding the `api` role. The key is sent as the `X-API-Key`
         header on every request.
 
         .EXAMPLE
@@ -25,9 +25,10 @@ function Connect-LovdataAccount {
         Stores the key as 'production' and makes it the context commands use by default.
 
         .EXAMPLE
-        Connect-LovdataAccount -ApiKey $key -ApiBaseUri 'https://api.lovdata.no' -PassThru
+        Connect-LovdataAccount -ApiKey $key -ApiBaseUri $baseUri -PassThru
 
-        Stores the key against an explicit API base URI and returns the stored context.
+        Stores the key against an explicit API base URI, for a deployment other than the default one,
+        and returns the stored context.
 
         .INPUTS
         None
