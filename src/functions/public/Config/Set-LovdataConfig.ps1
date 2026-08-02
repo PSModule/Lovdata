@@ -9,14 +9,14 @@ function Set-LovdataConfig {
         memory only and is not persisted, so a new session starts from the module defaults again.
 
         .EXAMPLE
-        Set-LovdataConfig -Name ApiBaseUri -Value 'https://api.lovdata.no'
+        Set-LovdataConfig -Name ApiBaseUri -Value $baseUri
 
-        Points the module at the given API base URI.
+        Points the module at the API base URI held in $baseUri.
 
         .EXAMPLE
-        Set-LovdataConfig -Name ApiBaseUri -Value 'https://api.example.test' -PassThru
+        Set-LovdataConfig -Name ApiBaseUri -Value $baseUri -PassThru
 
-        Points the module at the given API base URI and returns the updated settings.
+        Points the module at the API base URI held in $baseUri and returns the updated settings.
 
         .INPUTS
         None
